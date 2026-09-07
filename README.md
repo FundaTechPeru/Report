@@ -358,25 +358,336 @@ Creemos que una experiencia satisfactoria motivará a los pasajeros con desplaza
 
 ## 1.3. Segmentos objetivo
 
+ShareWay está dirigido a dos segmentos complementarios: pasajeros que necesitan organizar desplazamientos frecuentes y conductores interesados en realizar viajes compartidos programados en Lima Metropolitana.
+
+La segmentación inicial considera características geográficas, demográficas y de comportamiento. Los perfiles descritos constituyen una delimitación preliminar para la investigación y deberán ajustarse a partir de las entrevistas.
+
+**Contexto y sustento de la segmentación**
+
+La Autoridad de Transporte Urbano para Lima y Callao informó, en febrero de 2025, que en Lima y Callao se realizan aproximadamente 24 millones de viajes diarios. Este dato permite contextualizar la magnitud de los desplazamientos urbanos, pero no representa la cantidad de personas que utilizarían ShareWay ni una estimación de su mercado potencial.
+
+La misma entidad destaca la importancia del transporte masivo para atender la movilidad urbana. En ese contexto, ShareWay plantea investigar una alternativa para determinados viajes que actualmente se realizan de manera individual, sin asumir que sustituirá al transporte público ni que reducirá automáticamente la congestión.
+
+La demanda específica del producto deberá determinarse investigando la frecuencia de traslado, los horarios, el presupuesto y la disposición a compartir de los pasajeros, junto con la disponibilidad y las expectativas económicas de los conductores.
+
+**Segmento 1: Pasajeros con desplazamientos frecuentes**
+
+Está conformado por personas que necesitan trasladarse dentro de Lima Metropolitana por motivos de estudio, trabajo u otras actividades previstas y que podrían organizar su viaje con anticipación.
+
+Para la validación inicial se propone trabajar con personas mayores de edad, de cualquier género, que utilicen un teléfono inteligente y realicen desplazamientos recurrentes. No se establece inicialmente un nivel de ingresos específico; se investigará el presupuesto que destinan al transporte.
+
+Dentro del segmento se consideran los siguientes perfiles:
+
+- **Estudiantes universitarios:** personas que se desplazan hacia sus centros de estudio en horarios definidos y necesitan administrar su presupuesto de transporte.
+- **Trabajadores:** personas que se trasladan hacia oficinas, empresas u otros centros laborales y requieren coordinar sus horarios de llegada.
+- **Personas con actividades recurrentes:** usuarios que realizan desplazamientos previsibles hacia destinos habituales.
+
+**Características geográficas**
+
+- Desplazamientos dentro de Lima Metropolitana.
+- Orígenes y destinos ubicados en corredores que permitan agrupar solicitudes.
+- Como referencia inicial para investigar, se consideran conexiones entre Pueblo Libre, Jesús María, Magdalena del Mar, San Isidro y Miraflores.
+- La cobertura definitiva dependerá de la compatibilidad de las solicitudes y de la disponibilidad de conductores.
+
+**Características de comportamiento por validar**
+
+- Planifican al menos una parte de sus desplazamientos.
+- Comparan alternativas considerando precio, duración y confianza.
+- Utilizan herramientas digitales para consultar rutas o solicitar transporte.
+- Podrían aceptar compartir el vehículo si conocen las condiciones del recorrido.
+- Necesitan recibir información sobre cambios, confirmaciones y cancelaciones.
+
+**Necesidades principales**
+
+- Conocer la tarifa antes de confirmar.
+- Contar con horarios estimados de recojo y llegada.
+- Identificar al conductor y al vehículo asignado.
+- Comprender cuánto tiempo adicional implica compartir el recorrido.
+- Consultar el estado de su reserva.
+- Disponer de mecanismos para validar el abordaje y comunicar incidencias.
+
+**Valor propuesto por ShareWay**
+
+Reservar un viaje compartido con anticipación, distribuir el costo del recorrido y conocer las condiciones de participación antes de confirmar.
+
+**Segmento 2: Conductores de viajes programados**
+
+Está conformado por conductores independientes o personas con disponibilidad de un vehículo que estén interesadas en realizar recorridos compartidos previamente organizados.
+
+Para la investigación se buscará entrevistar a conductores mayores de edad, de cualquier género, con experiencia de conducción en Lima Metropolitana y familiaridad con teléfonos inteligentes o aplicaciones de navegación.
+
+La participación operativa estará sujeta al procedimiento de verificación y a los requisitos que se definan para prestar el servicio. La propiedad del vehículo no será el único criterio de selección; también deberá comprobarse que el conductor está autorizado para utilizarlo.
+
+**Características geográficas**
+
+- Disponibilidad para atender recorridos dentro de Lima Metropolitana.
+- Familiaridad con las zonas seleccionadas para el alcance inicial.
+- Posibilidad de organizar su disponibilidad según los horarios de los viajes.
+
+**Características de comportamiento por validar**
+
+- Evalúan un recorrido según el ingreso esperado, la distancia y el tiempo requerido.
+- Utilizan aplicaciones de navegación o transporte.
+- Buscan conocer los destinos antes de aceptar.
+- Necesitan administrar tiempos de espera y cancelaciones.
+- Podrían aceptar varias paradas si las condiciones económicas resultan convenientes.
+
+**Necesidades principales**
+
+- Recibir propuestas con rutas y paradas definidas.
+- Conocer la cantidad de pasajeros y los asientos requeridos.
+- Visualizar la ganancia estimada y la comisión aplicable.
+- Confirmar la identidad de la reserva al recoger a cada pasajero.
+- Disponer de reglas sobre cancelaciones, ausencias y esperas.
+- Consultar el historial de viajes y calificaciones.
+
+**Valor propuesto por ShareWay**
+
+Acceder a propuestas de viajes previamente organizados, con información suficiente para evaluar su conveniencia y herramientas para gestionar las recogidas y llegadas.
+
+**Priorización inicial**
+
+La validación se concentrará en pasajeros con horarios previsibles y conductores disponibles para atender corredores delimitados. Esta decisión permitirá investigar la formación de grupos antes de ampliar la cobertura.
+
+El administrador de ShareWay se considera un rol interno encargado de verificaciones y supervisión, no un tercer segmento comercial.
+
 ---
 
 # CAPÍTULO II: Requirements Elicitation & Analysis
 
+Este capítulo presenta el análisis de alternativas existentes y el diseño de la investigación con pasajeros y conductores.
+
+La información recopilada permitirá identificar necesidades, revisar los supuestos de Lean UX y sustentar la elaboración de User Personas, User Task Matrix, Empathy Maps y As-Is Scenario Maps.
+
 ## 2.1. Competidores
+
+Se seleccionan Uber, Cabify e inDrive como competidores indirectos de ShareWay porque ofrecen alternativas digitales para resolver necesidades de traslado y compiten por la elección de pasajeros y conductores.
+
+La comparación se centra en sus propuestas públicas relacionadas con movilidad, precios, planificación y confianza. No se presupone que todas sus modalidades estén disponibles en todas las zonas o momentos.
+
+**Uber**
+
+Uber permite solicitar desplazamientos mediante su plataforma y ofrece reservas anticipadas en Lima. Su página local también describe opciones para viajes en grupo.
+
+Es un referente para estudiar la solicitud de transporte, la presentación de precios estimados y la planificación. La existencia de reservas anticipadas significa que esta función, por sí sola, no constituye una diferencia suficiente para ShareWay.
+
+**Cabify**
+
+Cabify ofrece servicios de movilidad y publica tarifas para Lima, incluyendo condiciones de reserva en determinadas categorías. Su propuesta de seguridad incluye identificación del conductor, geolocalización, contacto de confianza, herramientas de emergencia y PIN de verificación.
+
+Es un referente para analizar cómo presentar información del servicio y mecanismos de confianza. ShareWay deberá considerar estas funciones como expectativas competitivas, además de desarrollar su propuesta de agrupación.
+
+**inDrive**
+
+inDrive presenta en Lima una propuesta en la que el pasajero puede establecer un precio y elegir al conductor.
+
+Es un referente para investigar la importancia del control sobre el costo y la selección del prestador del servicio. ShareWay deberá evaluar si sus pasajeros prefieren una tarifa calculada para el grupo y si comprenden cómo se distribuye el costo.
 
 ### 2.1.1. Análisis Competitivo
 
+**Objetivo del análisis**
+
+Identificar cómo las alternativas existentes atienden las necesidades de precio, planificación y confianza, y determinar qué valor adicional podría ofrecer ShareWay mediante la agrupación de solicitudes compatibles.
+
+**Pregunta orientadora**
+
+¿Cómo puede ShareWay ofrecer una experiencia útil de viajes compartidos programados frente a plataformas que ya permiten solicitar transporte, conocer precios y utilizar mecanismos de seguridad?
+
+**Competitive Analysis Landscape**
+
+Las capacidades de ShareWay corresponden a funcionalidades propuestas. Las debilidades, oportunidades y amenazas expresan una interpretación preliminar del equipo, no resultados de una auditoría de los competidores.
+
+| Categoría | Aspecto | ShareWay | Uber | Cabify | inDrive |
+|---|---|---|---|---|---|
+| Perfil | Descripción general | Propuesta de viajes compartidos programados mediante agrupación de solicitudes. | Plataforma de movilidad con solicitudes y reservas anticipadas en Lima. | Plataforma de movilidad con servicios y opciones de reserva según categoría. | Plataforma que permite proponer el precio y elegir conductor. |
+| Perfil | Valor ofrecido | Coordinar solicitudes compatibles y distribuir el costo del recorrido. | Facilitar la solicitud y planificación del traslado. | Combinar movilidad con información y herramientas de seguridad. | Dar al pasajero participación en la elección del precio y conductor. |
+| Marketing | Mercado objetivo | Pasajeros recurrentes y conductores disponibles para viajes programados. | Personas que requieren traslados mediante una plataforma digital. | Usuarios que valoran la organización y los mecanismos de confianza del servicio. | Usuarios interesados en proponer el precio y comparar conductores. |
+| Marketing | Enfoque comunicacional observado o propuesto | Planificación y costo compartido en corredores delimitados. | Facilidad para desplazarse y reservar. | Seguridad y calidad de la experiencia. | Control sobre el precio y libertad de elección. |
+| Producto | Servicio relevante | Formación del grupo, planificación de paradas y gestión de reservas individuales. | Solicitud de viajes y reserva anticipada. | Traslados, reservas y herramientas de seguridad. | Solicitud de viaje con elección de precio y conductor. |
+| Producto | Precios y costos | Tarifa por pasajero y comisión por definir y validar. | Estimación según solicitud y modalidad; el precio puede variar. | Tarifas publicadas por categoría, con mínimos y posibles cargos adicionales. | Precio propuesto y acordado a través de la plataforma. |
+| Producto | Canal digital | Plataforma web o móvil por implementar. | Aplicación y acceso web para solicitar viajes. | Aplicación móvil y presencia web. | Aplicación móvil y sitio web informativo. |
+
+**Comparación de la propuesta central**
+
+ShareWay propone agrupar solicitudes independientes de pasajeros que no necesitan conocerse previamente, considerando horarios, ubicaciones, asientos y límites de desvío.
+
+Las fuentes revisadas no permiten confirmar que los tres competidores ofrezcan exactamente este flujo de agrupación anticipada en Lima. Esto representa una oportunidad de investigación, no una afirmación de ausencia definitiva de servicios similares.
+
+Las funciones de reserva, precio anticipado, verificación o PIN no deben presentarse individualmente como exclusivas de ShareWay.
+
+**Análisis FODA comparativo**
+
+El siguiente FODA resume hipótesis estratégicas del equipo. Las fortalezas de ShareWay describen el enfoque de la propuesta, no capacidades operativas ya demostradas.
+
+| Factor | ShareWay | Uber | Cabify | inDrive |
+|---|---|---|---|---|
+| Fortalezas | Foco en coordinación anticipada y distribución del costo entre solicitudes compatibles. | Cuenta con solicitud digital y reserva anticipada como capacidades disponibles. | Presenta mecanismos concretos de verificación y seguridad. | Permite al usuario intervenir en la elección del precio y conductor. |
+| Debilidades o limitaciones frente al caso analizado | Necesita suficientes pasajeros y conductores compatibles; carece de validación operativa. | Reservar un traslado no resuelve por sí solo la agrupación independiente propuesta por ShareWay. | Los mecanismos de seguridad no resuelven por sí solos la coordinación de varios pasajeros independientes. | El proceso de elección puede exigir comparar ofertas antes de cerrar la solicitud. |
+| Oportunidades | Investigar corredores recurrentes y desarrollar acuerdos de difusión con comunidades estudiantiles y laborales. | Profundizar soluciones para usuarios con viajes recurrentes y necesidades de planificación. | Reforzar experiencias de planificación y confianza para desplazamientos habituales. | Ampliar herramientas para organizar viajes y simplificar la decisión del usuario. |
+| Amenazas | Baja coincidencia de solicitudes, cancelaciones y posible incorporación de funciones similares por otras plataformas. | Usuarios que prefieran alternativas de menor costo o mayor especialización. | Usuarios sensibles al precio que elijan otras opciones. | Usuarios que prefieran confirmar directamente una tarifa sin comparar propuestas. |
+
+**Interpretación del análisis**
+
+La oportunidad de ShareWay consiste en validar si la combinación de agrupación, programación y distribución del costo resulta útil para un grupo específico de usuarios.
+
+La confianza y la claridad de precios son condiciones necesarias para competir, pero deben acompañarse de una coordinación efectiva. Si el ahorro exige esperas o desvíos que los pasajeros no aceptan, la propuesta perdería atractivo.
+
+Antes de concluir que ShareWay ofrece un menor precio, se deberán comparar recorridos equivalentes considerando fecha, horario, duración, cargos y condiciones. No se establece un ahorro porcentual sin mediciones.
+
+Para completar la presentación visual del informe, se incorporarán los logotipos oficiales de los competidores y el logotipo aprobado de ShareWay en las cabeceras correspondientes.
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
----
+Las estrategias propuestas buscan desarrollar una diferencia verificable y responder a las expectativas que las plataformas existentes han establecido.
 
+**Especialización en recorridos programados**
+
+La estrategia consiste en concentrar el servicio inicial en necesidades recurrentes de traslado.
+
+Tácticas:
+
+- Seleccionar corredores a partir de las solicitudes y entrevistas.
+- Delimitar franjas horarias para facilitar coincidencias.
+- Comunicar la anticipación necesaria y el plazo de confirmación.
+- Medir cuántas solicitudes pueden agruparse y cuántos viajes llegan a confirmarse.
+
+**Claridad en el costo compartido**
+
+La estrategia consiste en explicar el valor económico del viaje y las condiciones que pueden modificarlo.
+
+Tácticas:
+
+- Presentar la tarifa individual antes de confirmar.
+- Mostrar al conductor la ganancia estimada y la comisión.
+- Definir qué ocurre con el precio si un participante cancela.
+- Comparar alternativas equivalentes antes de comunicar ahorros.
+- Evitar promesas de ser la opción más barata sin evidencia.
+
+**Confianza mediante procesos comprensibles**
+
+La estrategia consiste en incorporar mecanismos concretos y explicar su alcance.
+
+Tácticas:
+
+- Definir la revisión de identidad y documentación.
+- Mostrar únicamente la información necesaria del conductor y vehículo.
+- Validar cada abordaje mediante PIN o QR.
+- Permitir calificaciones vinculadas a viajes realizados.
+- Explicar qué acciones realiza la función de emergencia.
+- Gestionar reportes con un procedimiento definido.
+
+**Control de esperas y desvíos**
+
+La estrategia consiste en evitar que la agrupación produzca recorridos inaceptables para sus participantes.
+
+Tácticas:
+
+- Investigar la tolerancia a tiempos adicionales.
+- Definir límites de desvío y espera.
+- Mostrar la duración estimada antes de confirmar.
+- Establecer reglas sobre incorporación de pasajeros y cambios de ruta.
+- Medir puntualidad y diferencias entre tiempos previstos y reales.
+
+
+
+---
 ## 2.2. Entrevistas
+
+Las entrevistas permitirán comprender cómo pasajeros y conductores organizan actualmente sus desplazamientos, qué dificultades experimentan y qué condiciones consideran importantes.
+
+Se realizarán entre tres y cinco entrevistas por segmento, conforme a la guía del trabajo. Esto representa entre seis y diez entrevistas en total.
+
+Los resultados serán utilizados para revisar los supuestos del proyecto y construir los artefactos de Needfinding. No se considerarán una muestra estadísticamente representativa de toda Lima Metropolitana.
 
 ### 2.2.1. Diseño de Entrevistas
 
-### 2.2.2. Registro de Entrevistas
+**Objetivo general**
 
-### 2.2.3. Análisis de Entrevistas
+Comprender las experiencias, necesidades y dificultades de pasajeros y conductores al organizar sus desplazamientos en Lima Metropolitana, identificando los factores que influyen en sus decisiones de transporte y las condiciones que considerarían necesarias para participar en viajes compartidos programados.
+
+**Preguntas para el segmento de pasajeros**
+
+1. ¿Qué edad tienes, en qué distrito resides y a qué te dedicas actualmente?
+
+2. ¿Hacia qué zonas te desplazas habitualmente y por qué motivos?
+
+3. ¿Cuántos días a la semana realizas estos viajes y qué tan estables son tus horarios?
+
+4. Cuéntame cómo fue tu último traslado hacia tu centro de estudio, trabajo u otra actividad habitual. ¿Qué transporte utilizaste y por qué lo elegiste?
+
+5. ¿Cuánto tiempo y dinero destinas aproximadamente a cada traslado?
+
+6. ¿Qué aspectos consideras más importantes al elegir cómo transportarte?
+
+7. ¿Qué aplicaciones o servicios de transporte utilizas y qué te hace preferirlos frente a otras alternativas?
+
+8. Cuéntame una dificultad que hayas tenido recientemente durante un traslado. ¿Cómo la resolviste y cómo te afectó?
+
+9. ¿Cómo organizas tus viajes cuando necesitas llegar a una hora determinada? ¿Con cuánta anticipación puedes planificarlos?
+
+10. ¿Has compartido un taxi o automóvil con otras personas para dividir el costo? ¿Cómo fue la experiencia? Si no lo has hecho, ¿por qué?
+
+11. ¿Qué condiciones necesitarías para compartir un vehículo con personas que no conoces?
+
+12. ¿Cómo decidirías entre un viaje individual y uno compartido que cuesta menos, pero demora más? ¿Cuánto tiempo adicional estarías dispuesto a aceptar?
+
+13. ¿Qué información revisas sobre el conductor y el vehículo antes de iniciar un viaje? ¿Qué te genera confianza o preocupación?
+
+14. ¿Qué necesitarías saber sobre el precio, los horarios y las paradas antes de confirmar un viaje compartido?
+
+15. ¿Qué esperarías que ocurra si el conductor o uno de los pasajeros cancela después de confirmar el viaje?
+
+16. ¿Qué haces actualmente si te sientes inseguro durante un recorrido y qué tipo de ayuda esperarías tener disponible?
+
+17. ShareWay propone agrupar pasajeros con rutas y horarios compatibles para realizar viajes programados con un conductor verificado. ¿En qué situaciones de tu rutina utilizarías una propuesta así y en cuáles no?
+
+18. ¿Qué dudas, dificultades o motivos podrían hacer que decidas no utilizar esta propuesta?
+
+**Preguntas para el segmento de conductores**
+
+1. ¿Qué edad tienes, en qué distrito resides y cuál es tu ocupación principal?
+
+2. ¿Cuánto tiempo llevas realizando servicios de transporte de pasajeros?
+
+3. ¿El vehículo que utilizas es propio, alquilado o trabajas bajo otra modalidad? ¿Cómo influye esto en la organización de tu trabajo?
+
+4. ¿En qué zonas, días y horarios realizas habitualmente tus recorridos?
+
+5. Cuéntame cómo fue tu última jornada de trabajo. ¿Cómo conseguiste los viajes y decidiste cuáles aceptar?
+
+6. ¿Qué aplicaciones o medios utilizas para conseguir pasajeros y qué ventajas o dificultades encuentras en ellos?
+
+7. ¿Qué información necesitas conocer antes de aceptar un recorrido?
+
+8. ¿Cómo determinas si un viaje resulta conveniente considerando combustible, tiempo, comisiones y otros gastos?
+
+9. ¿Qué situaciones te generan más tiempo de espera o recorridos sin pasajeros?
+
+10. Cuéntame una experiencia reciente con un pasajero que canceló, llegó tarde o no se presentó. ¿Cómo la manejaste?
+
+11. ¿Has realizado viajes con varias recogidas o destinos? ¿Cómo organizaste las paradas y qué dificultades encontraste?
+
+12. ¿Has aceptado viajes programados con anticipación? ¿Cómo los coordinaste y qué ventajas o problemas tuviste?
+
+13. ¿Qué condiciones necesitarías para comprometerte a realizar un viaje en una fecha y hora determinadas?
+
+14. ¿Cómo evaluarías un recorrido con varios pasajeros y distintas paradas? ¿Qué ingreso y duración considerarías aceptables?
+
+15. ¿Qué información o mecanismos utilizas para confirmar que estás recogiendo al pasajero correcto?
+
+16. ¿Qué experiencia has tenido con la verificación de identidad y documentación en plataformas de transporte? ¿Qué pasos te resultaron claros o difíciles?
+
+17. ¿Qué reglas considerarías necesarias sobre tiempos de espera, cancelaciones y cambios de ruta en un viaje compartido?
+
+18. ¿Qué tipo de apoyo necesitarías si ocurre una incidencia o emergencia durante el recorrido?
+
+19. ShareWay propone ofrecer recorridos programados con pasajeros agrupados, paradas definidas y una ganancia estimada. ¿Qué te motivaría a aceptar una propuesta así y qué te haría rechazarla?
+
+20. ¿Cómo evaluarías el cobro de una comisión por cada viaje completado mediante la plataforma? ¿Qué condiciones considerarías aceptables?
+
+### 2.2.2	Entrevistas
+
+### 2.2.3 Análisis de Entrevistas
 
 ---
 

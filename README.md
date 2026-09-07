@@ -352,6 +352,10 @@ Creemos que una experiencia satisfactoria motivará a los pasajeros con desplaza
     <img src="img/LeanUXCanvas.png" alt="LeanUXCanvas" width="50%">
 </p>
 
+link:
+https://miro.com/app/board/uXjVHpnxhsg=/?share_link_id=592356692155
+
+
 ---
 
 ## 1.3. Segmentos objetivo

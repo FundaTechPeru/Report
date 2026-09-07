@@ -1,8 +1,10 @@
-<div align="center">
-
-# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+<p align="center">
+    <img src="img/UPC.png" alt="Logo UPC" width="50%">
+</p>
+<h3 align="center">UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS</h3>
 
 ## Ingeniería de Software
+
 
 ### 1ASI0657 - Fundamentos de Arquitectura de Software
 

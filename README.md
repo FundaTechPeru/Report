@@ -497,15 +497,155 @@ Identificar cómo las alternativas existentes atienden las necesidades de precio
 
 Las capacidades de ShareWay corresponden a funcionalidades propuestas. Las debilidades, oportunidades y amenazas expresan una interpretación preliminar del equipo, no resultados de una auditoría de los competidores.
 
-| Categoría | Aspecto | ShareWay | Uber | Cabify | inDrive |
-|---|---|---|---|---|---|
-| Perfil | Descripción general | Propuesta de viajes compartidos programados mediante agrupación de solicitudes. | Plataforma de movilidad con solicitudes y reservas anticipadas en Lima. | Plataforma de movilidad con servicios y opciones de reserva según categoría. | Plataforma que permite proponer el precio y elegir conductor. |
-| Perfil | Valor ofrecido | Coordinar solicitudes compatibles y distribuir el costo del recorrido. | Facilitar la solicitud y planificación del traslado. | Combinar movilidad con información y herramientas de seguridad. | Dar al pasajero participación en la elección del precio y conductor. |
-| Marketing | Mercado objetivo | Pasajeros recurrentes y conductores disponibles para viajes programados. | Personas que requieren traslados mediante una plataforma digital. | Usuarios que valoran la organización y los mecanismos de confianza del servicio. | Usuarios interesados en proponer el precio y comparar conductores. |
-| Marketing | Enfoque comunicacional observado o propuesto | Planificación y costo compartido en corredores delimitados. | Facilidad para desplazarse y reservar. | Seguridad y calidad de la experiencia. | Control sobre el precio y libertad de elección. |
-| Producto | Servicio relevante | Formación del grupo, planificación de paradas y gestión de reservas individuales. | Solicitud de viajes y reserva anticipada. | Traslados, reservas y herramientas de seguridad. | Solicitud de viaje con elección de precio y conductor. |
-| Producto | Precios y costos | Tarifa por pasajero y comisión por definir y validar. | Estimación según solicitud y modalidad; el precio puede variar. | Tarifas publicadas por categoría, con mínimos y posibles cargos adicionales. | Precio propuesto y acordado a través de la plataforma. |
-| Producto | Canal digital | Plataforma web o móvil por implementar. | Aplicación y acceso web para solicitar viajes. | Aplicación móvil y presencia web. | Aplicación móvil y sitio web informativo. |
+<table>
+  <tr>
+    <th colspan="6">Competitive Analysis Landscape</th>
+  </tr>
+  <tr>
+    <th colspan="2">¿Por qué llevar a cabo este análisis?</th>
+    <td colspan="4">
+      Identificar cómo los competidores atienden las necesidades de movilidad,
+      planificación, precio y confianza, para definir la propuesta de valor
+      de ShareWay en viajes compartidos programados.
+    </td>
+  </tr>
+  <tr>
+    <th colspan="2">Aspectos de comparación</th>
+    <th>Su startup<br>ShareWay</th>
+    <th>Competidor 1<br>Uber</th>
+    <th>Competidor 2<br>Cabify</th>
+    <th>Competidor 3<br>inDrive</th>
+  </tr>
+  <tr>
+    <th rowspan="2">Perfil</th>
+    <td><strong>Overview</strong></td>
+    <td>
+      Propuesta de plataforma que agrupa solicitudes de pasajeros con rutas
+      y horarios compatibles para organizar viajes compartidos programados.
+    </td>
+    <td>
+      Plataforma de movilidad que permite solicitar viajes y realizar
+      reservas anticipadas en Lima.
+    </td>
+    <td>
+      Plataforma de movilidad que ofrece traslados y opciones de reserva
+      según la categoría del servicio.
+    </td>
+    <td>
+      Plataforma de transporte que permite al pasajero proponer el precio
+      del viaje y elegir al conductor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Ventaja competitiva<br>¿Qué valor ofrece a los clientes?</strong>
+    </td>
+    <td>
+      Propone integrar la agrupación de pasajeros, la planificación de
+      paradas y la distribución del costo en un viaje programado.
+    </td>
+    <td>
+      Facilita la solicitud y reserva de traslados mediante una plataforma
+      digital con información del servicio.
+    </td>
+    <td>
+      Ofrece herramientas de confianza como identificación del conductor,
+      geolocalización y PIN de verificación.
+    </td>
+    <td>
+      Permite participar en la definición del precio y seleccionar
+      al conductor entre las opciones disponibles.
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="2">Perfil de Marketing</th>
+    <td><strong>Mercado objetivo</strong></td>
+    <td>
+      Pasajeros con desplazamientos recurrentes y conductores interesados
+      en realizar viajes compartidos programados en Lima Metropolitana.
+    </td>
+    <td>
+      Personas que necesitan solicitar o reservar traslados mediante
+      una plataforma digital.
+    </td>
+    <td>
+      Personas que buscan una alternativa de movilidad con información
+      del servicio y mecanismos de confianza.
+    </td>
+    <td>
+      Personas interesadas en proponer el precio de su traslado
+      y elegir al conductor.
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Estrategias de marketing</strong></td>
+    <td>
+      Se propone difusión en comunidades universitarias y laborales,
+      enfocada en planificación, recorridos compatibles y costo compartido.
+    </td>
+    <td>
+      En su comunicación pública destaca la facilidad para desplazarse
+      y la posibilidad de reservar con anticipación.
+    </td>
+    <td>
+      En su comunicación pública destaca la seguridad, la calidad
+      y las herramientas de protección durante el viaje.
+    </td>
+    <td>
+      En su comunicación pública destaca el control del usuario
+      sobre el precio y la elección del conductor.
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="3">Perfil de Producto</th>
+    <td><strong>Productos &amp; Servicios</strong></td>
+    <td>
+      Solicitudes programadas, agrupación de pasajeros, planificación
+      de rutas, reservas individuales, validación del abordaje
+      y calificaciones.
+    </td>
+    <td>
+      Solicitud de traslados, reservas anticipadas y opciones de viaje
+      según la disponibilidad local.
+    </td>
+    <td>
+      Traslados, reservas según categoría, geolocalización,
+      contacto de confianza y herramientas de seguridad.
+    </td>
+    <td>
+      Solicitud de traslados con propuesta de precio
+      y selección del conductor.
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Precios &amp; Costos</strong></td>
+    <td>
+      Se propone una tarifa por pasajero y una comisión por viaje
+      completado. Los importes deberán definirse y validarse.
+    </td>
+    <td>
+      Precio estimado según el recorrido y la modalidad solicitada.
+      El importe puede variar según las condiciones del servicio.
+    </td>
+    <td>
+      Tarifas por categoría, con importes mínimos y posibles cargos
+      adicionales según las condiciones del viaje.
+    </td>
+    <td>
+      Precio propuesto por el pasajero y acordado con el conductor
+      mediante la plataforma.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Canales de distribución<br>(Web y/o Móvil)</strong>
+    </td>
+    <td>Plataforma web o móvil por implementar.</td>
+    <td>Aplicación móvil y acceso web para solicitar viajes.</td>
+    <td>Aplicación móvil y presencia web.</td>
+    <td>Aplicación móvil y sitio web informativo.</td>
+  </tr>
+</table>
 
 **Comparación de la propuesta central**
 

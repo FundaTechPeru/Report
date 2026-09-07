@@ -2,36 +2,30 @@
     <img src="img/UPC.png" alt="Logo UPC" width="50%">
 </p>
 
-<h3 align="center">UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS</h3>
-
-## Ingeniería de Software
-
-
 <div align="center">
 
-<h3>1ASI0657 - Fundamentos de Arquitectura de Software</h3>
-
-<h3>202620</h3>
-
-<br>
-
-<h3>NRC: 15989</h3>
+<h2>UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS</h2>
+<h3>Ingeniería de Software</h3>
 
 <br>
 
-<h3>Profesor: Jorge Luis Delgado Vite</h3>
+<h3>1ASI0657 · Fundamentos de Arquitectura de Software</h3>
+<p><strong>Ciclo académico:</strong> 202620 · <strong>NRC:</strong> 15989</p>
+
+<p><strong>Profesor:</strong> Abel Nehemias Rosales Caururu </p>
 
 <br>
 
-<h3>TRABAJO FINAL</h3>
+<h1>TRABAJO FINAL</h1>
+<h2>ShareWay</h2>
 
-<h3>Nombre del Producto:</h3>
+<p>Plataforma de viajes compartidos programados<br>con conductores verificados</p>
 
-<h3>ShareWay</h3>
+<br>
 
 </div>
 
-
+<hr>
 ---
 
 ## Integrantes

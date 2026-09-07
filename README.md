@@ -348,6 +348,10 @@ Creemos que una experiencia satisfactoria motivará a los pasajeros con desplaza
 
 #### 1.2.3.4. Lean UX Canvas
 
+<p align="center">
+    <img src="img/LeanUXCanvas.png" alt="LeanUXCanvas" width="50%">
+</p>
+
 ---
 
 ## 1.3. Segmentos objetivo

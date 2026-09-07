@@ -837,6 +837,22 @@ Comprender las experiencias, necesidades y dificultades de pasajeros y conductor
 
 ### 2.3.1. User Personas
 
+Segmento pasajeros
+
+<p align="center">
+    <img src="img/Userperson1.png" alt="Userperson1" width="50%">
+</p>
+
+
+
+Segmento conductores
+
+<p align="center">
+    <img src="img/Userperson2.png" alt="Userperson2.png" width="50%">
+</p>
+
+
+
 ### 2.3.2. User Task Matrix
 
 ### 2.3.3. Empathy Maps

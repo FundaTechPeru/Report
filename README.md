@@ -1,32 +1,36 @@
 <p align="center">
     <img src="img/UPC.png" alt="Logo UPC" width="50%">
 </p>
+
 <h3 align="center">UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS</h3>
 
 ## Ingeniería de Software
 
 
-### 1ASI0657 - Fundamentos de Arquitectura de Software
+<div align="center">
 
-### 202620
+<h3>1ASI0657 - Fundamentos de Arquitectura de Software</h3>
 
-<br>
-
-**NRC:**  
+<h3>202620</h3>
 
 <br>
 
-**Profesor:** Jorge Luis Delgado Vite
+<h3>NRC: 15989</h3>
 
 <br>
 
-# TRABAJO FINAL
+<h3>Profesor: Jorge Luis Delgado Vite</h3>
 
-### Nombre del Producto:
+<br>
 
-**[COLOCAR NOMBRE DEL PRODUCTO]**
+<h3>TRABAJO FINAL</h3>
+
+<h3>Nombre del Producto:</h3>
+
+<h3>ShareWay</h3>
 
 </div>
+
 
 ---
 
@@ -34,11 +38,11 @@
 
 | Alumno | Código |
 |---|---|
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+|Arturo Axel Saravia Huaricancha  | U202312447  |
+|Leonardo Raul Cumba Rengifo      | U202311912 |
+|Aarón Alexander Avila Palacios   | U201823654|
+|Sofia Alessandra Cotrina Siclla  | U20231b120 |
+|Joaquin Andre Lechuga Aguilar    | U202221619 |
 
 ---
 

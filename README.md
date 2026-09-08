@@ -855,11 +855,37 @@ Segmento conductores
 
 ### 2.3.2. User Task Matrix
 
+#### 1. Segmento Pasajero: Valeria Mendoza
+
+| Tareas (Tasks) | Frecuencia | Importancia |
+| :--- | :---: | :---: |
+| Planificar y programar los desplazamientos semanales según horarios de estudio o trabajo | Alta | Alta |
+| Buscar, comparar y evaluar alternativas de transporte y costos | Alta | Alta |
+| Intentar coordinar rutas o traslados compartidos con conocidos o de forma informal | Media | Media |
+| Acordar puntos de recojo, llegada y condiciones del viaje | Media | Alta |
+| Gestionar imprevistos, retrasos o cancelaciones imprevistas | Media | Alta |
+| Verificar la identidad de los conductores y las condiciones de seguridad del vehículo | Alta | Alta |
+
+* **Análisis de User Task Matrix:** Las tareas más críticas para Valeria se centran en la planificación anticipada, la evaluación de precios y la verificación rigurosa de la seguridad. Esto refleja su necesidad constante de optimizar su presupuesto y viajar con tranquilidad en Lima Metropolitana, buscando opciones estructuradas que eviten la incertidumbre del transporte informal.
+
+#### 2. Segmento Conductor: Carlos Ramírez Salazar
+
+| Tareas (Tasks) | Frecuencia | Importancia |
+| :--- | :---: | :---: |
+| Evaluar la rentabilidad diaria y los costos operativos (combustible, mantenimiento) | Alta | Alta |
+| Revisar y aceptar propuestas de recorridos o rutas en la ciudad | Alta | Alta |
+| Organizar y coordinar las paradas, secuencia de recojo y destinos de los pasajeros | Alta | Alta |
+| Gestionar cancelaciones, tiempos de espera y ausencias de los pasajeros | Media | Alta |
+| Validar la identidad de los pasajeros al momento del abordaje | Alta | Alta |
+| Consultar el historial de viajes, calificaciones y ganancias estimadas | Media | Media |
+
+* **Análisis de User Task Matrix:** Para Carlos, las actividades de mayor prioridad giran en torno a la viabilidad financiera (rendimiento frente a costos operativos) y al control operativo de las rutas y paradas. Su enfoque demuestra que requiere herramientas claras que le garanticen la seguridad y el cumplimiento de los tiempos para que cada viaje compartido resulte rentable y organizado.
+
 ### 2.3.3. Empathy Maps
 
 ### 2.3.4. As-Is Scenario Mapping
 
----
+
 
 # CAPÍTULO III: Requirements Elicitation & Analysis
 

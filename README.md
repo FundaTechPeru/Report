@@ -855,7 +855,7 @@ Segmento conductores
 
 ### 2.3.2. User Task Matrix
 
-#### 1. Segmento Pasajero: Valeria Mendoza
+#### 1. Segmento pasajeros
 
 | Tareas (Tasks) | Frecuencia | Importancia |
 | :--- | :---: | :---: |
@@ -868,7 +868,7 @@ Segmento conductores
 
 * **Análisis de User Task Matrix:** Las tareas más críticas para Valeria se centran en la planificación anticipada, la evaluación de precios y la verificación rigurosa de la seguridad. Esto refleja su necesidad constante de optimizar su presupuesto y viajar con tranquilidad en Lima Metropolitana, buscando opciones estructuradas que eviten la incertidumbre del transporte informal.
 
-#### 2. Segmento Conductor: Carlos Ramírez Salazar
+#### 2. Segmento conductor
 
 | Tareas (Tasks) | Frecuencia | Importancia |
 | :--- | :---: | :---: |
@@ -883,9 +883,31 @@ Segmento conductores
 
 ### 2.3.3. Empathy Maps
 
+#### 1. Segmento pasajeros
+
+<p align="center">
+    <img src="img/Empathy-map-ValeriaMendozaRojas.png" alt="Empathy map Valeria Mendoza Rojas" width="50%">
+</p>
+
+#### 2. Segmento conductor
+
+<p align="center">
+    <img src="img/Empathy-map-CarlosRamírezSalazar.png" alt="Empathy map Carlos Ramírez Salazar" width="50%">
+</p>
+
 ### 2.3.4. As-Is Scenario Mapping
 
+#### 1. Segmento pasajeros
 
+<p align="center">
+    <img src="img/As-is-ValeriaMendozaRojas.jpg" alt="As-is Valeria Mendoza Rojas" width="50%">
+</p>
+
+#### 2. Segmento conductor
+
+<p align="center">
+    <img src="img/As-is-CarlosRamírezSalazar.jpg" alt="As-is Carlos Ramírez Salazar" width="50%">
+</p>
 
 # CAPÍTULO III: Requirements Elicitation & Analysis
 

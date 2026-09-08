@@ -829,6 +829,14 @@ Comprender las experiencias, necesidades y dificultades de pasajeros y conductor
 
 ### 2.2.2	Entrevistas
 
+**Registro de entrevistas para el segmento de pasajeros**
+
+
+
+**Registro de entrevistas para el segmento de Conductores**
+
+01. [Juan Bermúdez](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221619_upc_edu_pe/IQBN2IlGe6pwRb86w78L3pBPAR5DqnupF969g0HVkKxNFd0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ML2FXq)
+
 ### 2.2.3 Análisis de Entrevistas
 
 ---

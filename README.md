@@ -829,9 +829,33 @@ Comprender las experiencias, necesidades y dificultades de pasajeros y conductor
 
 ### 2.2.2	Entrevistas
 
+**Registro de entrevistas para el segmento de pasajeros**
+
+
+
+**Registro de entrevistas para el segmento de Conductores**
+
+| Campo | ![Entrevista1](./img/juan-bermudez.png) <br/>Entrevista 1 |  |  |
+|---|----|----|-----------------------------------------------------------------------|
+| **Nombre** | Juan Fernando Bermúdez Alcantara|||
+| **Edad** | 27 años|||
+| **Distrito** | Chorrillos |||
+| **Duración** | 17.33 min ||
+| **Enlace** | [Click aqui](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221619_upc_edu_pe/IQBN2IlGe6pwRb86w78L3pBPAR5DqnupF969g0HVkKxNFd0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ML2FXq) ||
+
 ### 2.2.3 Análisis de Entrevistas
 
 ---
+**Analisis de entrevistas para el segmento de Pasajeros**
+**Analisis de entrevistas para el segmento de Conductores**
+1. Juan Bermúdez
+<article #id="analisis-ent-01">
+Juan cree que la rentabilidad y el control sobre el servicio son fundamentales.
+Por ejemplo, plantea que un conductor pueda crear una ruta entre dos universidades, indicando los horarios de ida y vuelta. Los estudiantes podrían encontrar y utilizar directamente esa ruta sin tener que organizarse previamente entre ellos.
+
+Shareway podría ser atractivo para él si le permite planificar rutas previamente, conocer cuántos pasajeros tendrá, estimar sus ingresos y controlar sus horarios y tarifas, en lugar de depender completamente de solicitudes individuales como ocurre con las aplicaciones tradicionales. Esto responde directamente a su preocupación por el pago por kilómetro, los tiempos muertos, la congestión y el tiempo necesario para conseguir pasajeros después de terminar un viaje.
+</article>
+
 
 ## 2.3. NeedFinding
 

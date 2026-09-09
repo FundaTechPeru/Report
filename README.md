@@ -939,17 +939,16 @@ Segmento conductores
 
 ## 3.2. User Stories
 
+## 3.3. Impact Map
+
+## 3.4. Product Backlog
+
 <article>Medimos el esfuerzo, complejidad e incertidumbre usando story points.
 Utilizamos una secuencia de fibonacci redondeada (1, 2, 3, 5, 8, 13, 20, 50...), donde '2' simboliza el doble de esfuerzo que '1' y '1' simboliza esfuerzo minimo.</article>
 
 **Product Backlog:**
-| # Orden | User Story Id | Titulo | Descripción | Story Points |
-| :--- | :---: | :---: | :---: | :---: |
-| 0 |  |  |  |  |
-
-## 3.3. Impact Map
-
-## 3.4. Product Backlog
+| # Orden | User Story Id | Titulo | Descripción | Story Points | Pertenece a epic |
+| :--- | :---: | :---: | :---: | :---: | :---:  |
 
 ---
 

@@ -937,6 +937,34 @@ Segmento conductores
 
 ## 3.1. To-Be Scenario Mapping
 
+El To-Be Scenario Mapping representa el escenario objetivo que ShareWay propone para los segmentos de pasajeros y conductores. A diferencia del As-Is Scenario Mapping, que muestra la experiencia actual con incertidumbre, coordinación informal y decisiones poco estructuradas, el escenario To-Be describe cómo debería desarrollarse la interacción cuando la plataforma organiza las solicitudes, presenta información anticipada y facilita la confirmación del viaje compartido.
+
+Para elaborar los mapas se consideraron las necesidades identificadas en los segmentos objetivo, los supuestos de Lean UX y los hallazgos iniciales del análisis de entrevistas. El resultado permite visualizar las fases esperadas de uso, las acciones de cada usuario, sus pensamientos durante la experiencia y las emociones que deberían acompañar el proceso.
+
+**To-Be Scenario Mapping para el segmento de pasajeros**
+
+En el caso del segmento de pasajeros, el escenario objetivo inicia cuando la usuaria conoce ShareWay como una alternativa para organizar viajes compartidos programados. Luego registra su solicitud indicando origen, destino, fecha, hora y preferencias básicas. A partir de esa información, la plataforma presenta una propuesta con ruta sugerida, tarifa, conductor, pasajeros agrupados y condiciones del viaje.
+
+La usuaria puede confirmar la reserva con mayor seguridad porque conoce anticipadamente el costo, el tiempo estimado, la ruta y los datos relevantes del servicio. Durante el abordaje, valida que se encuentra ante el vehículo correcto mediante PIN o código QR. Finalmente, consulta el estado del recorrido, recibe actualizaciones y evalúa la experiencia al terminar el viaje.
+
+<p align="center">
+    <img src="img/to-be-scenario-passengers.jpg" alt="To-Be Scenario Mapping para pasajeros" width="90%">
+</p>
+
+Este escenario busca reducir la incertidumbre del pasajero al compartir un vehículo con otras personas. La experiencia propuesta se centra en brindar información clara antes de confirmar, controlar los puntos críticos del abordaje y generar confianza mediante datos visibles del conductor, del vehículo y del recorrido.
+
+**To-Be Scenario Mapping para el segmento de conductores**
+
+En el caso del segmento de conductores, el escenario objetivo inicia cuando el conductor se registra en ShareWay para recibir propuestas de viajes programados. Luego configura su disponibilidad, completa sus datos personales, registra el vehículo y presenta la documentación necesaria para el proceso de verificación.
+
+Una vez habilitado, el conductor recibe propuestas de rutas con pasajeros agrupados, paradas, duración estimada y ganancia esperada. Con esta información puede evaluar la conveniencia del servicio antes de aceptarlo. Durante el viaje, valida a cada pasajero mediante PIN o código QR, sigue la ruta sugerida y gestiona el avance del recorrido. Al finalizar, revisa sus ganancias, calificaciones e historial.
+
+<p align="center">
+    <img src="img/to-be-scenario-drivers.jpg" alt="To-Be Scenario Mapping para conductores" width="90%">
+</p>
+
+Este escenario busca que el conductor tome decisiones con información suficiente sobre tiempo, distancia, pasajeros, reglas de espera y rentabilidad. La experiencia propuesta reduce la dependencia de coordinaciones manuales y permite que el servicio se ejecute con condiciones previamente definidas.
+
 ## 3.2. User Stories
 
 ## 3.3. Impact Map

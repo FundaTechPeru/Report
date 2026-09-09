@@ -949,7 +949,31 @@ Utilizamos una secuencia de fibonacci redondeada (1, 2, 3, 5, 8, 13, 20, 50...),
 **Product Backlog:**
 | # Orden | User Story Id | Titulo | Descripción | Story Points | Pertenece a epic |
 | :--- | :---: | :---: | :---: | :---: | :---:  |
-
+| 1  | RF-01 | Encontrar puntos populares | **Como** pasajero, **quiero** visualizar las rutas más utilizadas desde un punto concurrido, **para** identificar rápidamente destinos con viajes compartidos disponibles. | 5 | x |
+| 2  | RF-02 | Buscar rutas | **Como** pasajero, **quiero** consultar los viajes disponibles para una ruta y horario determinados, **para** elegir el viaje que más se ajuste a mis necesidades. | 3 | x |
+| 3  | RF-03 | Estimar precio | **Como** pasajero, **quiero** conocer el precio que pagaré antes de incluirme a un viaje, **para** decidir si la opción se ajusta a mi presupuesto. | 2 | x |
+| 4  | RF-04 | Asegurar asiento | **Como** pasajero, quiero reservar mi asiento en un viaje compartido, para asegurar un lugar en el taxi. | 2 | x |
+| 5  | RF-05 | Encontrar compañeros de viaje | **Como** pasajero, **quiero** conocer cuántos pasajeros ya han reservado un lugar en el vehiculo, **para** saber qué tanto tardará en iniciar el recorrido. | 2 | x |
+| 6  | RF-06 | Información del viaje | **Como** pasajero, quiero consultar la hora estimada de salida, ruta elegida y paradas del viaje, **para** saber cómo se desarrollará mi recorrido. | 3 | x |
+| 7  | RF-07 | Información del chofer | **Como** pasajero, **quiero** conocer información relevante del chofer antes del viaje, **para** tener mayor confianza al utilizar el servicio. | 2 | x |
+| 8  | RF-08 | Ayuda para abordar | **Como** pasajero, **quiero** recibir información del vehiculo, como modelo color y placa, **para** estar preparado antes de abordar. | 5 | x |
+| 9  | RF-09 | Valorar servicio | **Como** pasajero, **quiero** calificar el viaje al final del recorrido, **para** comunicar mi experiencia con el servicio. | 2 | x |
+| 10 | RF-10 | Bloquear usuarios | **Como** pasajero, **quiero** bloquear a otros usuarios con los que tenga malas experiencias, **para** evitar compartir mi viaje con personas molestas. | 3 | x |
+| 11 |  |  | |  | x |
+| 12 |  |  | |  | x |
+| 13 |  |  | |  | x |
+| 14 |  |  | |  | x |
+| 15 |  |  | |  | x |
+| 16 |  |  | |  | x |
+| 17 |  |  | |  | x |
+| 18 |  |  | |  | x |
+| 19 |  |  | |  | x |
+| 20 |  |  | |  | x |
+| 21 |  |  | |  | x |
+| 22 |  |  | |  | x |
+| 23 |  |  | |  | x |
+| 24 |  |  | |  | x |
+| 25 |  |  | |  | x |
 ---
 
 # CAPÍTULO IV: Product Architecture Design

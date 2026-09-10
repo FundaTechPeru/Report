@@ -991,7 +991,7 @@ Comprender las experiencias, necesidades y dificultades de pasajeros y conductor
 | **Enlace** | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/IQD1YJsW5NGVQoP3omClSWEeAZyrSRCwT6_rSCZ_bGt6BYk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=DCnPJK) |
 
 
-| Campo | ![Entrevista1](./img/andre.png) <br/>Entrevista 3 | 
+| Campo | ![Entrevista1](./img/leo.png) <br/>Entrevista 3 | 
 |---|----|
 | **Nombre** |Yañez Santos, Leo Giovany |
 | **Edad** | 23 años|

@@ -1022,6 +1022,14 @@ Comprender las experiencias, necesidades y dificultades de pasajeros y conductor
 | **Duración** | 11.05 min |
 | **Enlace** | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201823654_upc_edu_pe/IQDaHFGp5jd1Q4PNxKCVoALKAYSTtIZl4dBpzGbSmlNXFOI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=nbWVOm) |
 
+| Campo | ![Entrevista3](./img/entrevista-angel-pariona.png) <br/>Entrevista 3 |
+|---|----|
+| **Nombre** | Angel José Pariona |
+| **Edad** | 25 años |
+| **Distrito** | San Martín de Porres |
+| **Duración** | 11:07 min |
+| **Enlace** | [Entrevista](oad-xfkj-aya%20(2026-09-10%2017_14%20GMT-5).mp4) |
+
 ### 2.2.3 Análisis de Entrevistas
 
 ---
@@ -1092,6 +1100,19 @@ También identifica como problemas frecuentes las cancelaciones de último minut
 Sobre los recorridos con varios pasajeros, el entrevistado los considera viables si las paradas siguen una lógica de ruta y si el ingreso final compensa el tiempo adicional. La propuesta de ShareWay le resultaría atractiva si ofrece pasajeros confirmados, rutas organizadas, ganancia visible y reglas que protejan su tiempo. La rechazaría si incluye demasiadas paradas, pago insuficiente o falta de confirmación de los pasajeros.
 
 En seguridad y verificación, valida positivamente mecanismos como PIN o código QR para confirmar al pasajero correcto, sobre todo en puntos donde esperan varias personas. Asimismo, considera útil contar con soporte rápido, registro de datos del viaje y opciones para reportar emergencias, conflictos u objetos perdidos. Respecto a la comisión, estaría dispuesto a aceptarla si la plataforma reduce tiempos muertos, consigue pasajeros confirmados y mantiene la comisión en un nivel transparente y razonable.
+</article>
+
+3. Angel José Pariona
+<article #id="analisis-conductor-03">
+El entrevistado Angel José Pariona, trabaja como conductor de transporte de pasajeros utilizando un vehículo alquilado. Esta modalidad de trabajo le exige organizar sus jornadas con la presión diaria de conseguir pasajeros para cubrir la cuota de alquiler del automóvil. Inició en el servicio hace poco tiempo y sus recorridos se concentran habitualmente de lunes a sábado en la zona norte.
+
+Antes de aceptar un viaje, su criterio de decisión más importante es la tarifa, seguida de cerca por el destino, el contexto general de la ruta y la calificación del pasajero. Para determinar la conveniencia real de un recorrido, calcula el costo del combustible por kilómetro, la cuota diaria del auto y el tiempo estimado del viaje, buscando siempre que le deje un margen de ganancia por hora que supere sus gastos operativos.
+
+Entre las dificultades frecuentes que le generan tiempos muertos se encuentran el tráfico en vías principales como la Panamericana Norte, los trayectos hacia zonas residenciales alejadas y las demoras de los usuarios en los puntos de recojo. Menciona haber tenido que cancelar servicios tras esperar más de siete minutos sin respuesta del cliente. Por ello, para un modelo de viaje programado o compartido, exige reglas claras: un tiempo máximo de espera de 5 minutos y penalidades económicas si el pasajero cancela de forma tardía.
+
+Respecto a la propuesta de ShareWay, le resultaría muy atractiva si la plataforma ofrece rutas con paradas intermedias secuenciales y optimizadas, le ayuda a evadir el tráfico y garantiza una tarifa rentable por kilómetro. Valora positivamente la tranquilidad de asegurar un ingreso fijo por adelantado, comparándolo con la ventaja de los viajes programados hacia el aeropuerto. Rechazaría el servicio si el orden de las paradas genera desorden o conflictos directos entre los pasajeros.
+
+En temas de seguridad, considera vital que la plataforma exija revisión de antecedentes, validación de DNI y reconocimiento facial, sumado a su propia práctica de preguntar el nombre del pasajero antes de abrir las puertas. Ante incidentes, espera que la aplicación brinde un soporte de cobertura rápida frente a daños materiales, además de asistencia legal y telefónica inmediata. Finalmente, estaría dispuesto a pagar una comisión siempre y cuando la plataforma le garantice un flujo constante de viajes, seguridad y responsabilidad por parte de los pasajeros.
 </article>
 
 **Análisis consolidado por segmento**

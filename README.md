@@ -56,7 +56,7 @@
 # Contenido
 
 - [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capítulo-i-introducción)
+- [CAPÍTULO I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción del Startup](#111-descripción-del-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
@@ -69,17 +69,139 @@
       - [1.2.3.3. Lean UX Hypothesis](#1233-lean-ux-hypothesis)
       - [1.2.3.4. Lean UX Canvas](#1234-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+- [CAPÍTULO II: Requirements & Analysis](#capítulo-ii-requirements--analysis)
   - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis Competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
   - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de Entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2	Entrevistas](#222-entrevistas)
+    - [2.2.3 Análisis de Entrevistas](#223-análisis-de-entrevistas)
   - [2.3. NeedFinding](#23-needfinding)
-- [Capítulo III: Requirements Elicitation & Analysis](#capítulo-iii-requirements-elicitation--analysis)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+      - [1. Segmento pasajeros](#1-segmento-pasajeros)
+      - [2. Segmento conductor](#2-segmento-conductor)
+    - [2.3.3. Empathy Maps](#233-empathy-maps)
+      - [1. Segmento pasajeros](#1-segmento-pasajeros-1)
+      - [2. Segmento conductor](#2-segmento-conductor-1)
+    - [2.3.4. As-Is Scenario Mapping](#234-as-is-scenario-mapping)
+      - [1. Segmento pasajeros](#1-segmento-pasajeros-2)
+      - [2. Segmento conductor](#2-segmento-conductor-2)
+- [CAPÍTULO III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
   - [3.2. User Stories](#32-user-stories)
   - [3.3. Impact Map](#33-impact-map)
+    - [Pasajeros](#pasajeros)
+    - [Conductores](#conductores)
   - [3.4. Product Backlog](#34-product-backlog)
-- [Capítulo IV: Product Architecture Design](#capítulo-iv-product-architecture-design)
-- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
+- [CAPÍTULO IV: Product Architecture Design](#capítulo-iv-product-architecture-design)
+  - [4.1. Design Concepts, ViewPoints & ER Diagrams](#41-design-concepts-viewpoints--er-diagrams)
+    - [4.1.1. Principles Statements](#411-principles-statements)
+    - [4.1.2. Approaches Statements Architectural Styles & Patterns](#412-approaches-statements-architectural-styles--patterns)
+    - [4.1.3. Context Diagram](#413-context-diagram)
+    - [4.1.4. Approach Driven ViewPoints Diagrams](#414-approach-driven-viewpoints-diagrams)
+    - [4.1.5. Relational/Non Relational Database Diagram](#415-relationalnon-relational-database-diagram)
+    - [4.1.6. Design Patterns](#416-design-patterns)
+    - [4.1.7. Tactics](#417-tactics)
+  - [4.2. Architectural Drivers](#42-architectural-drivers)
+    - [4.2.1. Design Purpose](#421-design-purpose)
+    - [4.2.2. Primary Functionality (Primary User Stories)](#422-primary-functionality-primary-user-stories)
+    - [4.2.3. Quality Attribute Scenarios](#423-quality-attribute-scenarios)
+    - [4.2.4. Constraints](#424-constraints)
+    - [4.2.5. Architectural Concerns](#425-architectural-concerns)
+  - [4.3. ADD Iterations](#43-add-iterations)
+    - [4.3.1. Iteration 1: Global System Structure](#431-iteration-1-global-system-structure)
+      - [4.3.1.1. Architectural Design Backlog 1](#4311-architectural-design-backlog-1)
+      - [4.3.1.2. Establish Iteration Goal by Selecting Drivers](#4312-establish-iteration-goal-by-selecting-drivers)
+      - [4.3.1.3. Choose One or More Elements of the System to Refine](#4313-choose-one-or-more-elements-of-the-system-to-refine)
+      - [4.3.1.4. Choose One or More Design Concepts That Satisfy the Selected Drivers](#4314-choose-one-or-more-design-concepts-that-satisfy-the-selected-drivers)
+      - [4.3.1.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4315-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
+      - [4.3.1.6. Sketch Views (C4 & UML) and Record Design Decisions](#4316-sketch-views-c4--uml-and-record-design-decisions)
+      - [4.3.1.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4317-analysis-of-current-design-and-review-iteration-goal-kanban-board)
+    - [4.3.2. Iteration 2: Sincronización Edge-to-Cloud y Pipeline de Telemetría](#432-iteration-2-sincronización-edge-to-cloud-y-pipeline-de-telemetría)
+      - [4.3.2.1. Architectural Design Backlog 2](#4321-architectural-design-backlog-2)
+      - [4.3.2.2. Establish Iteration Goal by Selecting Drivers](#4322-establish-iteration-goal-by-selecting-drivers)
+      - [4.3.2.3. Choose One or More Elements of the System to Refine](#4323-choose-one-or-more-elements-of-the-system-to-refine)
+      - [4.3.2.4. Choose One or More Design Concepts That Satisfy the Selected Drivers](#4324-choose-one-or-more-design-concepts-that-satisfy-the-selected-drivers)
+      - [4.3.2.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4325-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
+      - [4.3.2.6. Sketch Views (C4 & UML) and Record Design Decisions](#4326-sketch-views-c4--uml-and-record-design-decisions)
+      - [4.3.2.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4327-analysis-of-current-design-and-review-iteration-goal-kanban-board)
+    - [4.3.3. Iteration 3: Orquestación del Ciclo de Riego Autónomo e Integración con el Edge](#433-iteration-3-orquestación-del-ciclo-de-riego-autónomo-e-integración-con-el-edge)
+      - [4.3.3.1. Architectural Design Backlog 3](#4331-architectural-design-backlog-3)
+      - [4.3.3.2. Establish Iteration Goal by Selecting Drivers](#4332-establish-iteration-goal-by-selecting-drivers)
+      - [4.3.3.3. Choose One or More Elements of the System to Refine](#4333-choose-one-or-more-elements-of-the-system-to-refine)
+      - [4.3.3.4. Choose One or More Design Concepts That Satisfy the Selected Drivers](#4334-choose-one-or-more-design-concepts-that-satisfy-the-selected-drivers)
+      - [4.3.3.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4335-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
+      - [4.3.3.6. Sketch Views (C4 & UML) and Record Design Decisions](#4336-sketch-views-c4--uml-and-record-design-decisions)
+      - [4.3.3.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4337-analysis-of-current-design-and-review-iteration-goal-kanban-board)
+    - [4.3.4. Iteration 4: Seguridad e Identidad](#434-iteration-4-seguridad-e-identidad)
+      - [4.3.4.1. Architectural Design Backlog 4](#4341-architectural-design-backlog-4)
+      - [4.3.4.2. Establish Iteration Goal by Selecting Drivers](#4342-establish-iteration-goal-by-selecting-drivers)
+      - [4.3.4.3. Choose One or More Elements of the System to Refine](#4343-choose-one-or-more-elements-of-the-system-to-refine)
+      - [4.3.4.4. Choose One or More Design Concepts That Satisfy the Selected Drivers](#4344-choose-one-or-more-design-concepts-that-satisfy-the-selected-drivers)
+      - [4.3.4.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4345-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
+      - [4.3.4.6. Sketch Views (C4 & UML) and Record Design Decisions](#4346-sketch-views-c4--uml-and-record-design-decisions)
+      - [4.3.4.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4347-analysis-of-current-design-and-review-iteration-goal-kanban-board)
+    - [4.3.5. Iteration 5: Refinamiento del Crop Analysis Service y Diagnóstico de Cultivos](#435-iteration-5-refinamiento-del-crop-analysis-service-y-diagnóstico-de-cultivos)
+      - [4.3.5.1. Architectural Design Backlog 5](#4351-architectural-design-backlog-5)
+      - [4.3.5.2. Establish Iteration Goal by Selecting Drivers](#4352-establish-iteration-goal-by-selecting-drivers)
+      - [4.3.5.3. Choose One or More Elements of the System to Refine](#4353-choose-one-or-more-elements-of-the-system-to-refine)
+      - [4.3.5.4. Choose One or More Design Concepts That Satisfy the Selected Drivers](#4354-choose-one-or-more-design-concepts-that-satisfy-the-selected-drivers)
+      - [4.3.5.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4355-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
+      - [4.3.5.6. Sketch Views (C4 & UML) and Record Design Decisions](#4356-sketch-views-c4--uml-and-record-design-decisions)
+      - [4.3.5.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4357-analysis-of-current-design-and-review-iteration-goal-kanban-board)
+- [CAPÍTULO V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
+  - [5.1. Testing Suites & General Patterns](#51-testing-suites--general-patterns)
+    - [5.1.1. Backend Application Core Testing Suite](#511-backend-application-core-testing-suite)
+    - [5.1.2. Pattern Based Backend Application(s)](#512-pattern-based-backend-applications)
+    - [5.1.3. Pattern Based Custom Software Library](#513-pattern-based-custom-software-library)
+    - [5.1.4. Framework Pattern Driven Refactoring Report](#514-framework-pattern-driven-refactoring-report)
+  - [5.2. Software Configuration Management](#52-software-configuration-management)
+    - [5.2.1. Software Development Environment Configuration](#521-software-development-environment-configuration)
+    - [5.2.2. Source Code Management](#522-source-code-management)
+    - [5.2.3. Source Code Style Guide & Conventions](#523-source-code-style-guide--conventions)
+    - [5.2.4. Software Deployment Configuration](#524-software-deployment-configuration)
+  - [5.3. MicroServices Implementation](#53-microservices-implementation)
+    - [5.3.1. Sprint 1](#531-sprint-1)
+      - [5.3.1.1. Sprint Backlog 1](#5311-sprint-backlog-1)
+      - [5.3.1.2. Development Evidence for Sprint Review](#5312-development-evidence-for-sprint-review)
+      - [5.3.1.3. Testing Suite Evidence for Sprint Review](#5313-testing-suite-evidence-for-sprint-review)
+      - [5.3.1.4. Execution Evidence for Sprint Review](#5314-execution-evidence-for-sprint-review)
+      - [5.3.1.5. Microservices Documentation Evidence for Sprint Review](#5315-microservices-documentation-evidence-for-sprint-review)
+      - [5.3.1.6. Software Deployment Evidence for Sprint Review](#5316-software-deployment-evidence-for-sprint-review)
+      - [5.3.1.7. Team Collaboration Insights during Sprint](#5317-team-collaboration-insights-during-sprint)
+      - [5.3.1.8. Kanban Board](#5318-kanban-board)
+    - [5.3.2. Sprint 2](#532-sprint-2)
+      - [5.3.2.1. Sprint Backlog 2](#5321-sprint-backlog-2)
+      - [5.3.2.2. Development Evidence for Sprint Review](#5322-development-evidence-for-sprint-review)
+      - [5.3.2.3. Testing Suite Evidence for Sprint Review](#5323-testing-suite-evidence-for-sprint-review)
+      - [5.3.2.4. Execution Evidence for Sprint Review](#5324-execution-evidence-for-sprint-review)
+      - [5.3.2.5. Microservices Documentation Evidence for Sprint Review](#5325-microservices-documentation-evidence-for-sprint-review)
+      - [5.3.2.6. Software Deployment Evidence for Sprint Review](#5326-software-deployment-evidence-for-sprint-review)
+      - [5.3.2.7. Team Collaboration Insights During Sprint](#5327-team-collaboration-insights-during-sprint)
+      - [5.3.2.8. Kanban Board](#5328-kanban-board)
+    - [5.3.3. Sprint 3](#533-sprint-3)
+      - [5.3.3.1. Sprint Backlog 3](#5331-sprint-backlog-3)
+      - [5.3.3.2. Development Evidence for Sprint Review](#5332-development-evidence-for-sprint-review)
+      - [5.3.3.3. Testing Suite Evidence for Sprint Review](#5333-testing-suite-evidence-for-sprint-review)
+      - [5.3.3.4. Execution Evidence for Sprint Review](#5334-execution-evidence-for-sprint-review)
+      - [5.3.3.5. Microservices Documentation Evidence for Sprint Review](#5335-microservices-documentation-evidence-for-sprint-review)
+      - [5.3.3.6. Software Deployment Evidence for Sprint Review](#5336-software-deployment-evidence-for-sprint-review)
+      - [5.3.3.7. Team Collaboration Insights During Sprint](#5337-team-collaboration-insights-during-sprint)
+      - [5.3.3.8. Kanban Board](#5338-kanban-board)
+    - [5.3.4. Sprint 4](#534-sprint-4)
+      - [5.3.4.1. Sprint Backlog 4](#5341-sprint-backlog-4)
+      - [5.3.4.2. Development Evidence for Sprint Review](#5342-development-evidence-for-sprint-review)
+      - [5.3.4.3. Testing Suite Evidence for Sprint Review](#5343-testing-suite-evidence-for-sprint-review)
+      - [5.3.4.4. Execution Evidence for Sprint Review](#5344-execution-evidence-for-sprint-review)
+      - [5.3.4.5. Microservices Documentation Evidence for Sprint Review](#5345-microservices-documentation-evidence-for-sprint-review)
+      - [5.3.4.6. Software Deployment Evidence for Sprint Review](#5346-software-deployment-evidence-for-sprint-review)
+      - [5.3.4.7. Team Collaboration Insights During Sprint](#5347-team-collaboration-insights-during-sprint)
+      - [5.3.4.8. Kanban Board](#5348-kanban-board)
+  - [5.4. MicroServices Deployment](#54-microservices-deployment)
+    - [5.4.1. Cloud Architecture Diagrams](#541-cloud-architecture-diagrams)
+    - [5.4.2. Cloud Architecture Deployment](#542-cloud-architecture-deployment)
 - [Conclusiones](#conclusiones)
 - [Recomendaciones](#recomendaciones)
 - [Bibliografía](#bibliografía)
@@ -458,7 +580,7 @@ El administrador de ShareWay se considera un rol interno encargado de verificaci
 
 ---
 
-# CAPÍTULO II: Requirements Elicitation & Analysis
+# CAPÍTULO II: Requirements & Analysis
 
 Este capítulo presenta el análisis de alternativas existentes y el diseño de la investigación con pasajeros y conductores.
 
@@ -981,7 +1103,7 @@ Segmento conductores
     <img src="img/As-is-CarlosRamírezSalazar.jpg" alt="As-is Carlos Ramírez Salazar" width="50%">
 </p>
 
-# CAPÍTULO III: Requirements Elicitation & Analysis
+# CAPÍTULO III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
 
@@ -1076,7 +1198,7 @@ Cada Epic se redacta como una historia de usuario de grano grueso, en el mismo f
     <img src="img/Impact map 1.png" alt="Userperson1" width="50%">
 </p>
 
-### conduntores
+### Conductores
 <p align="center">
     <img src="img/Impact map 2.png" alt="Userperson1" width="50%">
 </p>
@@ -1088,35 +1210,35 @@ Utilizamos una secuencia de fibonacci redondeada (1, 2, 3, 5, 8, 13, 20, 50...),
 
 | # Orden | User Story Id | Titulo | Descripción | Story Points |
 | :--- | :---: | :---: | :---: | :---: |
-| 01 | US-01 | Encontrar puntos populares | **Como** pasajero, **quiero** visualizar las rutas más utilizadas desde un punto concurrido, **para** identificar rápidamente destinos con viajes compartidos disponibles. | 2 |
-| 02 | US-02 | Buscar rutas | **Como** pasajero, **quiero** consultar los viajes disponibles para una ruta y horario determinados, **para** elegir el viaje que más se ajuste a mis necesidades. | 3 | 
-| 03 | US-03 | Estimar precio | **Como** pasajero, **quiero** conocer el precio que pagaré antes de incluirme a un viaje, **para** decidir si la opción se ajusta a mi presupuesto. | 3 |
-| 04 | US-04 | Asegurar asiento | **Como** pasajero, **quiero** reservar mi asiento en un viaje compartido, **para** asegurar un lugar en el vehículo. | 5 |
-| 05 | US-05 | Encontrar compañeros de viaje | **Como** pasajero, **quiero** conocer cuántos pasajeros ya han reservado un lugar en el vehículo, **para** saber qué tanto tardará en iniciar el recorrido.| 2 |
-| 06 | US-06 | Información del viaje | **Como** pasajero, **quiero** consultar la hora estimada de salida, ruta elegida y paradas del viaje, **para** saber cómo se desarrollará mi recorrido. | 3 | 
-| 07 | US-07 | Información del chofer | **Como** pasajero, **quiero** conocer información relevante del chofer antes del viaje, **para** tener mayor confianza al utilizar el servicio. | 2 | 
-| 08 | US-08 | Ayuda para abordar | **Como** pasajero, **quiero** recibir información del vehículo, como modelo, color y placa, **para** estar preparado antes de abordar. | 2 | 
-| 09 | US-09 | Valorar servicio | **Como** pasajero, **quiero** calificar el viaje al final del recorrido, **para** comunicar mi experiencia con el servicio. | 3 |
-| 10 | US-10 | Bloquear usuarios | **Como** pasajero, **quiero** bloquear a otros usuarios con los que tenga malas experiencias, **para** evitar compartir mi viaje con personas molestas. | 5 | 
+| 01 | US-16 | Registrar cuenta como conductor | **Como** conductor, **quiero** registrarme en la plataforma con mis datos personales, **para** poder ofrecer viajes compartidos a través de ShareWay. | 3 |
+| 02 | US-17 | Subir documentos para verificación | **Como** conductor, **quiero** subir mi brevete, SOAT y tarjeta de propiedad, **para** que la plataforma verifique que cumplo los requisitos para operar.| 8 | 
+| 03 | US-18 | Registrar datos del vehículo | **Como** conductor, **quiero** registrar la información de mi vehículo, **para** que los pasajeros puedan identificarlo correctamente durante el viaje. | 3 | 
+| 04 | US-02 | Buscar rutas | **Como** pasajero, **quiero** consultar los viajes disponibles para una ruta y horario determinados, **para** elegir el viaje que más se ajuste a mis necesidades. | 3 | 
+| 05 | US-04 | Asegurar asiento | **Como** pasajero, **quiero** reservar mi asiento en un viaje compartido, **para** asegurar un lugar en el vehículo. | 5 |
+| 06 | US-03 | Estimar precio | **Como** pasajero, **quiero** conocer el precio que pagaré antes de incluirme a un viaje, **para** decidir si la opción se ajusta a mi presupuesto. | 3 |
+| 07 | US-20 | Recibir propuestas de viaje | **Como** conductor, **quiero** recibir propuestas de viajes con ruta, pasajeros agrupados y ganancia estimada, **para** decidir si me conviene aceptarlas. | 8 | 
+| 08 | US-21 | Aceptar o rechazar una propuesta de viaje | **Como** conductor, **quiero** aceptar o rechazar una propuesta de viaje, **para** gestionar mi disponibilidad y decidir qué recorridos realizar. | 3 | 
+| 09 | US-19 | Configurar disponibilidad y horarios | **Como** conductor, **quiero** configurar mis horarios y zonas de disponibilidad, **para** recibir propuestas de viaje que se ajusten a mi rutina. | 5 | 
+| 10 | US-22 | Ver ruta optimizada con paradas | **Como** conductor, **quiero** visualizar la ruta optimizada con el orden de las paradas de recojo, **para** completar el recorrido de la forma más eficiente posible. | 13 | 
 | 11 | US-11 | Validar abordaje con PIN o QR | **Como** pasajero, **quiero** validar mi ingreso al vehículo mediante un PIN o código QR, **para** confirmar que estoy abordando el viaje correcto de forma segura. | 5 | 
-| 12 | US-12 | Cancelar viaje reservado | **Como** pasajero, **quiero** cancelar un viaje que ya reservé, **para** liberar mi asiento cuando cambian mis planes. | 3 | 
-| 13 | US-13 | Compartir ubicación en tiempo real | **Como** pasajero, **quiero** compartir la ubicación de mi viaje con un contacto de emergencia, **para** que pueda seguir mi recorrido ante una situación de riesgo. | 8 | 
-| 14 | US-14 | Recibir notificaciones del viaje | **Como** pasajero, **quiero** recibir notificaciones sobre el estado de mi viaje, **para** estar informado de cambios relevantes en tiempo real. | 5 | 
-| 15 | US-15 | Programar viajes recurrentes | **Como** pasajero, **quiero** programar un viaje que se repita en días y horarios fijos, **para** no tener que registrar mi solicitud cada vez que necesito trasladarme. | 8 | 
-| 16 | US-16 | Registrar cuenta como conductor | **Como** conductor, **quiero** registrarme en la plataforma con mis datos personales, **para** poder ofrecer viajes compartidos a través de ShareWay. | 3 |
-| 17 | US-17 | Subir documentos para verificación | **Como** conductor, **quiero** subir mi brevete, SOAT y tarjeta de propiedad, **para** que la plataforma verifique que cumplo los requisitos para operar.| 8 | 
-| 18 | US-18 | Registrar datos del vehículo | **Como** conductor, **quiero** registrar la información de mi vehículo, **para** que los pasajeros puedan identificarlo correctamente durante el viaje. | 3 | 
-| 19 | US-19 | Configurar disponibilidad y horarios | **Como** conductor, **quiero** configurar mis horarios y zonas de disponibilidad, **para** recibir propuestas de viaje que se ajusten a mi rutina. | 5 | 
-| 20 | US-20 | Recibir propuestas de viaje | **Como** conductor, **quiero** recibir propuestas de viajes con ruta, pasajeros agrupados y ganancia estimada, **para** decidir si me conviene aceptarlas. | 8 | 
-| 21 | US-21 | Aceptar o rechazar una propuesta de viaje | **Como** conductor, **quiero** aceptar o rechazar una propuesta de viaje, **para** gestionar mi disponibilidad y decidir qué recorridos realizar. | 3 | 
-| 22 | US-22 | Ver ruta optimizada con paradas | **Como** conductor, **quiero** visualizar la ruta optimizada con el orden de las paradas de recojo, **para** completar el recorrido de la forma más eficiente posible. | 13 | 
-| 23 | US-23 | Validar pasajero al abordar | **Como** conductor, **quiero** validar el PIN o código QR de cada pasajero al momento de abordar, **para** confirmar que corresponde al viaje asignado. | 3 | 
-| 24 | US-24 | Iniciar el viaje | **Como** conductor, **quiero** iniciar el viaje una vez abordados los pasajeros confirmados, **para** dar comienzo formal al recorrido registrado en la plataforma. | 3 | 
-| 25 | US-25 | Finalizar el viaje y confirmar cobro | **Como** conductor, **quiero** finalizar el viaje y confirmar el cobro correspondiente, **para** cerrar el recorrido y recibir mi pago de forma correcta. | 8 |
-| 26 | US-26 | Consultar historial de viajes y ganancias | **Como** conductor, **quiero** consultar mi historial de viajes y ganancias, **para** llevar un control de mi actividad en la plataforma. | 5 |
-| 27 | US-27 | Calificar a los pasajeros | **Como** conductor, **quiero** calificar a los pasajeros al finalizar el viaje, **para** reportar mi experiencia y contribuir a la confianza dentro de la plataforma. | 3 |
-| 28 | US-28 | Gestionar cancelación de un pasajero | **Como** conductor, **quiero** que el sistema me informe cuando un pasajero cancela su reserva, **para** reorganizar mi ruta y disponibilidad de asientos. | 3 | 
-| 29 | US-29 | Activar botón de emergencia | **Como** conductor, **quiero** activar un botón de emergencia durante el viaje, **para** solicitar ayuda inmediata en caso de una situación de riesgo. | 5  | 
+| 12 | US-23 | Validar pasajero al abordar | **Como** conductor, **quiero** validar el PIN o código QR de cada pasajero al momento de abordar, **para** confirmar que corresponde al viaje asignado. | 3 | 
+| 13 | US-24 | Iniciar el viaje | **Como** conductor, **quiero** iniciar el viaje una vez abordados los pasajeros confirmados, **para** dar comienzo formal al recorrido registrado en la plataforma. | 3 | 
+| 14 | US-25 | Finalizar el viaje y confirmar cobro | **Como** conductor, **quiero** finalizar el viaje y confirmar el cobro correspondiente, **para** cerrar el recorrido y recibir mi pago de forma correcta. | 8 |
+| 15 | US-05 | Encontrar compañeros de viaje | **Como** pasajero, **quiero** conocer cuántos pasajeros ya han reservado un lugar en el vehículo, **para** saber qué tanto tardará en iniciar el recorrido.| 2 |
+| 16 | US-06 | Información del viaje | **Como** pasajero, **quiero** consultar la hora estimada de salida, ruta elegida y paradas del viaje, **para** saber cómo se desarrollará mi recorrido. | 3 | 
+| 17 | US-07 | Información del chofer | **Como** pasajero, **quiero** conocer información relevante del chofer antes del viaje, **para** tener mayor confianza al utilizar el servicio. | 2 | 
+| 18 | US-08 | Ayuda para abordar | **Como** pasajero, **quiero** recibir información del vehículo, como modelo, color y placa, **para** estar preparado antes de abordar. | 2 | 
+| 19 | US-12 | Cancelar viaje reservado | **Como** pasajero, **quiero** cancelar un viaje que ya reservé, **para** liberar mi asiento cuando cambian mis planes. | 3 | 
+| 20 | US-28 | Gestionar cancelación de un pasajero | **Como** conductor, **quiero** que el sistema me informe cuando un pasajero cancela su reserva, **para** reorganizar mi ruta y disponibilidad de asientos. | 3 | 
+| 21 | US-09 | Valorar servicio | **Como** pasajero, **quiero** calificar el viaje al final del recorrido, **para** comunicar mi experiencia con el servicio. | 3 |
+| 22 | US-27 | Calificar a los pasajeros | **Como** conductor, **quiero** calificar a los pasajeros al finalizar el viaje, **para** reportar mi experiencia y contribuir a la confianza dentro de la plataforma. | 3 |
+| 23 | US-26 | Consultar historial de viajes y ganancias | **Como** conductor, **quiero** consultar mi historial de viajes y ganancias, **para** llevar un control de mi actividad en la plataforma. | 5 |
+| 24 | US-14 | Recibir notificaciones del viaje | **Como** pasajero, **quiero** recibir notificaciones sobre el estado de mi viaje, **para** estar informado de cambios relevantes en tiempo real. | 5 | 
+| 25 | US-13 | Compartir ubicación en tiempo real | **Como** pasajero, **quiero** compartir la ubicación de mi viaje con un contacto de emergencia, **para** que pueda seguir mi recorrido ante una situación de riesgo. | 8 | 
+| 26 | US-29 | Activar botón de emergencia | **Como** conductor, **quiero** activar un botón de emergencia durante el viaje, **para** solicitar ayuda inmediata en caso de una situación de riesgo. | 5  | 
+| 27 | US-10 | Bloquear usuarios | **Como** pasajero, **quiero** bloquear a otros usuarios con los que tenga malas experiencias, **para** evitar compartir mi viaje con personas molestas. | 5 | 
+| 28 | US-01 | Encontrar puntos populares | **Como** pasajero, **quiero** visualizar las rutas más utilizadas desde un punto concurrido, **para** identificar rápidamente destinos con viajes compartidos disponibles. | 2 |
+| 29 | US-15 | Programar viajes recurrentes | **Como** pasajero, **quiero** programar un viaje que se repita en días y horarios fijos, **para** no tener que registrar mi solicitud cada vez que necesito trasladarme. | 8 | 
 | 30 | US-30 | Ver y editar perfil y vehículo | **Como** conductor, **quiero** ver y editar mi perfil y los datos de mi vehículo, **para** mantener actualizada mi información dentro de la plataforma. | 3 | 
 ---
 

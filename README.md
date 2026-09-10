@@ -26,7 +26,7 @@
 </div>
 
 <hr>
----
+
 
 ## Integrantes
 

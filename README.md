@@ -46,7 +46,7 @@
 |---|---|---|---|
 |TB1|08/09/26|Arturo Saravia|Historias de usuario y mapa de impacto|
 |TB1|10/09/26|Aarón Avila|Perfil de integrante, registro de entrevista para conductores, bibliografía APA y anexos del repositorio|
-|  |  |  |  |
+|TB1|10/09/26|Aarón Avila|Desarrollo de Student Outcome, análisis de entrevistas, Needfinding, Impact Map, Product Backlog, conclusiones y recomendaciones|
 |  |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
@@ -213,6 +213,15 @@
 ---
 
 # Student Outcome
+
+El curso contribuye al cumplimiento del **ABET - EAC - Student Outcome 7: Aprendizaje continuo y autónomo**, entendido como la capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.
+
+En el avance TB1, el equipo aplicó esta competencia al investigar el dominio de movilidad compartida, revisar herramientas de análisis de experiencia de usuario, contrastar supuestos mediante entrevistas y organizar los hallazgos en artefactos de requisitos. Las acciones se describen por integrante para evidenciar la contribución individual dentro del trabajo colaborativo.
+
+| Criterio específico | Acciones realizadas | Conclusiones |
+|---|---|---|
+| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y, en especial, para su proyecto en soluciones de software. | **Arturo Axel Saravia Huaricancha**<br>TB1: Participó en la elaboración de historias de usuario, criterios de aceptación y mapa de impacto, aplicando conceptos de requisitos, épicas y trazabilidad funcional.<br><br>**Leonardo Raul Cumba Rengifo**<br>TB1: Contribuyó en la revisión del contexto del problema, organización de información del reporte y alineación de secciones con la estructura solicitada.<br><br>**Aarón Alexander Avila Palacios**<br>TB1: Desarrolló el registro de entrevista para el segmento de conductores, completó el perfil propio, actualizó evidencias visuales, reforzó análisis del reporte y aplicó lineamientos de APA 7 en la bibliografía.<br><br>**Sofia Alessandra Cotrina Siclla**<br>TB1: Participó en la revisión de segmentos objetivo y en la consolidación de artefactos relacionados con usuarios, necesidades y experiencia del producto.<br><br>**Joaquin Andre Lechuga Aguilar**<br>TB1: Contribuyó en la definición de artefactos visuales de experiencia, análisis de usuario y organización de evidencias para el informe. | Durante TB1, el equipo actualizó conocimientos sobre Lean UX, Needfinding, entrevistas, User Personas, Scenario Mapping, Impact Mapping y gestión de Product Backlog. Esto permitió transformar una idea inicial en una propuesta con segmentos, necesidades, requisitos y prioridades preliminares. |
+| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | **Arturo Axel Saravia Huaricancha**<br>TB1: Investigó la relación entre objetivos de negocio, impactos esperados y funcionalidades priorizadas para sostener el mapa de impacto.<br><br>**Leonardo Raul Cumba Rengifo**<br>TB1: Apoyó en la revisión de consistencia del reporte, identificando secciones que requerían mayor sustento o evidencia.<br><br>**Aarón Alexander Avila Palacios**<br>TB1: Revisó la rúbrica, identificó brechas del avance, organizó información de entrevista y completó secciones del informe a partir de nueva evidencia.<br><br>**Sofia Alessandra Cotrina Siclla**<br>TB1: Aportó en la comprensión del segmento de pasajeros y en la relación entre hallazgos de investigación y artefactos de experiencia.<br><br>**Joaquin Andre Lechuga Aguilar**<br>TB1: Apoyó en la revisión de artefactos para conductores y pasajeros, conectando necesidades con tareas, emociones y escenarios de uso. | El desarrollo del avance permitió reconocer que el producto requiere aprendizaje continuo sobre movilidad urbana, validación con usuarios, herramientas de modelado y priorización de requisitos. El equipo identificó que los supuestos iniciales deben revisarse permanentemente con evidencia. |
 
 ---
 
@@ -999,7 +1008,7 @@ Comprender las experiencias, necesidades y dificultades de pasajeros y conductor
 ### 2.2.3 Análisis de Entrevistas
 
 ---
-**Analisis de entrevistas para el segmento de Pasajeros**
+**Análisis de entrevistas para el segmento de Pasajeros**
 
 1.- Mariana Rafael
 <article #id="analisis-ent-01">
@@ -1031,19 +1040,62 @@ Ve valor concreto en ShareWay para dos escenarios: viajes largos o costosos dond
 Como principales barreras para adoptar la propuesta menciona: El riesgo de que una cancelación corte el viaje grupal y genere esperas, y El desconocimiento del conductor o de los demás pasajeros, incluyendo el temor a que alguno tenga "malas intenciones". Pese a estas reservas, cierra la entrevista calificando la propuesta como "muy buena".
 </article>
 
-**Analisis de entrevistas para el segmento de Conductores**
+**Análisis de entrevistas para el segmento de Conductores**
 1. Juan Bermúdez
-<article #id="analisis-ent-01">
+<article #id="analisis-conductor-01">
 Juan cree que la rentabilidad y el control sobre el servicio son fundamentales.
 Por ejemplo, plantea que un conductor pueda crear una ruta entre dos universidades, indicando los horarios de ida y vuelta. Los estudiantes podrían encontrar y utilizar directamente esa ruta sin tener que organizarse previamente entre ellos.
 
-Shareway podría ser atractivo para él si le permite planificar rutas previamente, conocer cuántos pasajeros tendrá, estimar sus ingresos y controlar sus horarios y tarifas, en lugar de depender completamente de solicitudes individuales como ocurre con las aplicaciones tradicionales. Esto responde directamente a su preocupación por el pago por kilómetro, los tiempos muertos, la congestión y el tiempo necesario para conseguir pasajeros después de terminar un viaje.
+ShareWay podría ser atractivo para él si le permite planificar rutas previamente, conocer cuántos pasajeros tendrá, estimar sus ingresos y controlar sus horarios y tarifas, en lugar de depender completamente de solicitudes individuales como ocurre con las aplicaciones tradicionales. Esto responde directamente a su preocupación por el pago por kilómetro, los tiempos muertos, la congestión y el tiempo necesario para conseguir pasajeros después de terminar un viaje.
 </article>
+
+2. Aarón Avila
+<article #id="analisis-conductor-02">
+El entrevistado (Aarón Alexander Avila Palacios, 34 años, distrito de Chorrillos, conductor independiente de transporte particular) representa un perfil con experiencia sostenida en servicios de movilidad urbana. Lleva aproximadamente seis años realizando traslados de pasajeros y trabaja principalmente en Chorrillos, Barranco, Miraflores, San Isidro, Surco y zonas cercanas. Su jornada se concentra en franjas de alta demanda, especialmente entre 6:30 y 10:00 de la mañana y entre 5:00 y 9:00 de la noche.
+
+Su principal criterio de decisión es la rentabilidad real del recorrido. Antes de aceptar un viaje evalúa punto de recojo, destino, distancia, tiempo estimado, tarifa, forma de pago, paradas adicionales, tráfico, comisión de la plataforma y posibilidad de conseguir otro pasajero cerca del destino. Este hallazgo refuerza la necesidad de que ShareWay muestre información completa antes de que el conductor acepte una propuesta.
+
+También identifica como problemas frecuentes las cancelaciones de último minuto, los pasajeros que no están listos al llegar, los recorridos hacia zonas de baja demanda y los viajes cortos que requieren desplazamientos largos hasta el punto de recojo. Por ello, considera necesarias reglas claras sobre tiempo máximo de espera, penalidades por cancelación tardía y límites para cambios de ruta, especialmente cuando se trata de un viaje compartido.
+
+Sobre los recorridos con varios pasajeros, el entrevistado los considera viables si las paradas siguen una lógica de ruta y si el ingreso final compensa el tiempo adicional. La propuesta de ShareWay le resultaría atractiva si ofrece pasajeros confirmados, rutas organizadas, ganancia visible y reglas que protejan su tiempo. La rechazaría si incluye demasiadas paradas, pago insuficiente o falta de confirmación de los pasajeros.
+
+En seguridad y verificación, valida positivamente mecanismos como PIN o código QR para confirmar al pasajero correcto, sobre todo en puntos donde esperan varias personas. Asimismo, considera útil contar con soporte rápido, registro de datos del viaje y opciones para reportar emergencias, conflictos u objetos perdidos. Respecto a la comisión, estaría dispuesto a aceptarla si la plataforma reduce tiempos muertos, consigue pasajeros confirmados y mantiene la comisión en un nivel transparente y razonable.
+</article>
+
+**Análisis consolidado por segmento**
+
+Considerando que el avance actual cuenta con dos entrevistas registradas por segmento, los porcentajes se interpretan como hallazgos preliminares y no como resultados estadísticamente representativos de toda Lima Metropolitana.
+
+**Segmento pasajeros**
+
+- El 100% de los entrevistados manifiesta preocupación por la seguridad al trasladarse y espera información clara sobre conductor, vehículo, reputación o mecanismos de emergencia.
+- El 100% compara alternativas de transporte considerando precio, tiempo y confianza, aunque el peso de cada factor cambia según la urgencia del viaje.
+- El 100% muestra apertura a compartir un traslado si el beneficio económico o de organización compensa el tiempo adicional y si existen condiciones visibles antes de confirmar.
+- El 100% identifica las cancelaciones o retrasos como un riesgo importante para adoptar un viaje compartido programado.
+- El 50% propone explícitamente agrupar viajes por comunidades conocidas, como universidades, centros de trabajo o grupos con rutas compatibles.
+
+Estos hallazgos sustentan al User Persona de pasajeros como una usuaria que necesita ahorrar y planificar, pero que no aceptará la propuesta si percibe incertidumbre en seguridad, puntualidad o precio.
+
+**Segmento conductores**
+
+- El 100% de los entrevistados evalúa la conveniencia del servicio a partir de la rentabilidad, el tiempo invertido y el control sobre la ruta.
+- El 100% considera valioso conocer anticipadamente pasajeros, paradas, duración estimada e ingresos antes de aceptar un viaje.
+- El 100% identifica cancelaciones, tiempos de espera y cambios de ruta como riesgos que deben regularse desde la plataforma.
+- El 100% considera útil que la plataforma permita planificar recorridos o rutas con mayor anticipación para reducir tiempos muertos.
+- El 50% menciona de forma explícita la utilidad de mecanismos de validación como PIN o QR para confirmar al pasajero correcto.
+
+Estos hallazgos sustentan al User Persona de conductor como un usuario que busca ingresos previsibles, reglas claras y herramientas que reduzcan incertidumbre operativa.
 
 
 ## 2.3. NeedFinding
 
+El proceso de Needfinding permitió transformar los hallazgos de entrevistas y el análisis competitivo en artefactos que representan necesidades, tareas, emociones y escenarios actuales de los segmentos objetivo. Para este avance se consideran dos segmentos principales: pasajeros con desplazamientos frecuentes y conductores interesados en viajes programados.
+
+Los artefactos presentados no reemplazan las entrevistas, sino que sintetizan sus patrones más relevantes para orientar la especificación de requisitos. En conjunto, los User Personas, User Task Matrix, Empathy Maps y As-Is Scenario Mapping permiten identificar qué problemas deben resolverse antes de proponer funcionalidades.
+
 ### 2.3.1. User Personas
+
+Los User Personas se construyeron a partir de características recurrentes observadas en las entrevistas y en el análisis de alternativas existentes. Para pasajeros, se priorizaron preocupaciones sobre ahorro, tiempo, confianza y planificación. Para conductores, se priorizaron rentabilidad, control operativo, reducción de tiempos muertos y claridad en reglas de servicio.
 
 Segmento pasajeros
 
@@ -1062,6 +1114,8 @@ Segmento conductores
 
 
 ### 2.3.2. User Task Matrix
+
+El User Task Matrix identifica tareas que los segmentos realizan independientemente de que ShareWay exista. Estas tareas permiten diferenciar necesidades reales de funcionalidades propuestas. Para facilitar la lectura del informe, se presentan por segmento y luego se analizan las tareas de mayor frecuencia e importancia.
 
 #### 1. Segmento pasajeros
 
@@ -1091,6 +1145,8 @@ Segmento conductores
 
 ### 2.3.3. Empathy Maps
 
+Los Empathy Maps resumen lo que cada User Persona dice, piensa, siente, observa y necesita resolver. Su objetivo es conectar los hallazgos de entrevista con motivaciones, frustraciones y criterios de decisión que influyen en la adopción de ShareWay.
+
 #### 1. Segmento pasajeros
 
 <p align="center">
@@ -1104,6 +1160,8 @@ Segmento conductores
 </p>
 
 ### 2.3.4. As-Is Scenario Mapping
+
+El As-Is Scenario Mapping representa la experiencia actual antes de ShareWay. En pasajeros, se observan decisiones fragmentadas entre costo, seguridad y tiempo. En conductores, se observa dependencia de solicitudes individuales, incertidumbre sobre rentabilidad y exposición a cancelaciones o esperas.
 
 #### 1. Segmento pasajeros
 
@@ -1124,6 +1182,8 @@ Segmento conductores
 El To-Be Scenario Mapping representa el escenario objetivo que ShareWay propone para los segmentos de pasajeros y conductores. A diferencia del As-Is Scenario Mapping, que muestra la experiencia actual con incertidumbre, coordinación informal y decisiones poco estructuradas, el escenario To-Be describe cómo debería desarrollarse la interacción cuando la plataforma organiza las solicitudes, presenta información anticipada y facilita la confirmación del viaje compartido.
 
 Para elaborar los mapas se consideraron las necesidades identificadas en los segmentos objetivo, los supuestos de Lean UX y los hallazgos iniciales del análisis de entrevistas. El resultado permite visualizar las fases esperadas de uso, las acciones de cada usuario, sus pensamientos durante la experiencia y las emociones que deberían acompañar el proceso.
+
+El proceso seguido inició con la preparación de los User Personas y revisión de los As-Is Scenario Mapping. Luego se realizó una lluvia de ideas sobre acciones esperadas en una experiencia ideal, se agruparon las ideas en fases, se nombraron las columnas principales y se comparó cada fase con el escenario actual para identificar cambios que ShareWay debería ofrecer. Las filas consideradas fueron Phases, Doing, Thinking y Feeling, conforme al formato solicitado para Scenario Mapping.
 
 **To-Be Scenario Mapping para el segmento de pasajeros**
 
@@ -1207,6 +1267,18 @@ Cada Epic se redacta como una historia de usuario de grano grueso, en el mismo f
 
 ## 3.3. Impact Map
 
+El Impact Map conecta los objetivos de negocio de ShareWay con los actores que pueden influir en su logro, los cambios de comportamiento esperados, los entregables del producto y las User Stories relacionadas. Para este avance se consideraron los User Personas de pasajeros y conductores, porque ambos son necesarios para validar el modelo de viajes compartidos programados.
+
+Los Business Goals se formularon con criterio SMART para mantenerlos medibles y acotados. En esta etapa representan metas iniciales de validación del modelo digital:
+
+| Business Goal | Personas / Actors | Impactos esperados | Deliverables | User Stories relacionadas |
+|---|---|---|---|---|
+| Lograr que al menos 60 pasajeros registren solicitudes de viajes compartidos programados durante los primeros 3 meses de piloto en corredores seleccionados de Lima Metropolitana. | Valeria Mendoza Rojas, pasajera con desplazamientos frecuentes. | Que registre rutas, compare condiciones, confirme reservas y repita viajes si percibe ahorro y confianza. | Búsqueda de rutas, estimación de precio, reserva de asiento, información del viaje y notificaciones. | US-01, US-02, US-03, US-04, US-06, US-14, US-15 |
+| Conseguir que al menos 20 conductores verificados acepten propuestas de recorridos programados durante los primeros 3 meses de piloto. | Carlos Ramírez Salazar, conductor de viajes programados. | Que configure disponibilidad, evalúe propuestas por rentabilidad, acepte recorridos y ejecute paradas de forma ordenada. | Registro de conductor, carga de documentos, disponibilidad, propuestas de viaje y ruta optimizada. | US-16, US-17, US-18, US-19, US-20, US-21, US-22 |
+| Alcanzar que el 70% de viajes piloto finalizados cuenten con validación de abordaje y calificación registrada durante el periodo de prueba. | Pasajeros y conductores. | Que ambos validen correctamente el abordaje, finalicen el recorrido y registren la experiencia para fortalecer confianza. | PIN o QR de abordaje, finalización de viaje, calificaciones, historial y reputación. | US-09, US-11, US-23, US-25, US-26, US-27 |
+
+Las capturas siguientes muestran el Impact Map elaborado para cada segmento, manteniendo la relación entre objetivos de negocio, personas, impactos, entregables y User Stories.
+
 ### Pasajeros
 <p align="center">
     <img src="img/Impact map 1.png" alt="Userperson1" width="50%">
@@ -1221,6 +1293,8 @@ Cada Epic se redacta como una historia de usuario de grano grueso, en el mismo f
 
 <article>Medimos el esfuerzo, complejidad e incertidumbre usando story points.
 Utilizamos una secuencia de fibonacci redondeada (1, 2, 3, 5, 8, 13, 20, 50...), donde '2' simboliza el doble de esfuerzo que '1' y '1' simboliza esfuerzo minimo.</article>
+
+El Product Backlog prioriza primero las historias que habilitan la operación mínima del servicio: registro y verificación del conductor, búsqueda y reserva del pasajero, aceptación de propuestas, validación del abordaje y cierre del viaje. Luego se incorporan funcionalidades de reputación, notificaciones, seguridad y recurrencia. Esta priorización permite que el producto valide tempranamente si existe compatibilidad entre solicitudes de pasajeros y disponibilidad de conductores.
 
 | # Orden | User Story Id | Titulo | Descripción | Story Points |
 | :--- | :---: | :---: | :---: | :---: |
@@ -1500,9 +1574,20 @@ Utilizamos una secuencia de fibonacci redondeada (1, 2, 3, 5, 8, 13, 20, 50...),
 
 # Conclusiones
 
+- El Avance 1 permitió delimitar ShareWay como una plataforma de viajes compartidos programados orientada a pasajeros con desplazamientos frecuentes y conductores que buscan recorridos rentables y previamente organizados.
+- Las entrevistas muestran que la propuesta debe equilibrar ahorro, seguridad y puntualidad para pasajeros, mientras que para conductores debe ofrecer rentabilidad clara, reglas de espera, control de ruta y reducción de tiempos muertos.
+- Los artefactos de Needfinding evidencian que el problema no se limita a pedir un traslado, sino a coordinar condiciones entre varios participantes: horarios, paradas, confirmaciones, identidad, tarifa y cancelaciones.
+- El To-Be Scenario Mapping y el Impact Map ayudan a conectar la experiencia deseada con funcionalidades concretas del Product Backlog, manteniendo trazabilidad entre necesidades, objetivos de negocio y User Stories.
+- El Product Backlog inicial prioriza las capacidades necesarias para validar el flujo base: registrar actores, buscar viajes, confirmar reservas, aceptar propuestas, validar abordaje, ejecutar el recorrido y cerrar el servicio.
+
 ---
 
 # Recomendaciones
+
+- Mantener la validación del modelo en corredores y horarios delimitados antes de ampliar cobertura, ya que la propuesta depende de coincidencias reales entre pasajeros y conductores.
+- Profundizar las reglas de cancelación, tiempos de espera y cambios de ruta, porque aparecen como riesgos importantes tanto para pasajeros como para conductores.
+- Validar mediante prototipos si los usuarios comprenden la tarifa compartida, la ganancia del conductor, la secuencia de paradas y el uso de PIN o QR para abordar.
+- Mantener la trazabilidad entre Impact Map, User Stories y Product Backlog para que cada funcionalidad implementada responda a un objetivo de negocio y a una necesidad identificada.
 
 ---
 

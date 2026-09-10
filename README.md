@@ -1018,16 +1018,18 @@ Cada User Story sigue el formato **"Como [rol], quiero [acción], para [benefici
 
 **Épicas identificadas**
 
-| ID Epic | Nombre | Descripción |
+Cada Epic se redacta como una historia de usuario de grano grueso, en el mismo formato **"Como [rol], quiero [objetivo amplio], para [beneficio]"**, y agrupa a varias User Stories relacionadas mediante su ID.
+
+| ID Epic | Nombre (label) | Historia Épica |
 | :---: | :--- | :--- |
-| EP-01 | Búsqueda, solicitud y reserva de viajes | Funcionalidades que permiten al pasajero encontrar rutas, consultar disponibilidad y asegurar su lugar en un viaje compartido. |
-| EP-02 | Agrupación y coordinación del viaje | Funcionalidades relacionadas con la formación del grupo de pasajeros, la ruta compartida y la información del recorrido. |
-| EP-03 | Confianza, identidad y verificación | Funcionalidades que permiten a pasajeros y conductores confiar entre sí antes y durante el viaje (perfiles, verificación, validación de abordaje). |
-| EP-04 | Tarifas y pagos | Funcionalidades relacionadas con el cálculo de la tarifa, el cobro y el cierre económico del viaje. |
-| EP-05 | Gestión operativa del viaje (conductor) | Funcionalidades que permiten al conductor administrar su disponibilidad, aceptar propuestas y ejecutar el recorrido. |
-| EP-06 | Seguridad y emergencias | Funcionalidades orientadas a la protección de los usuarios ante situaciones de riesgo durante el viaje. |
-| EP-07 | Historial, calificaciones y reputación | Funcionalidades que permiten calificar la experiencia y consultar el historial de viajes de ambos segmentos. |
-| EP-08 | Registro y habilitación de conductores | Funcionalidades para el registro del conductor, su vehículo y la verificación de documentos exigidos por la plataforma. |
+| EP-01 | búsqueda y reserva de viajes | **Como** pasajero, **quiero** poder buscar, solicitar y reservar viajes compartidos disponibles según mi ruta y horario, **para** trasladarme de forma planificada sin depender de la improvisación del transporte informal. |
+| EP-02 | agrupación y coordinación del viaje | **Como** pasajero, **quiero** conocer cómo se conforma el grupo de viaje y el detalle del recorrido antes y durante el trayecto, **para** anticipar tiempos y coordinar mi traslado con confianza. |
+| EP-03 | confianza e identidad | **Como** pasajero o conductor, **quiero** verificar la identidad de la otra parte antes y durante el viaje, **para** sentir seguridad al compartir un vehículo con una persona desconocida. |
+| EP-04 | tarifas y pagos | **Como** pasajero o conductor, **quiero** conocer y gestionar la tarifa y el cobro de cada viaje compartido, **para** tomar decisiones informadas sobre el costo y el ingreso del servicio. |
+| EP-05 | gestión operativa del conductor | **Como** conductor, **quiero** gestionar mi disponibilidad, aceptar propuestas de viaje y ejecutar el recorrido de forma ordenada, **para** operar en ShareWay de manera eficiente y rentable. |
+| EP-06 | seguridad y emergencias | **Como** pasajero o conductor, **quiero** contar con mecanismos de protección ante situaciones de riesgo durante el viaje, **para** sentirme seguro al utilizar ShareWay. |
+| EP-07 | historial y reputación | **Como** pasajero o conductor, **quiero** calificar la experiencia del viaje y consultar mi historial dentro de la plataforma, **para** construir confianza y llevar control de mi actividad. |
+| EP-08 | registro y habilitación de conductores | **Como** conductor, **quiero** registrarme y presentar mis documentos y los datos de mi vehículo, **para** habilitarme como conductor verificado dentro de ShareWay. |
 
 **Historias de Usuario**
 

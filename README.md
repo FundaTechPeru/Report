@@ -830,32 +830,32 @@ Comprender las experiencias, necesidades y dificultades de pasajeros y conductor
 ### 2.2.2	Entrevistas
 
 **Registro de entrevistas para el segmento de pasajeros**
-| Campo | ![Entrevista1](./img/mariana.png) <br/>Entrevista 1 |  |  |
-|---|----|----|-----------------------------------------------------------------------|
-| **Nombre** | Mariana Alexa Rafael Sosa|||
+| Campo | ![Entrevista1](./img/mariana.png) <br/>Entrevista 1 |
+|---|----|
+| **Nombre** | Mariana Alexa Rafael Sosa|
 | **Edad** | 21 años|||
 | **Distrito** | san isidro |||
 | **Duración** | 18.03 min ||
 | **Enlace** | [Click aqui](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/IQAdO5YnqN4aRpc8eUr_rrdhAQK6Il6vmXcJvhbIfG5FvRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=27KhVP) ||
 
-| Campo | ![Entrevista1](./img/andre.png) <br/>Entrevista 2 |  |  |
-|---|----|----|-----------------------------------------------------------------------|
-| **Nombre** | André Bremen Mendoza Latorraca|||
-| **Edad** | 21 años|||
-| **Distrito** | los olivos |||
-| **Duración** | 16.49 min ||
-| **Enlace** | [Click aqui](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/IQD1YJsW5NGVQoP3omClSWEeAZyrSRCwT6_rSCZ_bGt6BYk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=DCnPJK) ||
+| Campo | ![Entrevista1](./img/andre.png) <br/>Entrevista 2 | 
+|---|----|
+| **Nombre** | André Bremen Mendoza Latorraca|
+| **Edad** | 21 años|
+| **Distrito** | los olivos |
+| **Duración** | 16.49 min |
+| **Enlace** | [Click aqui](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/IQD1YJsW5NGVQoP3omClSWEeAZyrSRCwT6_rSCZ_bGt6BYk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=DCnPJK) |
 
 
 **Registro de entrevistas para el segmento de Conductores**
 
-| Campo | ![Entrevista1](./img/juan-bermudez.png) <br/>Entrevista 1 |  |  |
-|---|----|----|-----------------------------------------------------------------------|
-| **Nombre** | Juan Fernando Bermúdez Alcantara|||
-| **Edad** | 27 años|||
-| **Distrito** | Chorrillos |||
-| **Duración** | 17.33 min ||
-| **Enlace** | [Click aqui](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221619_upc_edu_pe/IQBN2IlGe6pwRb86w78L3pBPAR5DqnupF969g0HVkKxNFd0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ML2FXq) ||
+| Campo | ![Entrevista1](./img/juan-bermudez.png) <br/>Entrevista 1 |  
+|---|----|
+| **Nombre** | Juan Fernando Bermúdez Alcantara|
+| **Edad** | 27 años|
+| **Distrito** | Chorrillos |
+| **Duración** | 17.33 min |
+| **Enlace** | [Click aqui](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221619_upc_edu_pe/IQBN2IlGe6pwRb86w78L3pBPAR5DqnupF969g0HVkKxNFd0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ML2FXq) |
 
 ### 2.2.3 Análisis de Entrevistas
 

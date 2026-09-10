@@ -991,6 +991,19 @@ Comprender las experiencias, necesidades y dificultades de pasajeros y conductor
 | **Enlace** | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/IQD1YJsW5NGVQoP3omClSWEeAZyrSRCwT6_rSCZ_bGt6BYk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=DCnPJK) |
 
 
+| Campo | ![Entrevista1](./img/andre.png) <br/>Entrevista 3 | 
+|---|----|
+| **Nombre** |Yañez Santos, Leo Giovany |
+| **Edad** | 23 años|
+| **Distrito** | Pueblo Libre, Lima |
+| **Duración** | 8 min |
+| **Enlace** | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQDwOqfrT_Q6TK5A2YJNbLxQAXtefQGILKSGRyxyxdYERhE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ifu8rv) |
+
+
+
+
+
+
 **Registro de entrevistas para el segmento de Conductores**
 
 | Campo | ![Entrevista1](./img/juan-bermudez.png) <br/>Entrevista 1 |  
@@ -1043,6 +1056,21 @@ Ve valor concreto en ShareWay para dos escenarios: viajes largos o costosos dond
 
 Como principales barreras para adoptar la propuesta menciona: El riesgo de que una cancelación corte el viaje grupal y genere esperas, y El desconocimiento del conductor o de los demás pasajeros, incluyendo el temor a que alguno tenga "malas intenciones". Pese a estas reservas, cierra la entrevista calificando la propuesta como "muy buena".
 </article>
+
+3.- Yañez Santos, Leo Giovany
+
+
+La entrevista realizada a Leo, estudiante universitario de 23 años, permitió identificar que sus principales preocupaciones al movilizarse son el costo, el tiempo de viaje y la seguridad.
+
+El entrevistado realiza traslados frecuentes y suele contar con horarios relativamente estables, por lo que considera útil poder planificar sus viajes con anticipación. Aunque utiliza transporte público por su bajo costo, también recurre a aplicaciones de taxi cuando necesita mayor rapidez.
+
+Respecto a los viajes compartidos, Leo considera que podrían ser una buena alternativa para reducir gastos, siempre que los pasajeros y conductores estén verificados. También valora conocer previamente el precio, la duración estimada, las paradas y la información del conductor.
+
+Además, estaría dispuesto a aceptar entre 10 y 15 minutos adicionales de viaje si el ahorro económico es significativo. Sin embargo, no utilizaría esta modalidad cuando necesite llegar con urgencia.
+
+Estos hallazgos respaldan funcionalidades de ShareWay como los viajes programados, agrupación de pasajeros con rutas compatibles, verificación de usuarios, calificaciones, información anticipada del recorrido y herramientas de seguridad.
+
+
 
 **Análisis de entrevistas para el segmento de Conductores**
 1. Juan Bermúdez

@@ -43,8 +43,8 @@
 # Registro de Versiones del Informe
 
 | Versión | Fecha | Autor | Descripción de modificación |
-|TB1|09/09/26|Arturo Saravia|Historias de usuario y mapa de impacto|
-|  |  |  |  |
+|---|---|---|---|
+|TB1|08/09/26|Arturo Saravia|Historias de usuario y mapa de impacto|
 |  |  |  |  |
 |  |  |  |  |
 |  |  |  |  |

@@ -55,6 +55,8 @@
 
 # Contenido
 
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Contenido](#contenido)
 - [Student Outcome](#student-outcome)
 - [CAPÍTULO I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
@@ -69,13 +71,13 @@
       - [1.2.3.3. Lean UX Hypothesis](#1233-lean-ux-hypothesis)
       - [1.2.3.4. Lean UX Canvas](#1234-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [CAPÍTULO II: Requirements & Analysis](#capítulo-ii-requirements--analysis)
+- [CAPÍTULO II: Requirements \& Analysis](#capítulo-ii-requirements--analysis)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis Competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
   - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1. Diseño de Entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2	Entrevistas](#222-entrevistas)
+    - [2.2.2	Entrevistas](#222entrevistas)
     - [2.2.3 Análisis de Entrevistas](#223-análisis-de-entrevistas)
   - [2.3. NeedFinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
@@ -95,10 +97,11 @@
     - [Pasajeros](#pasajeros)
     - [Conductores](#conductores)
   - [3.4. Product Backlog](#34-product-backlog)
+  - [| 30 | US-30 | Ver y editar perfil y vehículo | **Como** conductor, **quiero** ver y editar mi perfil y los datos de mi vehículo, **para** mantener actualizada mi información dentro de la plataforma. | 3 |](#-30--us-30--ver-y-editar-perfil-y-vehículo--como-conductor-quiero-ver-y-editar-mi-perfil-y-los-datos-de-mi-vehículo-para-mantener-actualizada-mi-información-dentro-de-la-plataforma--3-)
 - [CAPÍTULO IV: Product Architecture Design](#capítulo-iv-product-architecture-design)
-  - [4.1. Design Concepts, ViewPoints & ER Diagrams](#41-design-concepts-viewpoints--er-diagrams)
+  - [4.1. Design Concepts, ViewPoints \& ER Diagrams](#41-design-concepts-viewpoints--er-diagrams)
     - [4.1.1. Principles Statements](#411-principles-statements)
-    - [4.1.2. Approaches Statements Architectural Styles & Patterns](#412-approaches-statements-architectural-styles--patterns)
+    - [4.1.2. Approaches Statements Architectural Styles \& Patterns](#412-approaches-statements-architectural-styles--patterns)
     - [4.1.3. Context Diagram](#413-context-diagram)
     - [4.1.4. Approach Driven ViewPoints Diagrams](#414-approach-driven-viewpoints-diagrams)
     - [4.1.5. Relational/Non Relational Database Diagram](#415-relationalnon-relational-database-diagram)
@@ -117,7 +120,7 @@
       - [4.3.1.3. Choose One or More Elements of the System to Refine](#4313-choose-one-or-more-elements-of-the-system-to-refine)
       - [4.3.1.4. Choose One or More Design Concepts That Satisfy the Selected Drivers](#4314-choose-one-or-more-design-concepts-that-satisfy-the-selected-drivers)
       - [4.3.1.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4315-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
-      - [4.3.1.6. Sketch Views (C4 & UML) and Record Design Decisions](#4316-sketch-views-c4--uml-and-record-design-decisions)
+      - [4.3.1.6. Sketch Views (C4 \& UML) and Record Design Decisions](#4316-sketch-views-c4--uml-and-record-design-decisions)
       - [4.3.1.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4317-analysis-of-current-design-and-review-iteration-goal-kanban-board)
     - [4.3.2. Iteration 2: Sincronización Edge-to-Cloud y Pipeline de Telemetría](#432-iteration-2-sincronización-edge-to-cloud-y-pipeline-de-telemetría)
       - [4.3.2.1. Architectural Design Backlog 2](#4321-architectural-design-backlog-2)
@@ -125,7 +128,7 @@
       - [4.3.2.3. Choose One or More Elements of the System to Refine](#4323-choose-one-or-more-elements-of-the-system-to-refine)
       - [4.3.2.4. Choose One or More Design Concepts That Satisfy the Selected Drivers](#4324-choose-one-or-more-design-concepts-that-satisfy-the-selected-drivers)
       - [4.3.2.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4325-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
-      - [4.3.2.6. Sketch Views (C4 & UML) and Record Design Decisions](#4326-sketch-views-c4--uml-and-record-design-decisions)
+      - [4.3.2.6. Sketch Views (C4 \& UML) and Record Design Decisions](#4326-sketch-views-c4--uml-and-record-design-decisions)
       - [4.3.2.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4327-analysis-of-current-design-and-review-iteration-goal-kanban-board)
     - [4.3.3. Iteration 3: Orquestación del Ciclo de Riego Autónomo e Integración con el Edge](#433-iteration-3-orquestación-del-ciclo-de-riego-autónomo-e-integración-con-el-edge)
       - [4.3.3.1. Architectural Design Backlog 3](#4331-architectural-design-backlog-3)
@@ -133,7 +136,7 @@
       - [4.3.3.3. Choose One or More Elements of the System to Refine](#4333-choose-one-or-more-elements-of-the-system-to-refine)
       - [4.3.3.4. Choose One or More Design Concepts That Satisfy the Selected Drivers](#4334-choose-one-or-more-design-concepts-that-satisfy-the-selected-drivers)
       - [4.3.3.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4335-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
-      - [4.3.3.6. Sketch Views (C4 & UML) and Record Design Decisions](#4336-sketch-views-c4--uml-and-record-design-decisions)
+      - [4.3.3.6. Sketch Views (C4 \& UML) and Record Design Decisions](#4336-sketch-views-c4--uml-and-record-design-decisions)
       - [4.3.3.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4337-analysis-of-current-design-and-review-iteration-goal-kanban-board)
     - [4.3.4. Iteration 4: Seguridad e Identidad](#434-iteration-4-seguridad-e-identidad)
       - [4.3.4.1. Architectural Design Backlog 4](#4341-architectural-design-backlog-4)
@@ -141,7 +144,7 @@
       - [4.3.4.3. Choose One or More Elements of the System to Refine](#4343-choose-one-or-more-elements-of-the-system-to-refine)
       - [4.3.4.4. Choose One or More Design Concepts That Satisfy the Selected Drivers](#4344-choose-one-or-more-design-concepts-that-satisfy-the-selected-drivers)
       - [4.3.4.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4345-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
-      - [4.3.4.6. Sketch Views (C4 & UML) and Record Design Decisions](#4346-sketch-views-c4--uml-and-record-design-decisions)
+      - [4.3.4.6. Sketch Views (C4 \& UML) and Record Design Decisions](#4346-sketch-views-c4--uml-and-record-design-decisions)
       - [4.3.4.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4347-analysis-of-current-design-and-review-iteration-goal-kanban-board)
     - [4.3.5. Iteration 5: Refinamiento del Crop Analysis Service y Diagnóstico de Cultivos](#435-iteration-5-refinamiento-del-crop-analysis-service-y-diagnóstico-de-cultivos)
       - [4.3.5.1. Architectural Design Backlog 5](#4351-architectural-design-backlog-5)
@@ -149,10 +152,10 @@
       - [4.3.5.3. Choose One or More Elements of the System to Refine](#4353-choose-one-or-more-elements-of-the-system-to-refine)
       - [4.3.5.4. Choose One or More Design Concepts That Satisfy the Selected Drivers](#4354-choose-one-or-more-design-concepts-that-satisfy-the-selected-drivers)
       - [4.3.5.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4355-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
-      - [4.3.5.6. Sketch Views (C4 & UML) and Record Design Decisions](#4356-sketch-views-c4--uml-and-record-design-decisions)
+      - [4.3.5.6. Sketch Views (C4 \& UML) and Record Design Decisions](#4356-sketch-views-c4--uml-and-record-design-decisions)
       - [4.3.5.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4357-analysis-of-current-design-and-review-iteration-goal-kanban-board)
-- [CAPÍTULO V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-  - [5.1. Testing Suites & General Patterns](#51-testing-suites--general-patterns)
+- [CAPÍTULO V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
+  - [5.1. Testing Suites \& General Patterns](#51-testing-suites--general-patterns)
     - [5.1.1. Backend Application Core Testing Suite](#511-backend-application-core-testing-suite)
     - [5.1.2. Pattern Based Backend Application(s)](#512-pattern-based-backend-applications)
     - [5.1.3. Pattern Based Custom Software Library](#513-pattern-based-custom-software-library)
@@ -160,7 +163,7 @@
   - [5.2. Software Configuration Management](#52-software-configuration-management)
     - [5.2.1. Software Development Environment Configuration](#521-software-development-environment-configuration)
     - [5.2.2. Source Code Management](#522-source-code-management)
-    - [5.2.3. Source Code Style Guide & Conventions](#523-source-code-style-guide--conventions)
+    - [5.2.3. Source Code Style Guide \& Conventions](#523-source-code-style-guide--conventions)
     - [5.2.4. Software Deployment Configuration](#524-software-deployment-configuration)
   - [5.3. MicroServices Implementation](#53-microservices-implementation)
     - [5.3.1. Sprint 1](#531-sprint-1)
@@ -252,6 +255,10 @@ La tarifa presentada al pasajero y la ganancia estimada del conductor deberán m
 |  |  |
 |--|--|
 | <img src="img/joakinalabega.jpg" width="1000"> | <br> **Nombre:** Joaquin Andre Lechuga Aguilar <br><br> **Código:** U202221619<br><br> **Sobre mi:** Soy programador aficionado. Me gusta aprender tecnologías y aplicarlas a proyectos personales. Mis hobbies son la música y los videojuegos. Como miembro del grupo, espero aportar en la organización, conceptos técnicos e ideas.|
+| <img src="img/arturo.jpg" width="1000"> | <br> **Nombre:** Arturo Axel Saravia Huaricancha <br><br> **Código:** U202312447<br><br> **Sobre mi:** Soy desarrollador desde hace tres años que le gusta hacer proyectos personales o para ciertas comunidades que buscan una mejora u optimización en su administración. |
+|  |  |
+|  |  |
+|  |  |
 |  |  |
 
 ## 1.2. Solution Profile

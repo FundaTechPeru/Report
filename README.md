@@ -127,7 +127,10 @@ La tarifa presentada al pasajero y la ganancia estimada del conductor deberán m
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
----
+|  |  |
+|--|--|
+| <img src="img/joakinalabega.jpg" width="1000"> | <br> **Nombre:** Joaquin Andre Lechuga Aguilar <br><br> **Código:** U202221619<br><br> **Sobre mi:** Soy programador aficionado. Me gusta aprender tecnologías y aplicarlas a proyectos personales. Mis hobbies son la música y los videojuegos. Como miembro del grupo, espero aportar en la organización, conceptos técnicos e ideas.|
+|  |  |
 
 ## 1.2. Solution Profile
 

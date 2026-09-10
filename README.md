@@ -991,9 +991,9 @@ Comprender las experiencias, necesidades y dificultades de pasajeros y conductor
 | Campo | ![Entrevista2](./img/entrevista-aaron-avila.png) <br/>Entrevista 2 |
 |---|----|
 | **Nombre** | Aarón Alexander Avila Palacios |
-| **Edad** | No especificada |
-| **Distrito** | No especificado |
-| **Duración** | No especificada |
+| **Edad** | 34 años |
+| **Distrito** | Chorrillos |
+| **Duración** | 11.05 min |
 | **Enlace** | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201823654_upc_edu_pe/IQDaHFGp5jd1Q4PNxKCVoALKAYSTtIZl4dBpzGbSmlNXFOI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=nbWVOm) |
 
 ### 2.2.3 Análisis de Entrevistas

@@ -830,7 +830,21 @@ Comprender las experiencias, necesidades y dificultades de pasajeros y conductor
 ### 2.2.2	Entrevistas
 
 **Registro de entrevistas para el segmento de pasajeros**
+| Campo | ![Entrevista1](./img/mariana.png) <br/>Entrevista 1 |  |  |
+|---|----|----|-----------------------------------------------------------------------|
+| **Nombre** | Mariana Alexa Rafael Sosa|||
+| **Edad** | 21 años|||
+| **Distrito** | san isidro |||
+| **Duración** | 18.03 min ||
+| **Enlace** | [Click aqui](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/IQAdO5YnqN4aRpc8eUr_rrdhAQK6Il6vmXcJvhbIfG5FvRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=27KhVP) ||
 
+| Campo | ![Entrevista1](./img/andre.png) <br/>Entrevista 2 |  |  |
+|---|----|----|-----------------------------------------------------------------------|
+| **Nombre** | André Bremen Mendoza Latorraca|||
+| **Edad** | 21 años|||
+| **Distrito** | los olivos |||
+| **Duración** | 16.49 min ||
+| **Enlace** | [Click aqui](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/IQD1YJsW5NGVQoP3omClSWEeAZyrSRCwT6_rSCZ_bGt6BYk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=DCnPJK) ||
 
 
 **Registro de entrevistas para el segmento de Conductores**
@@ -847,6 +861,37 @@ Comprender las experiencias, necesidades y dificultades de pasajeros y conductor
 
 ---
 **Analisis de entrevistas para el segmento de Pasajeros**
+
+1.- Mariana Rafael
+<article #id="analisis-ent-01">
+La entrevistada (Mariana Alexa Rafael Sosa, 21 años, distrito de Lince, estudiante de Ciencias de la Computación y con un trabajo part-time en Starbucks) presenta un perfil de usuaria intensiva y comparadora de apps de transporte, con desplazamientos frecuentes hacia San Miguel, San Isidro y Surco (Monterrico) —principalmente en horario nocturno, 2 veces por semana—. Su elección de transporte depende directamente de cuánto tiempo tenga disponible: usa el corredor rojo cuando puede planificar con calma (~S/5/día), recurre a "colectivos" informales/ilegales cuando está apurada (~S/10/día), y toma taxi por app cuando el apuro es mayor (S/15-25). Esta jerarquía revela que el factor tiempo pesa más que el ahorro en su decisión diaria.
+
+Es una usuaria de múltiples aplicaciones a la vez (Uber, inDrive, entre otras): antes tuvo suscripción Uber One, pero al cambiar de celular con más almacenamiento empezó a comparar precios entre varias apps simultáneamente antes de pedir un viaje. Tuvo una experiencia negativa con inDrive —conductores que cobran más del precio sugerido cuando sienten disconformidad con la comisión de la app—, lo que la llevó a migrar ese tipo de viajes a otras plataformas.
+
+Un hallazgo relevante para ShareWay es que Mariana ya aplica un "filtro de seguridad" propio e informal al usar colectivos: observa si los demás pasajeros son solo hombres, si alguien "tiene cara" de generar desconfianza, y si el precio cobrado corresponde al normal (menciona que a veces le cobran S/7-8 en vez de S/5 "porque no se molesta en reclamar"). Explícitamente pide que una app de viajes compartidos formalice ese filtro para todos los usuarios, incluida ella misma ("no soy monedita de oro"), y se sentiría cómoda con algún tipo de acompañamiento durante el viaje. También revisa activamente el historial de viajes y el rating del conductor: tolera 4.8-5.0 estrellas con muchos viajes, pero un conductor con muchos viajes y calificación baja (3-4 estrellas) le genera alerta y lo evita.
+
+Sobre cancelaciones tras confirmar el viaje, propone un mecanismo tipo Uber: penalizar o desincentivar la cancelación (p. ej. mejores tarifas para quien no cancela) como forma de dar certidumbre tanto al pasajero como al conductor. En temas de seguridad durante el recorrido, cita explícitamente las funciones de Uber que le generan confianza —alertas automáticas cuando el vehículo permanece detenido mucho tiempo, botón de pánico y contacto con emergencias— y espera que ShareWay ofrezca algo equivalente, mencionando el contexto de casos de secuestro en el país como motivador de esa preocupación.
+
+Sobre la propuesta central de ShareWay, sugiere que la agrupación se organice por institución educativa/laboral (compañeros de la misma universidad o colegio, vecinos con horarios similares) y que el sistema entienda el destino final del pasajero (no solo el punto geográfico) para lograr mejores agrupaciones —por ejemplo, una ruta que pase primero por la Católica y luego por la UPC, cobrando proporcionalmente según el tramo recorrido.
+
+Como condición para adoptar la propuesta, plantea una idea concreta y aplicable: implementar una verificación/descuento estudiantil mediante correo institucional (al estilo Spotify Student, Canva o YouTube Music), posiblemente complementada con carnet o boleta de pago, dado que valora un precio accesible por su condición de estudiante con ingresos limitados. Sus principales motivos para no usar la propuesta serían: precios que no correspondan a lo ofrecido, fallas en los mecanismos de seguridad o en el filtro de pasajeros/conductores, y cualquier incongruencia entre lo prometido por la plataforma y el servicio real entregado.
+</article>
+
+2.- André mendoza
+<article #id="analisis-ent-02">
+El entrevistado (André Mendoza, 20 años, distrito de Los Olivos, estudiante universitario y asistente contable en dos empresas) refleja un perfil de desplazamiento moderado pero sensible al tema de seguridad y confianza. Se traslada principalmente a la universidad y a casas de familiares, entre 4 y 5 días por semana, con horarios poco estables por el tráfico. Su medio principal es el transporte público (Metropolitano, buses), y solo ocasionalmente usa apps de transporte privado —prefiere inDrive sobre Uber, tras haber tenido problemas previos con Uber y sus conductores—, gastando aproximadamente S/30-40 cada 2-3 semanas en esas ocasiones.
+
+Un punto central de la entrevista es una experiencia traumática con el transporte público: un bus en el que viajaba sufrió una falla (posiblemente de llanta) que generó humo, obligando a los pasajeros a bajarse por miedo en plena vía pública. Desde entonces evita esa ruta de transporte, lo que evidencia cuánto pesa la percepción de seguridad física en su elección de medio de transporte, más allá del costo o el tiempo.
+
+Respecto a compartir viajes, André tiene experiencia positiva dividiendo costos de taxi con amigos y familiares ("mientras más somos, mejor para dividir el costo"), pero traslada esa apertura a desconocidos con matices: aceptaría compartir vehículo con personas que no conoce siempre que no retrase su llegada al destino, y valora conocer previamente algún indicio sobre el conductor y el vehículo. Es exigente con la reputación del conductor: revisa activamente el rating de estrellas y el número de viajes realizados, señalando que un conductor con pocas reseñas (100-200 viajes) o baja calificación le genera desconfianza.
+
+Sobre el trade-off de precio vs. tiempo, se muestra receptivo: toleraría hasta ~20 minutos adicionales si el viaje compartido resulta planificado y más económico. Sin embargo, considera que una cancelación después de confirmado el viaje (del conductor o de otro pasajero) sería una desventaja neta, porque descuadra sus horarios y genera tedio, pese al ahorro potencial —esto lo identifica como su principal reparo frente a la propuesta.
+
+Ve valor concreto en ShareWay para dos escenarios: viajes largos o costosos donde compartir compensa el gasto, y viajes grupales con amigos o familiares que se dirigen a destinos distintos pero parten juntos, lo cual considera una funcionalidad "productiva" no contemplada inicialmente. En cuanto a seguridad personal durante el recorrido, su mecanismo actual es compartir ubicación con familiares y mantener activada la llamada de emergencia en el celular — coincide con lo que ShareWay ya contempla (contacto de emergencia).
+
+Como principales barreras para adoptar la propuesta menciona: El riesgo de que una cancelación corte el viaje grupal y genere esperas, y El desconocimiento del conductor o de los demás pasajeros, incluyendo el temor a que alguno tenga "malas intenciones". Pese a estas reservas, cierra la entrevista calificando la propuesta como "muy buena".
+</article>
+
 **Analisis de entrevistas para el segmento de Conductores**
 1. Juan Bermúdez
 <article #id="analisis-ent-01">

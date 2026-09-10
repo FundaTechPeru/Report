@@ -1066,6 +1066,13 @@ Cada User Story sigue el formato **"Como [rol], quiero [acción], para [benefici
 
 ## 3.3. Impact Map
 
+### Pasajeros
+<p align="center">
+    <img src="img/Impact map 1.png" alt="Userperson1" width="50%">
+</p>
+
+### conduntores
+
 ## 3.4. Product Backlog
 
 <article>Medimos el esfuerzo, complejidad e incertidumbre usando story points.

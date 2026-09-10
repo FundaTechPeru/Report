@@ -44,8 +44,12 @@
 
 | Versión | Fecha | Autor | Descripción de modificación |
 |---|---|---|---|
-|TB1|08/09/26|Arturo Saravia|Historias de usuario y mapa de impacto|
-|TB1|10/09/26|Aarón Avila|Perfil de integrante, registro de entrevista para conductores, bibliografía APA y anexos del repositorio|
+|TB1|06/09/26| Cumba Rengifo, Leonardo Raul | Creación del informe a partir de la plantilla del curso, con la carátula, el índice y la estructura de capítulos. |
+|TB1|07/09/26| Cumba Rengifo, Leonardo Raul | Redacción del Capítulo I, incluyendo el Startup Profile, el Solution Profile con el análisis 5W y 2H, el Lean UX Process y los segmentos objetivo. |
+|TB1|07/09/26| Cumba Rengifo, Leonardo Raul | Redacción del Capítulo II con el análisis competitivo, las estrategias frente a competidores y el diseño de entrevistas por segmento. |
+|TB1|07/09/26| Cumba Rengifo, Leonardo Raul | Redacción del Capítulo II con los User Personas|
+|TB1|08/09/26| Arturo Saravia|Historias de usuario y mapa de impacto|
+|TB1|10/09/26| Aarón Avila|Perfil de integrante, registro de entrevista para conductores, bibliografía APA y anexos del repositorio|
 |TB1|10/09/26|Aarón Avila|Desarrollo de Student Outcome, análisis de entrevistas, Needfinding, Impact Map, Product Backlog, conclusiones y recomendaciones|
 |  |  |  |  |
 |  |  |  |  |
@@ -265,8 +269,8 @@ La tarifa presentada al pasajero y la ganancia estimada del conductor deberán m
 | <img src="img/joakinalabega.jpg" width="1000"> | <br> **Nombre:** Joaquin Andre Lechuga Aguilar <br><br> **Código:** U202221619<br><br> **Sobre mi:** Soy programador aficionado. Me gusta aprender tecnologías y aplicarlas a proyectos personales. Mis hobbies son la música y los videojuegos. Como miembro del grupo, espero aportar en la organización, conceptos técnicos e ideas.|
 | <img src="img/arturo.jpg" width="1000"> | <br> **Nombre:** Arturo Axel Saravia Huaricancha <br><br> **Código:** U202312447<br><br> **Sobre mi:** Soy desarrollador desde hace tres años que le gusta hacer proyectos personales o para ciertas comunidades que buscan una mejora u optimización en su administración. |
 | <img src="img/aaron-avila.png" width="1000"> | <br> **Nombre:** Aarón Alexander Avila Palacios <br><br> **Código:** U201823654<br><br> **Sobre mi:** Soy estudiante de Ingeniería de Software con interés en el desarrollo de soluciones web, la documentación de productos digitales y la organización de requerimientos. Como miembro del equipo, aporto en el registro de entrevistas, la estructuración de evidencias y la revisión del informe para mantener coherencia con la propuesta de ShareWay. |
-|  |  |
-|  |  |
+| <img src="img/leonardo-cumba.jpeg" width="1000">  |  <br> **Nombre:** Cumba Rengifo, Leonardo Raul <br><br> **Código:** U202311912 <br><br> **Sobre mi:** Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), actualmente cursando el sexto ciclo, con interés en el desarrollo de soluciones web y la arquitectura de software. Como miembro del equipo, participo en la documentación y estructuración de los requerimientos del proyecto ShareWay, apoyando en la organización de entrevistas, elaboración de evidencias y revisión del informe para mantener coherencia entre la problemática identificada y la solución propuesta. |
+
 |  |  |
 
 ## 1.2. Solution Profile
@@ -1100,7 +1104,7 @@ Los User Personas se construyeron a partir de características recurrentes obser
 Segmento pasajeros
 
 <p align="center">
-    <img src="img/Userperson1.png" alt="Userperson1" width="50%">
+    <img src="img/UserpersonValeria.png" alt="Userperson1" width="50%">
 </p>
 
 

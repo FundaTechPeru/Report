@@ -49,6 +49,8 @@
 |TB1|07/09/26| Cumba Rengifo, Leonardo Raul | Redacción del Capítulo II con el análisis competitivo, las estrategias frente a competidores y el diseño de entrevistas por segmento. |
 |TB1|07/09/26| Cumba Rengifo, Leonardo Raul | Redacción del Capítulo II con los User Personas|
 |TB1|08/09/26| Arturo Saravia|Historias de usuario y mapa de impacto|
+|TB1|08/09/26| Joaquin Lechuga | Entrevista y analisis #1 del segmento conductores|
+|TB1|09/09/26| Joaquin Lechuga | Product backlog y perfil de integrantes.|
 |TB1|10/09/26| Aarón Avila|Perfil de integrante, registro de entrevista para conductores, bibliografía APA y anexos del repositorio|
 |TB1|10/09/26|Aarón Avila|Desarrollo de Student Outcome, análisis de entrevistas, Needfinding, Impact Map, Product Backlog, conclusiones y recomendaciones|
 |TB1|10/09/26| Cotrina Siclla, Sofia Alessandra | Redacción de User Task Matrix, Empathy Maps y As-Is Scenario Mapping |

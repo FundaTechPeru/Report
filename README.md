@@ -1699,6 +1699,9 @@ UXPressia. (s. f.). *Customer journey mapping, personas, and impact mapping plat
 ### B.3. As-Is Scenario Mapping – Miro
 [https://miro.com/welcomeonboard/ck9vRlFLbFpZdzh5bTNwQmVHNmNMMjBjd1JwOGN3bnk3WlU1UlI1NkRxV29qd1R3Y1k0UUxVZlVVV0NWN2YyNUF1QkZvY3c1RHVYR0p6WFN1WFprdWtJcjNSN05VTStFMkV1TDZIUWxhZmtWNE5uWVBkMmFKVjJCdDhiaWdMTnVBd044SHFHaVlWYWk0d3NxeHNmeG9BPT0hdjE=?share_link_id=267230343208](https://miro.com/welcomeonboard/ck9vRlFLbFpZdzh5bTNwQmVHNmNMMjBjd1JwOGN3bnk3WlU1UlI1NkRxV29qd1R3Y1k0UUxVZlVVV0NWN2YyNUF1QkZvY3c1RHVYR0p6WFN1WFprdWtJcjNSN05VTStFMkV1TDZIUWxhZmtWNE5uWVBkMmFKVjJCdDhiaWdMTnVBd044SHFHaVlWYWk0d3NxeHNmeG9BPT0hdjE=?share_link_id=267230343208)
 
+### B.4. To-Be Scenario Mapping – Miro
+[https://miro.com/welcomeonboard/ZkJqMldXdWY3RWZKc3dQdktWUTYwRG5MeVZzR3p5bUtPMnN3b0VCZFlMbXBrajJ6dG95SlVML0dJcytXdkdWamRLVG1hLzgwK3FiMUVIRU13cE50VFlrQWpqVXY4c3hMVUZ0bm5GWU55V1dlWlN1ZFRpU0U0V0tWaE1qWEZvK210R2lncW1vRmFBVnlLcVJzTmdFdlNRPT0hdjE=?share_link_id=744612124612](https://miro.com/welcomeonboard/ZkJqMldXdWY3RWZKc3dQdktWUTYwRG5MeVZzR3p5bUtPMnN3b0VCZFlMbXBrajJ6dG95SlVML0dJcytXdkdWamRLVG1hLzgwK3FiMUVIRU13cE50VFlrQWpqVXY4c3hMVUZ0bm5GWU55V1dlWlN1ZFRpU0U0V0tWaE1qWEZvK210R2lncW1vRmFBVnlLcVJzTmdFdlNRPT0hdjE=?share_link_id=744612124612)
+
 ## Anexo C. Repositorio del proyecto
 
 ### C.1. GitHub

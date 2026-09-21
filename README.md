@@ -1405,7 +1405,6 @@ El Product Backlog prioriza primero las historias que habilitan la operación m�
 ---
 
 
-
 ## 4.2. Architectural Drivers
 
 Los architectural drivers de ShareWay representan los requisitos con mayor influencia sobre la estructura del sistema. Su identificación considera la propuesta de viajes compartidos programados, las historias de usuario del capítulo III y las restricciones del trabajo académico. Se distinguen drivers funcionales, escenarios de atributos de calidad y restricciones. Asimismo, se registran preocupaciones arquitectónicas que deberán resolverse durante las iteraciones de Attribute-Driven Design (ADD).
@@ -1423,6 +1422,18 @@ Se busca que la arquitectura permita:
 - Restringir las operaciones a usuarios autorizados y validar que cada abordaje corresponda al pasajero y al viaje asignados.
 - Comunicar cambios relevantes del recorrido y gestionar fallas de servicios externos sin perder información confirmada.
 - Facilitar cambios en las reglas de tarifas, agrupación y verificación, limitando su impacto sobre otras responsabilidades.
+
+**Objetivos de negocio que orientan el diseño**
+
+Los siguientes objetivos sintetizan la propuesta y las historias existentes de ShareWay. Sus identificadores permiten relacionar las necesidades del negocio con los escenarios y las decisiones posteriores. No añaden metas comerciales de crecimiento ni presupuestos que el equipo no haya definido.
+
+| ID | Objetivo de negocio | Drivers relacionados |
+|---|---|---|
+| DN-01 | Ofrecer viajes programados con cupos y asignaciones confiables. | DF-01, DF-02, DF-06. |
+| DN-02 | Generar confianza mediante conductores verificados, abordajes válidos y protección de la ubicación. | DF-04, DF-05, DF-07. |
+| DN-03 | Mantener la coordinación del viaje y comunicar cambios o emergencias. | DF-05, DF-06, DF-07. |
+| DN-04 | Mantener claridad y consistencia en las tarifas y los cobros. | DF-03. |
+| DN-05 | Permitir que el equipo ajuste las reglas de negocio con impacto limitado sobre otras funcionalidades. | DF-03 y evolución de la solución. |
 
 El resultado del diseño será una arquitectura documentada mediante elementos, responsabilidades, interfaces y vistas, con trazabilidad hacia los drivers que justifican cada decisión.
 
@@ -1444,6 +1455,40 @@ Se seleccionaron las siguientes historias por su relevancia para el negocio, com
 
 Cada escenario se especifica mediante fuente de estímulo, estímulo, entorno, artefacto, respuesta y medida de respuesta, siguiendo el material de clase. Los valores numéricos siguientes son **metas iniciales propuestas de diseño**; deberán validarse con el equipo, las necesidades de los stakeholders y la capacidad del entorno de pruebas. No representan resultados de pruebas ejecutadas ni acuerdos ya obtenidos mediante QAW.
 
+**Preparación de escenarios y priorización**
+
+Se adopta del ejercicio resuelto la secuencia de identificar necesidades, consolidar escenarios, priorizarlos y refinarlos en seis partes. Las necesidades de la tabla son paráfrasis derivadas de las US, no citas de entrevistas ni resultados de un taller realizado.
+
+| Necesidad inicial derivada de las US | Perspectiva a validar | Escenario refinado |
+|---|---|---|
+| Consultar opciones compatibles sin esperas prolongadas. | Pasajero; US-02. | QAS-01. |
+| Conservar un cupo exclusivo cuando otros pasajeros reservan al mismo tiempo. | Pasajero; US-04. | QAS-02. |
+| Impedir que un código incorrecto autorice el abordaje. | Pasajero y conductor; US-11 y US-23. | QAS-03. |
+| Consultar el estado confirmado del viaje aunque falle el envío de avisos. | Pasajero y operación; US-14. | QAS-04. |
+| Cambiar el cálculo de la tarifa sin modificar otras funciones. | Producto y desarrollo; US-03. | QAS-05. |
+| Desactivar el seguimiento compartido cuando finaliza el viaje. | Pasajero y contacto de emergencia; US-13. | QAS-06. |
+| Recuperar el servicio de reservas conservando las operaciones confirmadas. | Pasajero y operación; US-04 y US-12. | QAS-07. |
+| Registrar y comunicar una emergencia con rapidez. | Conductor y operación; US-29. | QAS-08. |
+
+**Consolidación:** US-11 y US-23 se reúnen en QAS-03 porque describen las dos perspectivas de la misma validación. US-04 y US-12 se relacionan con QAS-07 porque ambas dependen del estado persistido de las reservas. QAS-02 y QAS-07 se mantienen separados: prueban concurrencia y recuperación ante fallas, respectivamente. QAS-04 y QAS-08 también se separan porque las alertas de emergencia requieren un tratamiento distinto de los avisos ordinarios.
+
+**Orden de atención propuesto:** se ponderan el impacto sobre la seguridad de los usuarios, la integridad de las operaciones centrales y la continuidad del servicio. El orden siguiente es una propuesta de análisis; debe confirmarse con el equipo y representantes de los stakeholders. No se atribuyen votos ni consensos que todavía no existen.
+
+| Orden | Escenario | Objetivo relacionado | Justificación |
+|---|---|---|---|
+| 1 | QAS-02 Integridad de cupos. | DN-01. | Una sobreventa invalida el compromiso central de la reserva y afecta al viaje completo. |
+| 2 | QAS-03 Seguridad del abordaje. | DN-02. | Una validación indebida compromete la confianza y el acceso al viaje correcto. |
+| 3 | QAS-07 Recuperación de reservas. | DN-01, DN-03. | La pérdida del servicio o de reservas confirmadas impide coordinar el traslado. |
+| 4 | QAS-08 Atención técnica de alertas de emergencia. | DN-03. | Una alerta perdida o demorada afecta una función crítica de protección. |
+| 5 | QAS-06 Revocación de ubicación compartida. | DN-02. | El acceso posterior al viaje expone información que ya no debe compartirse. |
+| 6 | QAS-01 Rendimiento de búsqueda. | DN-01. | Los tiempos de consulta influyen en la elección del viaje y en la carga soportada. |
+| 7 | QAS-04 Fallas de notificaciones ordinarias. | DN-03. | Deben preservarse las operaciones confirmadas aunque un canal de comunicación falle. |
+| 8 | QAS-05 Modificabilidad de tarifas. | DN-04, DN-05. | Reduce el impacto y el esfuerzo de evolución de las reglas comerciales. |
+
+Se proponen los primeros cinco como foco inicial de discusión, conservando los ocho escenarios para el diseño completo. Si se realiza el QAW, se deberá adjuntar la participación real, la votación y la justificación de los desempates. Los roles pertinentes son pasajero, conductor, responsable de operaciones, responsable de seguridad y líder de desarrollo. Si los estudiantes representan estos roles, se registrará como una simulación académica.
+
+**Escenarios refinados**
+
 #### QAS-01 Rendimiento en la búsqueda de viajes
 
 | Elemento | Especificación |
@@ -1457,7 +1502,7 @@ Cada escenario se especifica mediante fuente de estímulo, estímulo, entorno, a
 
 **Trazabilidad:** DF-01; US-02.
 
-#### QAS-02 Integridad de los cupos ante reservas simultáneas
+#### QAS-02 Confiabilidad e integridad de los cupos ante reservas simultáneas
 
 | Elemento | Especificación |
 |---|---|
@@ -1522,9 +1567,35 @@ Cada escenario se especifica mediante fuente de estímulo, estímulo, entorno, a
 
 **Trazabilidad:** DF-07; US-13. La revocación afecta nuevas consultas y no elimina información que el contacto ya haya recibido.
 
+#### QAS-07 Disponibilidad y recuperación del servicio de reservas
+
+| Elemento | Especificación |
+|---|---|
+| Fuente de estímulo | Falla de la instancia de ejecución del servicio de reservas. |
+| Estímulo | La instancia se detiene durante el procesamiento de solicitudes. |
+| Entorno | Prueba con 20 solicitudes por segundo; la persistencia y los demás servicios permanecen disponibles. |
+| Artefacto | Servicio de reservas y estado persistido de bloqueos y reservas. |
+| Respuesta | Recupera la capacidad de atender solicitudes, conserva las reservas confirmadas y permite consultar el resultado de operaciones interrumpidas antes de reintentarlas. |
+| Medida de respuesta | Recuperación en un máximo de 60 segundos desde la falla, verificada mediante solicitudes válidas exitosas durante los siguientes 30 segundos; cero reservas confirmadas perdidas y cero duplicados al reintentar 100 operaciones interrumpidas con el mismo identificador de operación. |
+
+**Trazabilidad:** DN-01, DN-03; DF-02; US-04 y US-12. La recuperación frente a una pérdida de la base de datos requiere otro escenario y no se considera cubierta por esta prueba.
+
+#### QAS-08 Rendimiento en el registro y envío de alertas de emergencia
+
+| Elemento | Especificación |
+|---|---|
+| Fuente de estímulo | Conductor de un viaje activo. |
+| Estímulo | Activa el botón de emergencia. |
+| Entorno | Prueba con 100 viajes activos y 10 alertas simultáneas; conectividad disponible y proveedor de notificaciones operativo. |
+| Artefacto | Gestión de emergencias y comunicación con la plataforma y el contacto registrado. |
+| Respuesta | Persiste la alerta asociada al viaje y a la última ubicación conocida con su hora, confirma el registro al conductor y envía los avisos a los destinatarios configurados. |
+| Medida de respuesta | El 100 % de las alertas de la prueba se registra y confirma en un máximo de 2 segundos desde su recepción por la API; aceptación de los avisos por los canales de entrega en un máximo de 5 segundos desde esa recepción; cero alertas perdidas. |
+
+**Trazabilidad:** DN-03; DF-07; US-29. Estas medidas cubren el procesamiento técnico, no el tiempo de asistencia humana. Ante pérdida de conectividad o falla del proveedor, la interfaz deberá indicar que el envío no se completó; la política de recuperación se resolverá en AC-08.
+
 ### 4.2.4. Constraints
 
-Las restricciones son condiciones obligatorias que delimitan las decisiones de arquitectura. Las siguientes provienen del enunciado del trabajo; las elecciones tecnológicas todavía abiertas se mantendrán como decisiones pendientes.
+Las restricciones son condiciones obligatorias que delimitan las decisiones de arquitectura. CON-01 a CON-04 condicionan directamente la solución; CON-05 y CON-06 son restricciones del proceso y de la documentación. Todas provienen del enunciado del trabajo. Las elecciones tecnológicas todavía abiertas se mantendrán como decisiones pendientes.
 
 | ID | Restricción | Origen | Implicación |
 |---|---|---|---|
@@ -1544,14 +1615,26 @@ Las architectural concerns reúnen asuntos de diseño que requieren análisis y 
 | ID | Preocupación | Decisión o análisis requerido | Trazabilidad |
 |---|---|---|---|
 | AC-01 | Delimitación de bounded contexts y propiedad de los datos. | Definir quién controla solicitudes, propuestas, viajes, reservas, tarifas, cobros y verificación; acordar contratos de integración y evitar que varias partes modifiquen el mismo estado sin coordinación. | DF-01 a DF-07. |
-| AC-02 | Consistencia entre reservas, bloqueos de asientos y cobros. | Definir duración del bloqueo, expiración, rechazo del pago, liberación del cupo y tratamiento de reintentos para evitar reservas o cobros duplicados. | DF-02, DF-03; QAS-02. |
-| AC-03 | Ciclo de vida y asignación del viaje. | Precisar estados y transiciones para propuesta, aceptación, confirmación, abordaje, inicio y finalización. Resolver aceptaciones simultáneas y cambios de disponibilidad sin afectar viajes confirmados. | DF-01, DF-05. |
+| AC-02 | Consistencia entre reservas, bloqueos de asientos y cobros. | Aclarar el pago durante la reserva de US-04 frente al cobro al finalizar de US-25, distinguiendo pago, autorización y liquidación según el flujo acordado. Definir duración del bloqueo, expiración, rechazo del pago, liberación del cupo y reintentos sin duplicados. | DF-02, DF-03; QAS-02. |
+| AC-03 | Ciclo de vida y asignación del viaje. | Precisar estados y transiciones para propuesta, aceptación, confirmación, abordaje, inicio y finalización. Resolver aceptaciones simultáneas y cambios de disponibilidad sin afectar viajes confirmados. En US-24, aclarar si el inicio exige todos los pasajeros confirmados o solo el mínimo, y cómo se atienden los recojos pendientes. | DF-01, DF-05. |
 | AC-04 | Habilitación efectiva del conductor. | Aclarar la relación entre US-16, US-17 y US-18: registrar el vehículo no debería habilitar por sí solo a un conductor con documentos pendientes. Definir las condiciones conjuntas de aprobación y reverificación de US-30. | DF-04. |
 | AC-05 | Cancelaciones y actualización del recorrido. | Resolver la diferencia entre US-12, que contempla cancelación antes de la salida, y US-22, que contempla cancelación durante el recorrido. Definir reglas, penalidades, efectos sobre paradas y tarifas y comunicación de los cambios. | DF-02, DF-03, DF-06. |
 | AC-06 | Dependencias externas y conectividad móvil. | Definir el comportamiento ante fallas de mapas, pagos o notificaciones y ante pérdida de conexión del usuario. Distinguir operaciones pendientes de operaciones confirmadas y controlar duplicados tras la reconexión. | DF-03, DF-06, DF-07; QAS-04. |
 | AC-07 | Protección de documentos, identidad y ubicación. | Definir permisos de acceso, vigencia de enlaces y códigos, conservación de documentos y exposición mínima de información personal en respuestas y registros. | DF-04, DF-05, DF-07; QAS-03, QAS-06. |
-| AC-08 | Tratamiento de alertas de emergencia. | Separar alertas críticas de avisos ordinarios, registrar su estado de entrega y atención y mostrar al usuario si el envío no pudo completarse. La recepción técnica del aviso no debe presentarse como garantía de asistencia presencial. | DF-07; US-29. |
-| AC-09 | Verificación del cumplimiento de los drivers. | Definir pruebas y registros que permitan medir los escenarios, seguir operaciones entre servicios y detectar fallas sin exponer información sensible. | QAS-01 a QAS-06. |
+| AC-08 | Tratamiento de alertas de emergencia. | Separar alertas críticas de avisos ordinarios, registrar su estado de entrega y atención y mostrar al usuario si el envío no pudo completarse. La recepción técnica del aviso no debe presentarse como garantía de asistencia presencial. | DF-07; US-29; QAS-08. |
+| AC-09 | Verificación del cumplimiento de los drivers. | Definir pruebas y registros que permitan medir los escenarios, seguir operaciones entre servicios y detectar fallas sin exponer información sensible. | QAS-01 a QAS-08. |
+
+**Compromisos entre atributos de calidad**
+
+| Escenarios en tensión | Riesgo o costo de diseño | Criterio para evaluar alternativas en ADD |
+|---|---|---|
+| QAS-02 y rendimiento de las reservas. | Serializar el acceso al último cupo puede aumentar el tiempo de espera. | Preservar la ausencia de sobreventas y medir la latencia bajo contención antes de elegir el control de concurrencia. |
+| QAS-03 / QAS-06 y QAS-01. | Las verificaciones de autorización y vigencia añaden procesamiento. | Comprobar la seguridad y la latencia en conjunto; cualquier caché de autorizaciones debe respetar el límite de revocación del enlace. |
+| QAS-07 y recursos de operación. | La recuperación rápida puede requerir redundancia, supervisión y mayor consumo de recursos. | Comparar recuperación por reinicio y por réplica frente a la meta de 60 segundos, midiendo costos sin asumir un presupuesto no definido. |
+| QAS-04 / QAS-08 y simplicidad operativa. | La entrega diferida y los reintentos requieren mantener estados, tratar duplicados y supervisar pendientes. | Asegurar persistencia y trazabilidad de avisos y separar la prioridad de emergencias de la de notificaciones ordinarias. |
+| QAS-05 y simplicidad de implementación. | Aislar reglas y versionar contratos exige más interfaces y pruebas iniciales. | Justificar el aislamiento por cambios concretos de tarifas y evitar abstracciones que no respondan a una necesidad. |
+
+
 
 
 

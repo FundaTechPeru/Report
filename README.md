@@ -54,7 +54,7 @@
 |TB1|10/09/26| Aarón Avila|Perfil de integrante, registro de entrevista para conductores, bibliografía APA y anexos del repositorio|
 |TB1|10/09/26|Aarón Avila|Desarrollo de Student Outcome, análisis de entrevistas, Needfinding, Impact Map, Product Backlog, conclusiones y recomendaciones|
 |TB1|10/09/26| Cotrina Siclla, Sofia Alessandra | Redacción de User Task Matrix, Empathy Maps y As-Is Scenario Mapping |
-|  |  |  |  |
+|TB2 |21/09/26 | Cumba Rengifo, Leonardo Raul | Redacción de 4.2. Architectural Drivers |
 |  |  |  |  |
 
 ---
@@ -1404,7 +1404,7 @@ El Product Backlog prioriza primero las historias que habilitan la operación m�
 
 ---
 
-## 4.2. Architectural Drivers
+
 
 ## 4.2. Architectural Drivers
 

@@ -1,0 +1,166 @@
+dbms	table_catalog	table_schema	table_name	column_name	ordinal_position	data_type	character_maximum_length	constraint_type	table_schema	table_name	column_name
+postgresql	shareway	public	usuarios	usuario_id	1	bigint		PRIMARY KEY			
+postgresql	shareway	public	usuarios	nombre	2	character varying	120				
+postgresql	shareway	public	usuarios	email	3	character varying	160				
+postgresql	shareway	public	usuarios	telefono	4	character varying	30				
+postgresql	shareway	public	usuarios	rol	5	character varying	20				
+postgresql	shareway	public	usuarios	estado	6	character varying	20				
+postgresql	shareway	public	usuarios	created_at	7	timestamp without time zone					
+postgresql	shareway	public	vehiculos	vehiculo_id	1	bigint		PRIMARY KEY			
+postgresql	shareway	public	vehiculos	conductor_id	2	bigint		FOREIGN KEY	public	usuarios	usuario_id
+postgresql	shareway	public	vehiculos	placa	3	character varying	12				
+postgresql	shareway	public	vehiculos	marca	4	character varying	60				
+postgresql	shareway	public	vehiculos	modelo	5	character varying	60				
+postgresql	shareway	public	vehiculos	color	6	character varying	40				
+postgresql	shareway	public	vehiculos	asientos_disponibles	7	integer					
+postgresql	shareway	public	vehiculos	estado_verificacion	8	character varying	20				
+postgresql	shareway	public	documentos_conductor	documento_id	1	bigint		PRIMARY KEY			
+postgresql	shareway	public	documentos_conductor	conductor_id	2	bigint		FOREIGN KEY	public	usuarios	usuario_id
+postgresql	shareway	public	documentos_conductor	tipo	3	character varying	40				
+postgresql	shareway	public	documentos_conductor	url_archivo	4	character varying	500				
+postgresql	shareway	public	documentos_conductor	estado	5	character varying	20				
+postgresql	shareway	public	documentos_conductor	motivo_rechazo	6	character varying	300				
+postgresql	shareway	public	documentos_conductor	revisado_at	7	timestamp without time zone					
+postgresql	shareway	public	contactos_emergencia	contacto_id	1	bigint		PRIMARY KEY			
+postgresql	shareway	public	contactos_emergencia	usuario_id	2	bigint		FOREIGN KEY	public	usuarios	usuario_id
+postgresql	shareway	public	contactos_emergencia	nombre	3	character varying	120				
+postgresql	shareway	public	contactos_emergencia	telefono	4	character varying	30				
+postgresql	shareway	public	contactos_emergencia	parentesco	5	character varying	60				
+postgresql	shareway	public	contactos_emergencia	estado	6	character varying	20				
+postgresql	shareway	public	solicitudes_viaje	solicitud_id	1	bigint		PRIMARY KEY			
+postgresql	shareway	public	solicitudes_viaje	pasajero_id	2	bigint		FOREIGN KEY	public	usuarios	usuario_id
+postgresql	shareway	public	solicitudes_viaje	origen_lat	3	numeric					
+postgresql	shareway	public	solicitudes_viaje	origen_lng	4	numeric					
+postgresql	shareway	public	solicitudes_viaje	destino_lat	5	numeric					
+postgresql	shareway	public	solicitudes_viaje	destino_lng	6	numeric					
+postgresql	shareway	public	solicitudes_viaje	fecha_viaje	7	date					
+postgresql	shareway	public	solicitudes_viaje	ventana_inicio	8	time without time zone					
+postgresql	shareway	public	solicitudes_viaje	ventana_fin	9	time without time zone					
+postgresql	shareway	public	solicitudes_viaje	estado	10	character varying	20				
+postgresql	shareway	public	grupos_viaje	grupo_id	1	bigint		PRIMARY KEY			
+postgresql	shareway	public	grupos_viaje	estado	2	character varying	20				
+postgresql	shareway	public	grupos_viaje	minimo_pasajeros	3	integer					
+postgresql	shareway	public	grupos_viaje	maximo_pasajeros	4	integer					
+postgresql	shareway	public	grupos_viaje	tarifa_estimada	5	numeric					
+postgresql	shareway	public	grupos_viaje	created_at	6	timestamp without time zone					
+postgresql	shareway	public	reservas	reserva_id	1	bigint		PRIMARY KEY			
+postgresql	shareway	public	reservas	solicitud_id	2	bigint		FOREIGN KEY	public	solicitudes_viaje	solicitud_id
+postgresql	shareway	public	reservas	grupo_id	3	bigint		FOREIGN KEY	public	grupos_viaje	grupo_id
+postgresql	shareway	public	reservas	pasajero_id	4	bigint		FOREIGN KEY	public	usuarios	usuario_id
+postgresql	shareway	public	reservas	estado	5	character varying	20				
+postgresql	shareway	public	reservas	precio_confirmado	6	numeric					
+postgresql	shareway	public	reservas	confirmed_at	7	timestamp without time zone					
+postgresql	shareway	public	disponibilidades	disponibilidad_id	1	bigint		PRIMARY KEY			
+postgresql	shareway	public	disponibilidades	conductor_id	2	bigint		FOREIGN KEY	public	usuarios	usuario_id
+postgresql	shareway	public	disponibilidades	dia_semana	3	integer					
+postgresql	shareway	public	disponibilidades	hora_inicio	4	time without time zone					
+postgresql	shareway	public	disponibilidades	hora_fin	5	time without time zone					
+postgresql	shareway	public	disponibilidades	zona_operacion	6	character varying	120				
+postgresql	shareway	public	disponibilidades	estado	7	character varying	20				
+postgresql	shareway	public	propuestas_viaje	propuesta_id	1	bigint		PRIMARY KEY			
+postgresql	shareway	public	propuestas_viaje	grupo_id	2	bigint		FOREIGN KEY	public	grupos_viaje	grupo_id
+postgresql	shareway	public	propuestas_viaje	conductor_id	3	bigint		FOREIGN KEY	public	usuarios	usuario_id
+postgresql	shareway	public	propuestas_viaje	ganancia_estimada	4	numeric					
+postgresql	shareway	public	propuestas_viaje	estado	5	character varying	20				
+postgresql	shareway	public	propuestas_viaje	expira_at	6	timestamp without time zone					
+postgresql	shareway	public	propuestas_viaje	respondida_at	7	timestamp without time zone					
+postgresql	shareway	public	rutas	ruta_id	1	bigint		PRIMARY KEY			
+postgresql	shareway	public	rutas	grupo_id	2	bigint		FOREIGN KEY	public	grupos_viaje	grupo_id
+postgresql	shareway	public	rutas	distancia_km	3	numeric					
+postgresql	shareway	public	rutas	duracion_min	4	integer					
+postgresql	shareway	public	rutas	polyline	5	text					
+postgresql	shareway	public	rutas	proveedor_mapa	6	character varying	40				
+postgresql	shareway	public	paradas	parada_id	1	bigint		PRIMARY KEY			
+postgresql	shareway	public	paradas	ruta_id	2	bigint		FOREIGN KEY	public	rutas	ruta_id
+postgresql	shareway	public	paradas	reserva_id	3	bigint		FOREIGN KEY	public	reservas	reserva_id
+postgresql	shareway	public	paradas	orden	4	integer					
+postgresql	shareway	public	paradas	tipo	5	character varying	20				
+postgresql	shareway	public	paradas	lat	6	numeric					
+postgresql	shareway	public	paradas	lng	7	numeric					
+postgresql	shareway	public	paradas	hora_estimada	8	time without time zone					
+postgresql	shareway	public	viajes	viaje_id	1	bigint		PRIMARY KEY			
+postgresql	shareway	public	viajes	grupo_id	2	bigint		FOREIGN KEY	public	grupos_viaje	grupo_id
+postgresql	shareway	public	viajes	conductor_id	3	bigint		FOREIGN KEY	public	usuarios	usuario_id
+postgresql	shareway	public	viajes	ruta_id	4	bigint		FOREIGN KEY	public	rutas	ruta_id
+postgresql	shareway	public	viajes	estado	5	character varying	20				
+postgresql	shareway	public	viajes	inicio_at	6	timestamp without time zone					
+postgresql	shareway	public	viajes	fin_at	7	timestamp without time zone					
+postgresql	shareway	public	validaciones_abordaje	validacion_id	1	bigint		PRIMARY KEY			
+postgresql	shareway	public	validaciones_abordaje	viaje_id	2	bigint		FOREIGN KEY	public	viajes	viaje_id
+postgresql	shareway	public	validaciones_abordaje	reserva_id	3	bigint		FOREIGN KEY	public	reservas	reserva_id
+postgresql	shareway	public	validaciones_abordaje	metodo	4	character varying	20				
+postgresql	shareway	public	validaciones_abordaje	codigo_hash	5	character varying	128				
+postgresql	shareway	public	validaciones_abordaje	estado	6	character varying	20				
+postgresql	shareway	public	validaciones_abordaje	validated_at	7	timestamp without time zone					
+postgresql	shareway	public	notificaciones	notificacion_id	1	bigint		PRIMARY KEY			
+postgresql	shareway	public	notificaciones	usuario_id	2	bigint		FOREIGN KEY	public	usuarios	usuario_id
+postgresql	shareway	public	notificaciones	viaje_id	3	bigint		FOREIGN KEY	public	viajes	viaje_id
+postgresql	shareway	public	notificaciones	canal	4	character varying	20				
+postgresql	shareway	public	notificaciones	prioridad	5	character varying	20				
+postgresql	shareway	public	notificaciones	estado	6	character varying	20				
+postgresql	shareway	public	notificaciones	payload	7	text					
+postgresql	shareway	public	notificaciones	reintentos	8	integer					
+postgresql	shareway	public	notificaciones	created_at	9	timestamp without time zone					
+postgresql	shareway	public	ubicaciones_compartidas	ubicacion_id	1	bigint		PRIMARY KEY			
+postgresql	shareway	public	ubicaciones_compartidas	viaje_id	2	bigint		FOREIGN KEY	public	viajes	viaje_id
+postgresql	shareway	public	ubicaciones_compartidas	usuario_id	3	bigint		FOREIGN KEY	public	usuarios	usuario_id
+postgresql	shareway	public	ubicaciones_compartidas	lat	4	numeric					
+postgresql	shareway	public	ubicaciones_compartidas	lng	5	numeric					
+postgresql	shareway	public	ubicaciones_compartidas	captured_at	6	timestamp without time zone					
+postgresql	shareway	public	registros_ubicacion	registro_id	1	bigint		PRIMARY KEY			
+postgresql	shareway	public	registros_ubicacion	viaje_id	2	bigint		FOREIGN KEY	public	viajes	viaje_id
+postgresql	shareway	public	registros_ubicacion	lat	3	numeric					
+postgresql	shareway	public	registros_ubicacion	lng	4	numeric					
+postgresql	shareway	public	registros_ubicacion	velocidad_kmh	5	numeric					
+postgresql	shareway	public	registros_ubicacion	captured_at	6	timestamp without time zone					
+postgresql	shareway	public	alertas_emergencia	alerta_id	1	bigint		PRIMARY KEY			
+postgresql	shareway	public	alertas_emergencia	viaje_id	2	bigint		FOREIGN KEY	public	viajes	viaje_id
+postgresql	shareway	public	alertas_emergencia	usuario_id	3	bigint		FOREIGN KEY	public	usuarios	usuario_id
+postgresql	shareway	public	alertas_emergencia	tipo	4	character varying	40				
+postgresql	shareway	public	alertas_emergencia	estado	5	character varying	20				
+postgresql	shareway	public	alertas_emergencia	mensaje	6	character varying	500				
+postgresql	shareway	public	alertas_emergencia	created_at	7	timestamp without time zone					
+postgresql	shareway	public	alertas_emergencia	atendida_at	8	timestamp without time zone					
+postgresql	shareway	public	bloqueos	bloqueo_id	1	bigint		PRIMARY KEY			
+postgresql	shareway	public	bloqueos	bloqueador_id	2	bigint		FOREIGN KEY	public	usuarios	usuario_id
+postgresql	shareway	public	bloqueos	bloqueado_id	3	bigint		FOREIGN KEY	public	usuarios	usuario_id
+postgresql	shareway	public	bloqueos	motivo	4	character varying	300				
+postgresql	shareway	public	bloqueos	estado	5	character varying	20				
+postgresql	shareway	public	bloqueos	created_at	6	timestamp without time zone					
+postgresql	shareway	public	calificaciones	calificacion_id	1	bigint		PRIMARY KEY			
+postgresql	shareway	public	calificaciones	viaje_id	2	bigint		FOREIGN KEY	public	viajes	viaje_id
+postgresql	shareway	public	calificaciones	evaluador_id	3	bigint		FOREIGN KEY	public	usuarios	usuario_id
+postgresql	shareway	public	calificaciones	evaluado_id	4	bigint		FOREIGN KEY	public	usuarios	usuario_id
+postgresql	shareway	public	calificaciones	puntaje	5	integer					
+postgresql	shareway	public	calificaciones	comentario	6	character varying	500				
+postgresql	shareway	public	calificaciones	created_at	7	timestamp without time zone					
+postgresql	shareway	public	tarifas	tarifa_id	1	bigint		PRIMARY KEY			
+postgresql	shareway	public	tarifas	zona	2	character varying	120				
+postgresql	shareway	public	tarifas	distancia_base_km	3	numeric					
+postgresql	shareway	public	tarifas	precio_base	4	numeric					
+postgresql	shareway	public	tarifas	precio_km	5	numeric					
+postgresql	shareway	public	tarifas	vigencia_desde	6	date					
+postgresql	shareway	public	tarifas	vigencia_hasta	7	date					
+postgresql	shareway	public	tarifas	estado	8	character varying	20				
+postgresql	shareway	public	pagos	pago_id	1	bigint		PRIMARY KEY			
+postgresql	shareway	public	pagos	reserva_id	2	bigint		FOREIGN KEY	public	reservas	reserva_id
+postgresql	shareway	public	pagos	usuario_id	3	bigint		FOREIGN KEY	public	usuarios	usuario_id
+postgresql	shareway	public	pagos	monto	4	numeric					
+postgresql	shareway	public	pagos	metodo	5	character varying	30				
+postgresql	shareway	public	pagos	estado	6	character varying	20				
+postgresql	shareway	public	pagos	provider_ref	7	character varying	120				
+postgresql	shareway	public	pagos	created_at	8	timestamp without time zone					
+postgresql	shareway	public	penalidades	penalidad_id	1	bigint		PRIMARY KEY			
+postgresql	shareway	public	penalidades	reserva_id	2	bigint		FOREIGN KEY	public	reservas	reserva_id
+postgresql	shareway	public	penalidades	usuario_id	3	bigint		FOREIGN KEY	public	usuarios	usuario_id
+postgresql	shareway	public	penalidades	motivo	4	character varying	120				
+postgresql	shareway	public	penalidades	monto	5	numeric					
+postgresql	shareway	public	penalidades	estado	6	character varying	20				
+postgresql	shareway	public	penalidades	created_at	7	timestamp without time zone					
+postgresql	shareway	public	liquidaciones_conductor	liquidacion_id	1	bigint		PRIMARY KEY			
+postgresql	shareway	public	liquidaciones_conductor	viaje_id	2	bigint		FOREIGN KEY	public	viajes	viaje_id
+postgresql	shareway	public	liquidaciones_conductor	conductor_id	3	bigint		FOREIGN KEY	public	usuarios	usuario_id
+postgresql	shareway	public	liquidaciones_conductor	monto_bruto	4	numeric					
+postgresql	shareway	public	liquidaciones_conductor	comision	5	numeric					
+postgresql	shareway	public	liquidaciones_conductor	monto_neto	6	numeric					
+postgresql	shareway	public	liquidaciones_conductor	estado	7	character varying	20				

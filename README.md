@@ -55,7 +55,7 @@
 |TB1|10/09/26|Aarón Avila|Desarrollo de Student Outcome, análisis de entrevistas, Needfinding, Impact Map, Product Backlog, conclusiones y recomendaciones|
 |TB1|10/09/26| Cotrina Siclla, Sofia Alessandra | Redacción de User Task Matrix, Empathy Maps y As-Is Scenario Mapping |
 |TB2 |21/09/26 | Cumba Rengifo, Leonardo Raul | Redacción de 4.2. Architectural Drivers |
-|  |  |  |  |
+|TB2|22/09/26|Aarón Avila|Desarrollo de 4.1.5 Database Diagram con soporte de importación en Lucidchart, 4.1.6 Design Patterns y 4.1.7 Tactics|
 
 ---
 
@@ -222,12 +222,18 @@
 
 El curso contribuye al cumplimiento del **ABET - EAC - Student Outcome 7: Aprendizaje continuo y autónomo**, entendido como la capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.
 
-En el avance TB1, el equipo aplicó esta competencia al investigar el dominio de movilidad compartida, revisar herramientas de análisis de experiencia de usuario, contrastar supuestos mediante entrevistas y organizar los hallazgos en artefactos de requisitos. Las acciones se describen por integrante para evidenciar la contribución individual dentro del trabajo colaborativo.
+En los avances TB1 y TB2, el equipo aplicó esta competencia al investigar el dominio de movilidad compartida, revisar herramientas de análisis de experiencia de usuario, contrastar supuestos mediante entrevistas, organizar los hallazgos en artefactos de requisitos y trasladar dichas decisiones hacia artefactos de arquitectura de software. Las acciones se describen por integrante para evidenciar la contribución individual dentro del trabajo colaborativo.
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---|---|---|
-| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y, en especial, para su proyecto en soluciones de software. | **Arturo Axel Saravia Huaricancha**<br>TB1: Participó en la elaboración de historias de usuario, criterios de aceptación y mapa de impacto, aplicando conceptos de requisitos, épicas y trazabilidad funcional.<br><br>**Leonardo Raul Cumba Rengifo**<br>TB1: Contribuyó en la revisión del contexto del problema, organización de información del reporte y alineación de secciones con la estructura solicitada.<br><br>**Aarón Alexander Avila Palacios**<br>TB1: Desarrolló el registro de entrevista para el segmento de conductores, completó el perfil propio, actualizó evidencias visuales, reforzó análisis del reporte y aplicó lineamientos de APA 7 en la bibliografía.<br><br>**Sofia Alessandra Cotrina Siclla**<br>TB1: Participó en la revisión de segmentos objetivo y en la consolidación de artefactos relacionados con usuarios, necesidades y experiencia del producto.<br><br>**Joaquin Andre Lechuga Aguilar**<br>TB1: Contribuyó en la definición de artefactos visuales de experiencia, análisis de usuario y organización de evidencias para el informe. | Durante TB1, el equipo actualizó conocimientos sobre Lean UX, Needfinding, entrevistas, User Personas, Scenario Mapping, Impact Mapping y gestión de Product Backlog. Esto permitió transformar una idea inicial en una propuesta con segmentos, necesidades, requisitos y prioridades preliminares. |
-| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | **Arturo Axel Saravia Huaricancha**<br>TB1: Investigó la relación entre objetivos de negocio, impactos esperados y funcionalidades priorizadas para sostener el mapa de impacto.<br><br>**Leonardo Raul Cumba Rengifo**<br>TB1: Apoyó en la revisión de consistencia del reporte, identificando secciones que requerían mayor sustento o evidencia.<br><br>**Aarón Alexander Avila Palacios**<br>TB1: Revisó la rúbrica, identificó brechas del avance, organizó información de entrevista y completó secciones del informe a partir de nueva evidencia.<br><br>**Sofia Alessandra Cotrina Siclla**<br>TB1: Aportó en la comprensión del segmento de pasajeros y en la relación entre hallazgos de investigación y artefactos de experiencia.<br><br>**Joaquin Andre Lechuga Aguilar**<br>TB1: Apoyó en la revisión de artefactos para conductores y pasajeros, conectando necesidades con tareas, emociones y escenarios de uso. | El desarrollo del avance permitió reconocer que el producto requiere aprendizaje continuo sobre movilidad urbana, validación con usuarios, herramientas de modelado y priorización de requisitos. El equipo identificó que los supuestos iniciales deben revisarse permanentemente con evidencia. |
+| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y, en especial, para su proyecto en soluciones de software. | **Arturo Axel Saravia Huaricancha**<br>TB1: Participó en la elaboración de historias de usuario, criterios de aceptación y mapa de impacto, aplicando conceptos de requisitos, épicas y trazabilidad funcional.<br><br>**Leonardo Raul Cumba Rengifo**<br>TB1: Contribuyó en la revisión del contexto del problema, organización de información del reporte y alineación de secciones con la estructura solicitada.<br><br>**Aarón Alexander Avila Palacios**<br>TB1: Desarrolló el registro de entrevista para el segmento de conductores, completó el perfil propio, actualizó evidencias visuales, reforzó análisis del reporte y aplicó lineamientos de APA 7 en la bibliografía.<br>TB2: Revisó la rúbrica del avance, investigó el alcance esperado para el Database Diagram, Design Patterns y Tactics, y aplicó esos conceptos para proponer la persistencia relacional de ShareWay, los patrones de diseño de la solución y las tácticas arquitectónicas vinculadas a atributos de calidad.<br><br>**Sofia Alessandra Cotrina Siclla**<br>TB1: Participó en la revisión de segmentos objetivo y en la consolidación de artefactos relacionados con usuarios, necesidades y experiencia del producto.<br><br>**Joaquin Andre Lechuga Aguilar**<br>TB1: Contribuyó en la definición de artefactos visuales de experiencia, análisis de usuario y organización de evidencias para el informe. | Durante TB1, el equipo actualizó conocimientos sobre Lean UX, Needfinding, entrevistas, User Personas, Scenario Mapping, Impact Mapping y gestión de Product Backlog. Esto permitió transformar una idea inicial en una propuesta con segmentos, necesidades, requisitos y prioridades preliminares.<br><br>Durante TB2, se actualizó el conocimiento técnico del proyecto hacia decisiones de arquitectura: diseño de persistencia, selección de patrones y definición de tácticas para disponibilidad, seguridad, rendimiento, integridad y mantenibilidad. |
+| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | **Arturo Axel Saravia Huaricancha**<br>TB1: Investigó la relación entre objetivos de negocio, impactos esperados y funcionalidades priorizadas para sostener el mapa de impacto.<br><br>**Leonardo Raul Cumba Rengifo**<br>TB1: Apoyó en la revisión de consistencia del reporte, identificando secciones que requerían mayor sustento o evidencia.<br><br>**Aarón Alexander Avila Palacios**<br>TB1: Revisó la rúbrica, identificó brechas del avance, organizó información de entrevista y completó secciones del informe a partir de nueva evidencia.<br>TB2: Contrastó los requisitos y drivers de ShareWay con conceptos de modelado de datos, relaciones PK/FK, patrones de arquitectura de aplicación, resiliencia frente a proveedores externos, trazabilidad de decisiones y tácticas para escenarios de calidad.<br><br>**Sofia Alessandra Cotrina Siclla**<br>TB1: Aportó en la comprensión del segmento de pasajeros y en la relación entre hallazgos de investigación y artefactos de experiencia.<br><br>**Joaquin Andre Lechuga Aguilar**<br>TB1: Apoyó en la revisión de artefactos para conductores y pasajeros, conectando necesidades con tareas, emociones y escenarios de uso. | El desarrollo del avance permitió reconocer que el producto requiere aprendizaje continuo sobre movilidad urbana, validación con usuarios, herramientas de modelado y priorización de requisitos. El equipo identificó que los supuestos iniciales deben revisarse permanentemente con evidencia.<br><br>Para TB2, se concluye que el aprendizaje permanente es necesario para transformar los hallazgos funcionales en una arquitectura defendible. En particular, las decisiones sobre base de datos, patrones y tácticas deben seguir validándose conforme evolucionen los escenarios de calidad y las restricciones técnicas del producto. |
+
+**Conclusiones TB2 del Student Outcome**
+
+En TB2, la contribución de **Aarón Alexander Avila Palacios** evidencia el Student Outcome 7 al requerir investigación autónoma sobre modelado relacional, patrones de diseño y tácticas arquitectónicas aplicables a ShareWay. Este aprendizaje permitió conectar los requisitos y drivers del producto con decisiones más técnicas, como la definición de entidades persistentes, relaciones entre tablas, responsabilidades por capa y mecanismos para atender atributos de calidad.
+
+Asimismo, el avance demuestra que la arquitectura no se define únicamente a partir de funcionalidades, sino también desde restricciones, escenarios de calidad y riesgos técnicos. Por ello, las decisiones propuestas en 4.1.5, 4.1.6 y 4.1.7 deberán revisarse en siguientes iteraciones cuando el equipo complete más drivers, valide reglas de negocio y precise tecnologías de implementación.
 
 ---
 
@@ -1582,9 +1588,112 @@ Dentro de un mismo bounded context, las clases se relacionan mediante asociacion
 
 ### 4.1.5. Relational/Non Relational Database Diagram
 
+Para ShareWay se propone un almacenamiento **relacional** para el núcleo transaccional de la solución. La decisión responde a la necesidad de mantener consistencia entre pasajeros, conductores, solicitudes, grupos, reservas, cupos, viajes, pagos y validaciones de abordaje. Estas operaciones requieren llaves primarias, llaves foráneas, restricciones de unicidad, estados controlados e integridad referencial para evitar sobreventas, duplicidad de pagos, abordajes inválidos o pérdida de trazabilidad.
+
+El modelo se organiza por los bounded contexts definidos en la sección 4.1.4. Cada bounded context conserva la propiedad lógica de sus datos y expone información a los demás mediante identificadores y contratos de servicio. En una implementación basada en microservicios, estas tablas podrían separarse en esquemas o bases de datos por servicio; para el avance arquitectónico se presenta un modelo lógico integrado que permite evidenciar tablas, columnas, constraints y relaciones.
+
+**Herramienta utilizada:** Lucidchart. Para cumplir con la tecnología solicitada en la rúbrica, el modelo se preparó como esquema SQL relacional y se importó en Lucidchart mediante el flujo de **Importar desde SQL** con DBMS PostgreSQL. Los insumos usados para la importación se encuentran en `docs/lucidchart/shareway_database_schema.sql` y `docs/lucidchart/shareway_lucidchart_information_schema.tsv`.
+
+![](img/database-diagram-shareway-lucidchart.png)
+
+**Tablas principales por bounded context**
+
+| Bounded Context | Tablas | Propósito de persistencia |
+|---|---|---|
+| Identity & Driver Verification | `usuarios`, `vehiculos`, `documentos_conductor`, `contactos_emergencia` | Gestionar identidad, roles, perfil del conductor, vehículo, documentos de verificación y contactos asociados a funciones de seguridad. |
+| Ride Booking & Matching | `solicitudes_viaje`, `grupos_viaje`, `reservas`, `viajes_recurrentes`, `disponibilidades`, `propuestas_viaje` | Registrar solicitudes, agrupar pasajeros, bloquear asientos, programar recurrencias, conocer disponibilidad del conductor y controlar propuestas enviadas. |
+| Driver Operations & Routing | `rutas`, `paradas` | Persistir rutas calculadas, secuencia de recojos y destinos, distancia y duración estimada del recorrido. |
+| Trip Execution & Notifications | `viajes`, `validaciones_abordaje`, `notificaciones` | Controlar inicio, avance y cierre del viaje; validar PIN/QR; registrar avisos ordinarios y críticos para reintentos. |
+| Safety, Trust & Reputation | `ubicaciones_compartidas`, `registros_ubicacion`, `alertas_emergencia`, `calificaciones`, `bloqueos` | Gestionar ubicación compartida, alertas, reputación, bloqueo entre usuarios y trazabilidad de incidentes. |
+| Pricing & Payments | `tarifas`, `pagos`, `penalidades`, `liquidaciones_conductor` | Mantener reglas de tarifa, pagos autorizados o confirmados, penalidades por cancelación y liquidación neta para el conductor. |
+
+**Detalle de tablas, columnas y constraints**
+
+| Tabla | Columnas principales | Constraints y relaciones |
+|---|---|---|
+| `usuarios` | `usuario_id`, `nombre`, `email`, `telefono`, `rol`, `estado`, `created_at` | PK `usuario_id`; UQ `email`; `rol` limitado a pasajero, conductor, administrador; `estado` controlado para habilitación. |
+| `vehiculos` | `vehiculo_id`, `conductor_id`, `placa`, `marca`, `modelo`, `color`, `asientos_disponibles`, `estado_verificacion` | PK `vehiculo_id`; FK `conductor_id` -> `usuarios.usuario_id`; UQ `placa`; CHECK `asientos_disponibles > 0`. |
+| `documentos_conductor` | `documento_id`, `conductor_id`, `tipo`, `url_archivo`, `estado`, `motivo_rechazo`, `revisado_at` | PK `documento_id`; FK `conductor_id` -> `usuarios`; UQ compuesta `conductor_id` + `tipo`; `estado` limitado a pendiente, aprobado o rechazado. |
+| `solicitudes_viaje` | `solicitud_id`, `pasajero_id`, `origen_lat`, `origen_lng`, `destino_lat`, `destino_lng`, `fecha_viaje`, `ventana_inicio`, `ventana_fin`, `estado` | PK `solicitud_id`; FK `pasajero_id` -> `usuarios`; CHECK `ventana_inicio < ventana_fin`; índice por fecha y zona de origen/destino. |
+| `grupos_viaje` | `grupo_id`, `capacidad`, `minimo_pasajeros`, `cupos_disponibles`, `estado`, `created_at` | PK `grupo_id`; CHECK `0 <= cupos_disponibles <= capacidad`; CHECK `minimo_pasajeros <= capacidad`; índice por `estado`. |
+| `reservas` | `reserva_id`, `solicitud_id`, `grupo_id`, `estado`, `pin_hash`, `qr_token_hash`, `version`, `created_at` | PK `reserva_id`; FK `solicitud_id` -> `solicitudes_viaje`; FK `grupo_id` -> `grupos_viaje`; UQ `solicitud_id`; columna `version` para concurrencia optimista. |
+| `disponibilidades` | `disponibilidad_id`, `conductor_id`, `dia_semana`, `hora_inicio`, `hora_fin`, `zona_operacion`, `estado` | PK `disponibilidad_id`; FK `conductor_id` -> `usuarios`; CHECK `hora_inicio < hora_fin`; índice por conductor, día y zona. |
+| `propuestas_viaje` | `propuesta_id`, `grupo_id`, `conductor_id`, `ganancia_estimada`, `estado`, `expira_at`, `respondida_at` | PK `propuesta_id`; FK `grupo_id` -> `grupos_viaje`; FK `conductor_id` -> `usuarios`; CHECK `ganancia_estimada >= 0`; `estado` limitado a enviada, aceptada, rechazada o expirada. |
+| `rutas` | `ruta_id`, `grupo_id`, `distancia_km`, `duracion_estimada_min`, `estado` | PK `ruta_id`; FK `grupo_id` -> `grupos_viaje`; CHECK `distancia_km > 0`; CHECK `duracion_estimada_min > 0`. |
+| `paradas` | `parada_id`, `ruta_id`, `reserva_id`, `orden`, `tipo`, `latitud`, `longitud`, `hora_estimada` | PK `parada_id`; FK `ruta_id` -> `rutas`; FK opcional `reserva_id` -> `reservas`; UQ `ruta_id` + `orden`; `tipo` limitado a recojo o destino. |
+| `viajes` | `viaje_id`, `grupo_id`, `conductor_id`, `ruta_id`, `estado`, `inicio_at`, `fin_at` | PK `viaje_id`; FK `grupo_id` -> `grupos_viaje`; FK `conductor_id` -> `usuarios`; FK `ruta_id` -> `rutas`; `estado` ligado al ciclo de vida documentado en 4.1.4. |
+| `validaciones_abordaje` | `validacion_id`, `reserva_id`, `viaje_id`, `intentos_fallidos`, `validado_at`, `estado` | PK `validacion_id`; FK `reserva_id` -> `reservas`; FK `viaje_id` -> `viajes`; UQ `reserva_id` + `viaje_id`; CHECK `intentos_fallidos >= 0`. |
+| `notificaciones` | `notificacion_id`, `usuario_id`, `viaje_id`, `canal`, `prioridad`, `estado`, `payload`, `reintentos`, `created_at` | PK `notificacion_id`; FK `usuario_id` -> `usuarios`; FK opcional `viaje_id` -> `viajes`; CHECK `reintentos >= 0`; índice por prioridad y estado. |
+| `ubicaciones_compartidas` | `ubicacion_compartida_id`, `viaje_id`, `contacto_emergencia_id`, `token_hash`, `expira_at`, `revocada_at` | PK `ubicacion_compartida_id`; FK `viaje_id` -> `viajes`; UQ `token_hash`; revocación obligatoria al cierre del viaje. |
+| `alertas_emergencia` | `alerta_id`, `viaje_id`, `usuario_id`, `tipo`, `estado`, `mensaje`, `created_at`, `atendida_at` | PK `alerta_id`; FK `viaje_id` -> `viajes`; FK `usuario_id` -> `usuarios`; índice por estado y prioridad operativa. |
+| `calificaciones` | `calificacion_id`, `viaje_id`, `evaluador_id`, `evaluado_id`, `puntaje`, `comentario`, `created_at` | PK `calificacion_id`; FK `viaje_id` -> `viajes`; FK `evaluador_id` y `evaluado_id` -> `usuarios`; CHECK `puntaje BETWEEN 1 AND 5`; UQ `viaje_id` + `evaluador_id` + `evaluado_id`. |
+| `tarifas` | `tarifa_id`, `grupo_id`, `monto_base`, `monto_por_pasajero`, `comision_plataforma`, `version_regla`, `created_at` | PK `tarifa_id`; FK `grupo_id` -> `grupos_viaje`; CHECK montos >= 0; conserva `version_regla` para trazabilidad de cambios. |
+| `pagos` | `pago_id`, `reserva_id`, `monto`, `moneda`, `estado`, `proveedor_ref`, `autorizado_at`, `capturado_at` | PK `pago_id`; FK `reserva_id` -> `reservas`; UQ `proveedor_ref`; CHECK `monto >= 0`; `estado` limitado a autorizado, capturado, rechazado o reembolsado. |
+| `liquidaciones_conductor` | `liquidacion_id`, `viaje_id`, `conductor_id`, `monto_bruto`, `comision`, `monto_neto`, `estado` | PK `liquidacion_id`; FK `viaje_id` -> `viajes`; FK `conductor_id` -> `usuarios`; CHECK `monto_bruto = comision + monto_neto` a nivel de regla de negocio. |
+
+**Relaciones y decisiones de persistencia**
+
+- `usuarios` es la tabla base para pasajeros, conductores y administradores. Las reglas de autorización impedirán que un usuario sin rol de conductor opere vehículos, disponibilidades o propuestas.
+- `reservas` conecta la solicitud individual con el grupo de viaje; esta relación soporta el control de cupos de QAS-02.
+- `propuestas_viaje` separa la aceptación del conductor del estado de la reserva, lo que permite expirar o reasignar propuestas sin perder la solicitud del pasajero.
+- `viajes`, `validaciones_abordaje` y `ubicaciones_compartidas` conservan evidencia del recorrido, la validación por PIN/QR y la revocación de seguimiento solicitada por QAS-03 y QAS-06.
+- `notificaciones` y `alertas_emergencia` se persisten para permitir reintentos, auditoría y tratamiento diferenciado de avisos ordinarios y críticos, conforme a QAS-04 y QAS-08.
+- `tarifas`, `pagos` y `liquidaciones_conductor` separan cálculo, autorización/captura y liquidación, evitando que un cambio de regla tarifaria altere reservas históricas.
+
 ### 4.1.6. Design Patterns
 
+Los patrones de diseño seleccionados buscan implementar el estilo de microservicios con DDD y mantener trazabilidad con los drivers arquitectónicos. La selección se considera una propuesta de diseño para el avance, por lo que deberá validarse cuando el equipo defina tecnologías concretas.
+
+| Patrón | Uso propuesto en ShareWay | Justificación | Trazabilidad |
+|---|---|---|---|
+| Repository | Encapsular acceso a tablas como `reservas`, `grupos_viaje`, `pagos`, `documentos_conductor` y `viajes`. | Aísla la persistencia del dominio y facilita pruebas sin acoplar servicios a SQL específico. | DF-02, DF-03, DF-04; QAS-07. |
+| Service Layer | Exponer casos de uso como buscar viajes, reservar asiento, aceptar propuesta, validar abordaje y finalizar viaje. | Mantiene reglas de aplicación fuera de controladores REST y coordina operaciones entre entidades. | DF-01 a DF-07. |
+| DTO / Mapper | Transferir datos entre API REST, aplicación móvil y servicios internos sin exponer entidades persistentes. | Reduce acoplamiento, controla datos sensibles y permite versionar contratos. | CON-03; QAS-03, QAS-06. |
+| Strategy | Encapsular reglas de cálculo de tarifa, penalidades, comisiones y matching de rutas. | Permite cambiar reglas de negocio con impacto limitado y pruebas focalizadas. | DF-03; QAS-05; DN-05. |
+| State | Modelar estados de `reserva`, `propuesta_viaje`, `viaje`, `pago` y `documento_conductor`. | Evita transiciones inválidas como abordar una reserva cancelada o capturar un pago rechazado. | DF-02, DF-05; QAS-02, QAS-03. |
+| Factory Method | Crear reservas, propuestas, pagos y alertas con valores obligatorios y estado inicial consistente. | Centraliza reglas de creación y reduce objetos incompletos en operaciones críticas. | DF-01, DF-02, DF-07. |
+| Domain Events | Publicar eventos como `ReservaConfirmada`, `PropuestaAceptada`, `AbordajeValidado`, `ViajeFinalizado` y `AlertaEmergenciaRegistrada`. | Permite desacoplar notificaciones, pagos, reputación y auditoría del flujo transaccional principal. | DF-06, DF-07; QAS-04, QAS-08. |
+| Saga / Process Manager | Coordinar procesos distribuidos de reserva, autorización de pago, asignación de conductor y confirmación de viaje. | Maneja operaciones que cruzan bounded contexts y requiere compensaciones ante fallas o expiraciones. | DF-01, DF-02, DF-03; QAS-07. |
+| API Gateway | Unificar entrada de clientes móviles/web hacia microservicios, aplicando autenticación, rate limiting y enrutamiento. | Reduce exposición directa de servicios y facilita controles transversales. | CON-03; QAS-01, QAS-03. |
+| Circuit Breaker | Proteger llamadas hacia mapas, pagos, push y SMS ante fallas externas. | Evita que un proveedor externo indisponible bloquee operaciones internas confirmadas. | QAS-04, QAS-07, QAS-08; AC-06. |
+
+**Aplicación por capa**
+
+| Capa | Patrones predominantes | Resultado esperado |
+|---|---|---|
+| Presentación/API | DTO, API Gateway, Service Layer | Contratos claros y controlados para clientes y documentación OpenAPI. |
+| Dominio | State, Strategy, Factory Method, Domain Events | Reglas de negocio explícitas, modificables y trazables a drivers. |
+| Aplicación | Saga / Process Manager, Service Layer | Coordinación de casos de uso con operaciones distribuidas y compensaciones. |
+| Infraestructura | Repository, Circuit Breaker | Persistencia aislada y tolerancia a fallas de servicios externos. |
+
 ### 4.1.7. Tactics
+
+Las tácticas arquitectónicas se seleccionan para responder a los escenarios de calidad definidos en 4.2.3. Se agrupan por atributo de calidad y se conectan con las preocupaciones arquitectónicas de 4.2.5.
+
+| Atributo de calidad | Táctica | Aplicación en ShareWay | Escenario / concern relacionado |
+|---|---|---|---|
+| Rendimiento | Índices por criterios de búsqueda | Indexar `solicitudes_viaje`, `grupos_viaje`, `disponibilidades` y `rutas` por fecha, zona, estado y conductor para reducir el tiempo de búsqueda. | QAS-01; DF-01. |
+| Rendimiento | Caché controlada de resultados no críticos | Cachear rutas populares o búsquedas frecuentes por ventanas cortas, sin cachear cupos finales ni reservas confirmadas. | QAS-01; AC-02. |
+| Integridad | Transacciones ACID en reserva de cupo | Crear reserva, bloquear asiento y actualizar cupos dentro de una transacción del contexto de reservas. | QAS-02; AC-02. |
+| Integridad | Concurrencia optimista con columna `version` | Usar `version` en `reservas` o `grupos_viaje` para detectar modificaciones simultáneas y rechazar sobreventas. | QAS-02; QAS-07. |
+| Disponibilidad | Reintentos con idempotencia | Reintentar operaciones interrumpidas usando identificador de operación para no duplicar reservas, pagos o alertas. | QAS-07; AC-06. |
+| Disponibilidad | Circuit Breaker para proveedores externos | Aislar fallas de mapas, pagos, push y SMS, conservando operaciones internas confirmadas. | QAS-04, QAS-08; AC-06. |
+| Disponibilidad | Cola persistente de notificaciones | Registrar notificaciones pendientes y reintentar cuando el proveedor se recupere. | QAS-04; AC-08. |
+| Seguridad | Validación de PIN/QR con hash y expiración | Almacenar hashes de PIN/QR, limitar intentos y rechazar códigos de otro viaje o reserva. | QAS-03; DF-05. |
+| Seguridad | Autorización por rol y propiedad del recurso | Restringir documentos de conductor, reservas, ubicación y pagos según usuario autenticado y relación con el viaje. | QAS-03, QAS-06; AC-07. |
+| Seguridad | Revocación de enlaces temporales | Invalidar `ubicaciones_compartidas` al finalizar el viaje o al alcanzar `expira_at`. | QAS-06; US-13. |
+| Modificabilidad | Encapsular reglas con Strategy | Separar reglas de tarifa, penalidad, comisión y matching para modificar fórmulas sin tocar reservas o abordaje. | QAS-05; DN-05. |
+| Modificabilidad | Contratos REST versionados | Versionar endpoints o DTOs cuando cambien entradas/salidas públicas, manteniendo compatibilidad. | CON-03; QAS-05. |
+| Observabilidad | Auditoría de eventos críticos | Registrar cambios de estado en reservas, pagos, validaciones, alertas y notificaciones. | QAS-02, QAS-03, QAS-08; AC-09. |
+| Observabilidad | Correlation ID por viaje/reserva | Asociar logs y eventos con `viaje_id`, `reserva_id` y `usuario_id` para rastrear fallas de coordinación. | QAS-04, QAS-07, QAS-08; AC-09. |
+
+**Relación entre tácticas y decisiones de diseño**
+
+- Las tácticas de integridad priorizan la consistencia de cupos sobre la máxima concurrencia, porque una sobreventa compromete el valor central de ShareWay.
+- Las tácticas de disponibilidad distinguen entre confirmar una operación interna y entregar una notificación externa; una falla de proveedor no debe revertir una reserva ya confirmada.
+- Las tácticas de seguridad evitan que la ubicación, los documentos y los códigos de abordaje queden expuestos más allá del viaje o del usuario autorizado.
+- Las tácticas de modificabilidad justifican el uso de Strategy y DTOs para que cambios en tarifas o contratos no se propaguen a todo el sistema.
+- Las tácticas de observabilidad permiten demostrar cumplimiento de los QAS mediante evidencia técnica verificable: logs, auditoría, estados persistidos y métricas.
 
 ---
 

@@ -55,7 +55,7 @@
 |TB1|10/09/26|Aarón Avila|Desarrollo de Student Outcome, análisis de entrevistas, Needfinding, Impact Map, Product Backlog, conclusiones y recomendaciones|
 |TB1|10/09/26| Cotrina Siclla, Sofia Alessandra | Redacción de User Task Matrix, Empathy Maps y As-Is Scenario Mapping |
 |TB2 |21/09/26 | Cumba Rengifo, Leonardo Raul | Redacción de 4.2. Architectural Drivers |
-|TB2|22/09/26|Aarón Avila|Desarrollo de 4.1.5 Database Diagram, 4.1.6 Design Patterns y 4.1.7 Tactics|
+|TB2|22/09/26|Aarón Avila|Desarrollo de 4.1.5 Database Diagram con soporte de importación en Lucidchart, 4.1.6 Design Patterns y 4.1.7 Tactics|
 
 ---
 
@@ -1498,6 +1498,8 @@ Dentro de un mismo bounded context, las clases se relacionan mediante asociacion
 Para ShareWay se propone un almacenamiento **relacional** para el núcleo transaccional de la solución. La decisión responde a la necesidad de mantener consistencia entre pasajeros, conductores, solicitudes, grupos, reservas, cupos, viajes, pagos y validaciones de abordaje. Estas operaciones requieren llaves primarias, llaves foráneas, restricciones de unicidad, estados controlados e integridad referencial para evitar sobreventas, duplicidad de pagos, abordajes inválidos o pérdida de trazabilidad.
 
 El modelo se organiza por los bounded contexts definidos en la sección 4.1.4. Cada bounded context conserva la propiedad lógica de sus datos y expone información a los demás mediante identificadores y contratos de servicio. En una implementación basada en microservicios, estas tablas podrían separarse en esquemas o bases de datos por servicio; para el avance arquitectónico se presenta un modelo lógico integrado que permite evidenciar tablas, columnas, constraints y relaciones.
+
+**Herramienta utilizada:** Lucidchart. Para cumplir con la tecnología solicitada en la rúbrica, el modelo se preparó como esquema SQL relacional y se importó en Lucidchart mediante el flujo de **Importar desde SQL** con DBMS PostgreSQL. Los insumos usados para la importación se encuentran en `docs/lucidchart/shareway_database_schema.sql` y `docs/lucidchart/shareway_lucidchart_information_schema.tsv`.
 
 <p align="center">
     <img src="img/database-diagram-shareway.svg" alt="Database Diagram relacional de ShareWay" width="100%">

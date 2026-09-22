@@ -1390,7 +1390,100 @@ El Product Backlog prioriza primero las historias que habilitan la operación m�
 
 ### 4.1.1. Principles Statements
 
+Los principios de arquitectura de ShareWay establecen los criterios que se tendrán en cuenta al momento de diseñar y organizar la solución. Estos principios buscan que la plataforma pueda responder a las necesidades del negocio, manteniendo una estructura clara, segura y fácil de evolucionar.
+
+1. **Separación de responsabilidades**
+
+   Cada parte de la arquitectura debe tener una responsabilidad claramente definida. En ShareWay, las funcionalidades se organizan en diferentes bounded contexts para evitar que todas las responsabilidades se concentren en un mismo componente. Esto permite que aspectos como la gestión de usuarios, reservas, operaciones del conductor, seguridad y pagos puedan evolucionar de manera independiente.
+
+2. **El dominio guía la arquitectura**
+
+   Las decisiones de arquitectura deben partir de las necesidades y procesos principales de ShareWay. Por ello, el dominio se divide en seis bounded contexts: **Identity & Driver Verification, Ride Booking & Matching, Driver Operations & Routing, Trip Execution & Notifications, Safety, Trust & Reputation y Pricing & Payments**. Esta división permite representar de manera más clara las responsabilidades del negocio dentro de la solución.
+
+3. **Bajo acoplamiento y alta cohesión**
+
+   Los componentes deben mantenerse lo más independientes posible, evitando dependencias innecesarias entre ellos. En ShareWay, cada bounded context debe concentrarse en sus propias responsabilidades y comunicarse con los demás mediante interfaces o contratos definidos. De esta manera, un cambio en una parte de la plataforma no debería afectar directamente a toda la solución.
+
+4. **Seguridad desde el diseño**
+
+   La seguridad debe considerarse desde las primeras decisiones de arquitectura y no como una característica agregada posteriormente. En ShareWay, esto es especialmente importante debido al manejo de información de usuarios, conductores, vehículos, reservas, pagos y situaciones de emergencia. Por ello, las operaciones relacionadas con identidad, acceso, verificación y datos sensibles deben contemplar mecanismos de protección adecuados.
+
+5. **Integridad de las operaciones críticas**
+
+   Las operaciones importantes para el funcionamiento de ShareWay deben mantener un estado consistente. Esto aplica principalmente a las reservas de asientos, cambios de estado de los viajes, validación del abordaje y procesos relacionados con pagos. La arquitectura debe considerar posibles errores o solicitudes simultáneas para evitar inconsistencias en estas operaciones.
+
+6. **Diseño orientado al cambio**
+
+   La arquitectura debe permitir que ShareWay pueda incorporar cambios en sus reglas de negocio sin requerir modificaciones importantes en toda la plataforma. Por ejemplo, aspectos como la asignación de viajes, cálculo de tarifas, verificación de conductores o integración con servicios externos pueden cambiar con el tiempo. Por ello, estas responsabilidades deben mantenerse suficientemente separadas.
+
+7. **Comunicación adecuada entre componentes**
+
+   La comunicación entre las diferentes partes de ShareWay debe definirse de acuerdo con las necesidades de cada operación. Las acciones que requieren una respuesta inmediata pueden utilizar una comunicación directa, mientras que procesos como notificaciones o actualizaciones que no necesitan una respuesta inmediata pueden manejarse de forma desacoplada.
+
+8. **Trazabilidad de operaciones importantes**
+
+   Las operaciones relevantes deben poder ser identificadas y rastreadas dentro de la plataforma. En ShareWay, esto resulta importante para procesos como reservas, cancelaciones, pagos, validación de abordaje, cambios en los viajes y situaciones relacionadas con seguridad. Esto facilita el seguimiento de los procesos y el análisis de posibles problemas.
+
 ### 4.1.2. Approaches Statements Architectural Styles & Patterns
+
+Para el diseño de la arquitectura de ShareWay se consideran diferentes enfoques, estilos y patrones que permiten organizar la solución de acuerdo con las características del dominio y los principales requerimientos de la plataforma.
+
+**Architectural Approaches**
+
+1. **Domain-Driven Design (DDD)**
+
+   Se utilizará como enfoque principal para organizar la arquitectura a partir del dominio de ShareWay. El sistema se divide en seis bounded contexts, cada uno asociado a una responsabilidad específica del negocio:
+
+   * **Identity & Driver Verification:** gestión de usuarios, perfiles, contactos de emergencia y verificación de conductores y vehículos.
+   * **Ride Booking & Matching:** búsqueda de viajes, solicitudes, reservas, cancelaciones y agrupación de pasajeros.
+   * **Driver Operations & Routing:** disponibilidad del conductor, propuestas de viajes y planificación de rutas.
+   * **Trip Execution & Notifications:** ejecución del viaje, validación del abordaje y notificaciones relacionadas con el viaje.
+   * **Safety, Trust & Reputation:** ubicación, botón de emergencia, bloqueos, calificaciones y reputación.
+   * **Pricing & Payments:** cálculo de tarifas, cobros, penalizaciones y liquidaciones para conductores.
+
+   Esta organización permite separar las principales responsabilidades del negocio y facilita la evolución de cada área.
+
+2. **Attribute-Driven Design (ADD)**
+
+   Se considera este enfoque para tomar decisiones arquitectónicas teniendo en cuenta los atributos de calidad que son importantes para ShareWay. Entre ellos se encuentran la seguridad, integridad de las operaciones, disponibilidad, rendimiento y capacidad de evolución. Estos atributos servirán como referencia para justificar las decisiones tomadas durante el diseño de la arquitectura.
+
+3. **Enfoque Cloud Native**
+
+   Se considera un enfoque orientado a la nube para que la arquitectura pueda adaptarse a las necesidades de crecimiento de ShareWay. Esto permitirá plantear una solución que pueda evolucionar y aprovechar mecanismos de escalabilidad, disponibilidad y operación distribuida, sin depender todavía de una tecnología específica.
+
+#### Architectural Styles
+
+1. **Microservices**
+
+   Se considera el estilo principal para estructurar ShareWay, debido a que sus principales responsabilidades pueden separarse de acuerdo con los bounded contexts definidos. Cada servicio podrá concentrarse en una parte específica del negocio, reduciendo el acoplamiento y permitiendo que las diferentes áreas evolucionen de forma independiente.
+
+2. **Service-Oriented Architecture**
+
+   La comunicación entre los diferentes servicios se organizará mediante interfaces y contratos definidos. Este estilo permitirá que los bounded contexts interactúen sin depender directamente de la implementación interna de los demás, manteniendo una separación clara entre responsabilidades.
+
+**Architectural Patterns**
+
+1. **API Gateway**
+
+   Se considera un punto de entrada para las solicitudes externas hacia los servicios de ShareWay. Su función será centralizar aspectos comunes de acceso y dirigir cada solicitud hacia el servicio correspondiente, evitando exponer directamente la estructura interna de la arquitectura.
+
+2. **Database per Service**
+
+   Cada servicio debe mantener el control de los datos relacionados con su propia responsabilidad. De esta manera, los bounded contexts no dependerán directamente de las estructuras internas de datos de otros servicios, reduciendo el acoplamiento entre ellos.
+
+3. **Event-Driven Communication**
+
+   Se considera para aquellas situaciones en las que una acción puede generar cambios o notificaciones en otras partes de la plataforma sin requerir una respuesta inmediata. En ShareWay puede aplicarse, por ejemplo, a cambios en el estado de una reserva, actualizaciones del viaje o generación de notificaciones.
+
+4. **Circuit Breaker**
+
+   Se considera para las comunicaciones con servicios externos de los que depende ShareWay. Si uno de estos servicios presenta problemas, este patrón permite evitar que la falla se propague directamente al resto de la plataforma y facilita el manejo de errores.
+
+5. **Saga**
+
+   Se considera para coordinar procesos que involucran varias operaciones distribuidas. En ShareWay puede ser útil en procesos como una reserva que involucra la confirmación del viaje y el procesamiento del pago, permitiendo definir acciones de compensación cuando una parte del proceso no se completa correctamente.
+
+En conjunto, estos enfoques, estilos y patrones proporcionan una base para organizar la arquitectura de ShareWay manteniendo una separación clara entre las responsabilidades del dominio, reduciendo el acoplamiento y facilitando la evolución de la plataforma.
 
 ### 4.1.3. Context Diagram
 

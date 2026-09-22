@@ -1501,9 +1501,7 @@ El modelo se organiza por los bounded contexts definidos en la sección 4.1.4. C
 
 **Herramienta utilizada:** Lucidchart. Para cumplir con la tecnología solicitada en la rúbrica, el modelo se preparó como esquema SQL relacional y se importó en Lucidchart mediante el flujo de **Importar desde SQL** con DBMS PostgreSQL. Los insumos usados para la importación se encuentran en `docs/lucidchart/shareway_database_schema.sql` y `docs/lucidchart/shareway_lucidchart_information_schema.tsv`.
 
-<p align="center">
-    <img src="img/database-diagram-shareway.svg" alt="Database Diagram relacional de ShareWay" width="100%">
-</p>
+![](img/database-diagram-shareway-lucidchart.png)
 
 **Tablas principales por bounded context**
 

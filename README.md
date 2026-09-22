@@ -1258,7 +1258,98 @@ Utilizamos una secuencia de fibonacci redondeada (1, 2, 3, 5, 8, 13, 20, 50...),
 
 ### 4.1.3. Context Diagram
 
+El diagrama de contexto (nivel 1 del modelo C4) presenta a ShareWay como una única caja negra y muestra las personas que interactúan con la plataforma y los sistemas externos de los que depende. Su objetivo es delimitar el alcance de la solución antes de descomponerla en contenedores y componentes. El diagrama se elaboró con Structurizr DSL y se exportó con Structurizr Lite; las fuentes y el procedimiento de regeneración se encuentran en la carpeta `diagrams/` del repositorio.
+
+<p align="center">
+    <img src="img/ShareWay-Contexto.png" alt="Diagrama de contexto C4 de ShareWay" width="90%">
+</p>
+
+**Actores**
+
+| Actor | Tipo | Interacción con ShareWay | Trazabilidad |
+|---|---|---|---|
+| Pasajero | Usuario (segmento 1) | Busca viajes, reserva y cancela asientos, consulta la información del conductor y del vehículo, valida su abordaje con PIN/QR, comparte su ubicación y califica el servicio. | EP-01, EP-02, EP-03, EP-06, EP-07 |
+| Conductor | Usuario (segmento 2) | Se registra, sube su brevete, SOAT y tarjeta de propiedad, registra su vehículo, configura su disponibilidad, acepta o rechaza propuestas y ejecuta el viaje. | EP-04, EP-05, EP-08 |
+| Administrador | Rol interno | Revisa y aprueba o rechaza la documentación de los conductores, y atiende las alertas de soporte (p. ej. tres intentos fallidos de PIN/QR) y de emergencia. | US-11, US-17, US-29 |
+| Contacto de Emergencia | Persona externa | Recibe un enlace para seguir en tiempo real la ubicación del vehículo; el acceso se desactiva al finalizar el viaje. | US-13, US-29 |
+
+**Sistemas externos**
+
+| Sistema externo | Uso dentro de ShareWay | Trazabilidad |
+|---|---|---|
+| Proveedor de Mapas y Geolocalización | Geocodificación de origen y destino, cálculo de distancias y tiempos, rutas optimizadas con paradas y navegación paso a paso. | US-01, US-02, US-06, US-22 |
+| Pasarela de Pagos | Autorización del pago al reservar el asiento y confirmación del cobro al finalizar el viaje. | US-04, US-25 |
+| Servicio de Notificaciones Push | Entrega de notificaciones sobre propuestas, confirmaciones, cambios de ruta, proximidad del vehículo e inicio o fin del viaje. | US-08, US-14, US-20, US-21, US-28 |
+| Servicio de SMS | Envío del enlace de seguimiento y de las alertas de emergencia al contacto de emergencia, que no necesariamente usa la aplicación. | US-13, US-29 |
+
+Como se indica en el alcance inicial (sección 1.2.2), la disponibilidad de las integraciones de mapas, ubicación y pagos deberá evaluarse antes de incorporarlas; los proveedores mencionados en el diagrama son referenciales.
+
 ### 4.1.4. Approach Driven ViewPoints Diagrams
+
+El diseño de ShareWay sigue un enfoque Domain-Driven Design (DDD). El dominio se divide en seis bounded contexts, cada uno con un lenguaje y un modelo propios, que agrupan las épicas identificadas en el capítulo III:
+
+| Bounded Context | Responsabilidad | Épicas |
+|---|---|---|
+| Identity & Driver Verification | Registro de usuarios, perfil, contactos de emergencia y verificación de conductores y vehículos. | EP-03, EP-08 |
+| Ride Booking & Matching | Búsqueda de viajes, solicitudes, viajes recurrentes, agrupación de pasajeros y reservas. | EP-01, EP-02 |
+| Driver Operations & Routing | Disponibilidad del conductor, propuestas de viaje y rutas optimizadas con paradas. | EP-05 |
+| Trip Execution & Notifications | Validación del abordaje, inicio y fin del viaje, y notificaciones a los participantes. | EP-02, EP-05 |
+| Safety, Trust & Reputation | Ubicación compartida, botón de emergencia, bloqueos, calificaciones y reputación. | EP-06, EP-07 |
+| Pricing & Payments | Estimación y recálculo de tarifas, cobros, penalidades y liquidación al conductor. | EP-04 |
+
+A partir de este enfoque se eligieron tres viewpoints UML que describen el comportamiento y la estructura del dominio: un diagrama de actividad para el flujo central del negocio, un diagrama de estados para el ciclo de vida de la reserva y un diagrama de clases para el modelo de dominio. Los diagramas se elaboraron con PlantUML y sus fuentes se encuentran en `diagrams/uml/`.
+
+#### Diagrama de actividad: búsqueda, matching y reserva
+
+Describe el flujo desde que el pasajero busca un viaje hasta que un conductor acepta la propuesta y la reserva queda confirmada. Los carriles muestran qué bounded context o actor ejecuta cada acción.
+
+<p align="center">
+    <img src="img/actividad-busqueda-matching-reserva.png" alt="Diagrama de actividad de búsqueda, matching y reserva" width="100%">
+</p>
+
+- El pasajero ingresa origen, destino, fecha y rango horario, y puede programar un viaje recurrente (US-02, US-15).
+- ShareWay busca viajes compatibles según horario, ubicación, desvío permitido y asientos libres, y excluye a los usuarios bloqueados (US-10). Cada opción muestra el precio estimado y el avance hacia el mínimo de pasajeros (US-03, US-05).
+- Al confirmar, el asiento se bloquea mientras se autoriza el pago; si el viaje se llenó, se informa que ya no tiene asientos disponibles (US-04).
+- Si el viaje ya tiene conductor, solo se recalcula la ruta con la nueva parada. Si no, la solicitud espera a que el grupo alcance el mínimo de pasajeros y luego se busca un conductor cuya disponibilidad, zona y capacidad se ajusten al grupo (US-19).
+- El conductor recibe una propuesta con ruta, paradas, número de pasajeros y ganancia estimada. Si la rechaza o la propuesta expira, se reasigna a otro conductor (US-20, US-21).
+- Cuando el conductor acepta, la reserva pasa a confirmada, se genera el PIN/QR de abordaje y se notifica a ambas partes (US-21).
+
+#### Diagrama de estados: ciclo de vida de la reserva
+
+Muestra los estados por los que pasa la reserva de un pasajero, desde su creación hasta que finaliza o se cancela. Los estados coinciden con el enumerado `EstadoReserva` del modelo de dominio.
+
+<p align="center">
+    <img src="img/estados-ciclo-vida-reserva.png" alt="Diagrama de estados del ciclo de vida de la reserva" width="70%">
+</p>
+
+| Estado | Descripción | Trazabilidad |
+|---|---|---|
+| Solicitada | El asiento está bloqueado y el pago autorizado; la reserva espera a que el grupo alcance el mínimo de pasajeros. | US-04, US-05 |
+| Agrupada | El grupo está completo y se busca conductor. Incluye los subestados *Buscando Conductor* y *Propuesta Enviada*; si la propuesta se rechaza o expira, se vuelve a buscar. | US-20, US-21 |
+| Confirmada | Un conductor aceptó el viaje; se generan el PIN/QR y se notifican los datos del conductor y del vehículo. Un cambio de ruta recalcula el precio y se notifica al pasajero. | US-03, US-07, US-08, US-21 |
+| Abordada | El conductor validó el PIN/QR y se registró la hora de abordaje. | US-11, US-23 |
+| En Curso | El conductor inició el viaje tras abordar el mínimo de pasajeros; se activa el seguimiento en tiempo real y la ubicación compartida. | US-13, US-24 |
+| Finalizada | El conductor cerró el viaje; se calcula el monto final y se confirma el cobro. Una vez pagada, se habilita la calificación durante 48 horas. | US-09, US-25 |
+| Cancelada | El pasajero canceló, no se presentó o no hubo conductor disponible. Se libera el asiento y, si la cancelación ocurre con menos de 30 minutos de anticipación, se aplica una penalidad. | US-12, US-28 |
+
+#### Diagrama de clases: modelo de dominio
+
+Representa las entidades, value objects y enumerados de cada bounded context, agrupados en paquetes. Los *aggregate roots* están marcados con el estereotipo `<<Aggregate Root>>`.
+
+<p align="center">
+    <img src="img/clases-modelo-dominio.png" alt="Diagrama de clases del modelo de dominio" width="100%">
+</p>
+
+Dentro de un mismo bounded context, las clases se relacionan mediante asociaciones y composiciones directas. Entre bounded contexts distintos, las clases solo guardan el identificador de la otra entidad (flechas punteadas con la etiqueta "ref. por Id"). De esta manera cada contexto mantiene su propio modelo y puede evolucionar de forma independiente.
+
+| Bounded Context | Clases principales |
+|---|---|
+| Identity & Driver Verification | `Usuario` (abstracta) con sus especializaciones `Pasajero`, `Conductor` y `Administrador`; `Vehiculo`; `DocumentoConductor` (brevete, SOAT y tarjeta de propiedad, con estado de revisión y motivo de rechazo); `ContactoEmergencia`. |
+| Ride Booking & Matching | `SolicitudDeViaje`, `Grupo` (capacidad y mínimo de pasajeros), `Reserva` (estado y PIN/QR), `ViajeRecurrente`; value objects `Ubicacion` y `VentanaHoraria`. |
+| Driver Operations & Routing | `Disponibilidad` (días, franja horaria y zonas), `Propuesta` (ganancia estimada y plazo de expiración), `Ruta` y `Parada`. |
+| Trip Execution & Notifications | `Viaje`, `ValidacionAbordaje` (intentos fallidos y hora de abordaje) y `Notificacion` (críticas y no críticas). |
+| Safety, Trust & Reputation | `UbicacionCompartida`, `RegistroUbicacion`, `AlertaEmergencia`, `Calificacion` (1 a 5 estrellas), `Bloqueo` y `Reputacion`. |
+| Pricing & Payments | `Tarifa`, `Pago`, `Penalidad`, `LiquidacionConductor` (monto bruto, comisión y monto neto), `MedioPago` y el value object `Dinero`. |
 
 ### 4.1.5. Relational/Non Relational Database Diagram
 

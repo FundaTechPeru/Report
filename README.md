@@ -26,7 +26,7 @@
 </div>
 
 <hr>
----
+
 
 ## Integrantes
 
@@ -44,11 +44,17 @@
 
 | Versión | Fecha | Autor | Descripción de modificación |
 |---|---|---|---|
-|TB1|08/09/26|Arturo Saravia|Historias de usuario y mapa de impacto|
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
+|TB1|06/09/26| Cumba Rengifo, Leonardo Raul | Creación del informe a partir de la plantilla del curso, con la carátula, el índice y la estructura de capítulos. |
+|TB1|07/09/26| Cumba Rengifo, Leonardo Raul | Redacción del Capítulo I, incluyendo el Startup Profile, el Solution Profile con el análisis 5W y 2H, el Lean UX Process y los segmentos objetivo. |
+|TB1|07/09/26| Cumba Rengifo, Leonardo Raul | Redacción del Capítulo II con el análisis competitivo, las estrategias frente a competidores y el diseño de entrevistas por segmento. |
+|TB1|07/09/26| Cumba Rengifo, Leonardo Raul | Redacción del Capítulo II con los User Personas|
+|TB1|08/09/26| Arturo Saravia|Historias de usuario y mapa de impacto|
+|TB1|08/09/26| Joaquin Lechuga | Entrevista y analisis #1 del segmento conductores|
+|TB1|09/09/26| Joaquin Lechuga | Product backlog y perfil de integrantes.|
+|TB1|10/09/26| Aarón Avila|Perfil de integrante, registro de entrevista para conductores, bibliografía APA y anexos del repositorio|
+|TB1|10/09/26|Aarón Avila|Desarrollo de Student Outcome, análisis de entrevistas, Needfinding, Impact Map, Product Backlog, conclusiones y recomendaciones|
+|TB1|10/09/26| Cotrina Siclla, Sofia Alessandra | Redacción de User Task Matrix, Empathy Maps y As-Is Scenario Mapping |
+|TB2 |21/09/26 | Cumba Rengifo, Leonardo Raul | Redacción de 4.2. Architectural Drivers |
 |  |  |  |  |
 
 ---
@@ -214,6 +220,15 @@
 
 # Student Outcome
 
+El curso contribuye al cumplimiento del **ABET - EAC - Student Outcome 7: Aprendizaje continuo y autónomo**, entendido como la capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.
+
+En el avance TB1, el equipo aplicó esta competencia al investigar el dominio de movilidad compartida, revisar herramientas de análisis de experiencia de usuario, contrastar supuestos mediante entrevistas y organizar los hallazgos en artefactos de requisitos. Las acciones se describen por integrante para evidenciar la contribución individual dentro del trabajo colaborativo.
+
+| Criterio específico | Acciones realizadas | Conclusiones |
+|---|---|---|
+| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y, en especial, para su proyecto en soluciones de software. | **Arturo Axel Saravia Huaricancha**<br>TB1: Participó en la elaboración de historias de usuario, criterios de aceptación y mapa de impacto, aplicando conceptos de requisitos, épicas y trazabilidad funcional.<br><br>**Leonardo Raul Cumba Rengifo**<br>TB1: Contribuyó en la revisión del contexto del problema, organización de información del reporte y alineación de secciones con la estructura solicitada.<br><br>**Aarón Alexander Avila Palacios**<br>TB1: Desarrolló el registro de entrevista para el segmento de conductores, completó el perfil propio, actualizó evidencias visuales, reforzó análisis del reporte y aplicó lineamientos de APA 7 en la bibliografía.<br><br>**Sofia Alessandra Cotrina Siclla**<br>TB1: Participó en la revisión de segmentos objetivo y en la consolidación de artefactos relacionados con usuarios, necesidades y experiencia del producto.<br><br>**Joaquin Andre Lechuga Aguilar**<br>TB1: Contribuyó en la definición de artefactos visuales de experiencia, análisis de usuario y organización de evidencias para el informe. | Durante TB1, el equipo actualizó conocimientos sobre Lean UX, Needfinding, entrevistas, User Personas, Scenario Mapping, Impact Mapping y gestión de Product Backlog. Esto permitió transformar una idea inicial en una propuesta con segmentos, necesidades, requisitos y prioridades preliminares. |
+| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | **Arturo Axel Saravia Huaricancha**<br>TB1: Investigó la relación entre objetivos de negocio, impactos esperados y funcionalidades priorizadas para sostener el mapa de impacto.<br><br>**Leonardo Raul Cumba Rengifo**<br>TB1: Apoyó en la revisión de consistencia del reporte, identificando secciones que requerían mayor sustento o evidencia.<br><br>**Aarón Alexander Avila Palacios**<br>TB1: Revisó la rúbrica, identificó brechas del avance, organizó información de entrevista y completó secciones del informe a partir de nueva evidencia.<br><br>**Sofia Alessandra Cotrina Siclla**<br>TB1: Aportó en la comprensión del segmento de pasajeros y en la relación entre hallazgos de investigación y artefactos de experiencia.<br><br>**Joaquin Andre Lechuga Aguilar**<br>TB1: Apoyó en la revisión de artefactos para conductores y pasajeros, conectando necesidades con tareas, emociones y escenarios de uso. | El desarrollo del avance permitió reconocer que el producto requiere aprendizaje continuo sobre movilidad urbana, validación con usuarios, herramientas de modelado y priorización de requisitos. El equipo identificó que los supuestos iniciales deben revisarse permanentemente con evidencia. |
+
 ---
 
 # CAPÍTULO I: Introducción
@@ -255,9 +270,9 @@ La tarifa presentada al pasajero y la ganancia estimada del conductor deberán m
 |--|--|
 | <img src="img/joakinalabega.jpg" width="1000"> | <br> **Nombre:** Joaquin Andre Lechuga Aguilar <br><br> **Código:** U202221619<br><br> **Sobre mi:** Soy programador aficionado. Me gusta aprender tecnologías y aplicarlas a proyectos personales. Mis hobbies son la música y los videojuegos. Como miembro del grupo, espero aportar en la organización, conceptos técnicos e ideas.|
 | <img src="img/arturo.jpg" width="1000"> | <br> **Nombre:** Arturo Axel Saravia Huaricancha <br><br> **Código:** U202312447<br><br> **Sobre mi:** Soy desarrollador desde hace tres años que le gusta hacer proyectos personales o para ciertas comunidades que buscan una mejora u optimización en su administración. |
-|  |  |
-|  |  |
-|  |  |
+| <img src="img/aaron-avila.png" width="1000"> | <br> **Nombre:** Aarón Alexander Avila Palacios <br><br> **Código:** U201823654<br><br> **Sobre mi:** Soy estudiante de Ingeniería de Software con interés en el desarrollo de soluciones web, la documentación de productos digitales y la organización de requerimientos. Como miembro del equipo, aporto en el registro de entrevistas, la estructuración de evidencias y la revisión del informe para mantener coherencia con la propuesta de ShareWay. |
+| <img src="img/leonardo-cumba.jpeg" width="1000">  |  <br> **Nombre:** Cumba Rengifo, Leonardo Raul <br><br> **Código:** U202311912 <br><br> **Sobre mi:** Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), actualmente cursando el sexto ciclo, con interés en el desarrollo de soluciones web y la arquitectura de software. Como miembro del equipo, participo en la documentación y estructuración de los requerimientos del proyecto ShareWay, apoyando en la organización de entrevistas, elaboración de evidencias y revisión del informe para mantener coherencia entre la problemática identificada y la solución propuesta. |
+| <img src="img/sofia-photo.png" width="1000"> |  <br> **Nombre:** Cotrina Siclla, Sofia Alessandra <br><br> **Código:** U20231B120 <br><br> **Sobre mi:**  Estudiante de Ingeniería de Software con conocimientos en C++, C#, Python y Java, con un enfoque principal orientado al desarrollo Frontend y diseño en Figma. Me considero una persona creativa, colaborativa y comprometida con el trabajo en equipo, dispuesta a aportar soluciones visuales e interfaces atractivas para los proyectos. |
 |  |  |
 
 ## 1.2. Solution Profile
@@ -967,7 +982,7 @@ Comprender las experiencias, necesidades y dificultades de pasajeros y conductor
 | **Edad** | 21 años|||
 | **Distrito** | san isidro |||
 | **Duración** | 18.03 min ||
-| **Enlace** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/IQAdO5YnqN4aRpc8eUr_rrdhAQK6Il6vmXcJvhbIfG5FvRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=27KhVP ||
+| **Enlace** | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/IQD1YJsW5NGVQoP3omClSWEeAZyrSRCwT6_rSCZ_bGt6BYk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=DCnPJK) ||
 
 | Campo | ![Entrevista1](./img/andre.png) <br/>Entrevista 2 | 
 |---|----|
@@ -975,7 +990,19 @@ Comprender las experiencias, necesidades y dificultades de pasajeros y conductor
 | **Edad** | 21 años|
 | **Distrito** | los olivos |
 | **Duración** | 16.49 min |
-| **Enlace** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/IQD1YJsW5NGVQoP3omClSWEeAZyrSRCwT6_rSCZ_bGt6BYk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=DCnPJK |
+| **Enlace** | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/IQAdO5YnqN4aRpc8eUr_rrdhAQK6Il6vmXcJvhbIfG5FvRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=27KhVP) |
+
+| Campo | ![Entrevista1](./img/leo.png) <br/>Entrevista 3 | 
+|---|----|
+| **Nombre** |Yañez Santos, Leo Giovany |
+| **Edad** | 23 años|
+| **Distrito** | Pueblo Libre, Lima |
+| **Duración** | 8 min |
+| **Enlace** | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQDwOqfrT_Q6TK5A2YJNbLxQAXtefQGILKSGRyxyxdYERhE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ifu8rv) |
+
+
+
+
 
 
 **Registro de entrevistas para el segmento de Conductores**
@@ -986,12 +1013,28 @@ Comprender las experiencias, necesidades y dificultades de pasajeros y conductor
 | **Edad** | 27 años|
 | **Distrito** | Chorrillos |
 | **Duración** | 17.33 min |
-| **Enlace** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221619_upc_edu_pe/IQBN2IlGe6pwRb86w78L3pBPAR5DqnupF969g0HVkKxNFd0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ML2FXq |
+| **Enlace** | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221619_upc_edu_pe/IQBN2IlGe6pwRb86w78L3pBPAR5DqnupF969g0HVkKxNFd0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ML2FXq) |
+
+| Campo | ![Entrevista2](./img/entrevista-aaron-avila.png) <br/>Entrevista 2 |
+|---|----|
+| **Nombre** | Aarón Alexander Avila Palacios |
+| **Edad** | 34 años |
+| **Distrito** | Chorrillos |
+| **Duración** | 11.05 min |
+| **Enlace** | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201823654_upc_edu_pe/IQDaHFGp5jd1Q4PNxKCVoALKAYSTtIZl4dBpzGbSmlNXFOI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=nbWVOm) |
+
+| Campo | ![Entrevista3](./img/entrevista-angel-pariona.png) <br/>Entrevista 3 |
+|---|----|
+| **Nombre** | Angel José Pariona |
+| **Edad** | 25 años |
+| **Distrito** | San Martín de Porres |
+| **Duración** | 11:07 min |
+| **Enlace** | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b120_upc_edu_pe/IQCZzyO_8COlTp3EYNFYg8tiAdo9CarnO2vmH1tXKGUVsp8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=9KGulE) |
 
 ### 2.2.3 Análisis de Entrevistas
 
 ---
-**Analisis de entrevistas para el segmento de Pasajeros**
+**Análisis de entrevistas para el segmento de Pasajeros**
 
 1.- Mariana Rafael
 <article #id="analisis-ent-01">
@@ -1023,24 +1066,95 @@ Ve valor concreto en ShareWay para dos escenarios: viajes largos o costosos dond
 Como principales barreras para adoptar la propuesta menciona: El riesgo de que una cancelación corte el viaje grupal y genere esperas, y El desconocimiento del conductor o de los demás pasajeros, incluyendo el temor a que alguno tenga "malas intenciones". Pese a estas reservas, cierra la entrevista calificando la propuesta como "muy buena".
 </article>
 
-**Analisis de entrevistas para el segmento de Conductores**
+3.- Yañez Santos, Leo Giovany
+
+
+La entrevista realizada a Leo, estudiante universitario de 23 años, permitió identificar que sus principales preocupaciones al movilizarse son el costo, el tiempo de viaje y la seguridad.
+
+El entrevistado realiza traslados frecuentes y suele contar con horarios relativamente estables, por lo que considera útil poder planificar sus viajes con anticipación. Aunque utiliza transporte público por su bajo costo, también recurre a aplicaciones de taxi cuando necesita mayor rapidez.
+
+Respecto a los viajes compartidos, Leo considera que podrían ser una buena alternativa para reducir gastos, siempre que los pasajeros y conductores estén verificados. También valora conocer previamente el precio, la duración estimada, las paradas y la información del conductor.
+
+Además, estaría dispuesto a aceptar entre 10 y 15 minutos adicionales de viaje si el ahorro económico es significativo. Sin embargo, no utilizaría esta modalidad cuando necesite llegar con urgencia.
+
+Estos hallazgos respaldan funcionalidades de ShareWay como los viajes programados, agrupación de pasajeros con rutas compatibles, verificación de usuarios, calificaciones, información anticipada del recorrido y herramientas de seguridad.
+
+
+
+**Análisis de entrevistas para el segmento de Conductores**
 1. Juan Bermúdez
-<article #id="analisis-ent-01">
+<article #id="analisis-conductor-01">
 Juan cree que la rentabilidad y el control sobre el servicio son fundamentales.
 Por ejemplo, plantea que un conductor pueda crear una ruta entre dos universidades, indicando los horarios de ida y vuelta. Los estudiantes podrían encontrar y utilizar directamente esa ruta sin tener que organizarse previamente entre ellos.
 
-Shareway podría ser atractivo para él si le permite planificar rutas previamente, conocer cuántos pasajeros tendrá, estimar sus ingresos y controlar sus horarios y tarifas, en lugar de depender completamente de solicitudes individuales como ocurre con las aplicaciones tradicionales. Esto responde directamente a su preocupación por el pago por kilómetro, los tiempos muertos, la congestión y el tiempo necesario para conseguir pasajeros después de terminar un viaje.
+ShareWay podría ser atractivo para él si le permite planificar rutas previamente, conocer cuántos pasajeros tendrá, estimar sus ingresos y controlar sus horarios y tarifas, en lugar de depender completamente de solicitudes individuales como ocurre con las aplicaciones tradicionales. Esto responde directamente a su preocupación por el pago por kilómetro, los tiempos muertos, la congestión y el tiempo necesario para conseguir pasajeros después de terminar un viaje.
 </article>
+
+2. Aarón Avila
+<article #id="analisis-conductor-02">
+El entrevistado (Aarón Alexander Avila Palacios, 34 años, distrito de Chorrillos, conductor independiente de transporte particular) representa un perfil con experiencia sostenida en servicios de movilidad urbana. Lleva aproximadamente seis años realizando traslados de pasajeros y trabaja principalmente en Chorrillos, Barranco, Miraflores, San Isidro, Surco y zonas cercanas. Su jornada se concentra en franjas de alta demanda, especialmente entre 6:30 y 10:00 de la mañana y entre 5:00 y 9:00 de la noche.
+
+Su principal criterio de decisión es la rentabilidad real del recorrido. Antes de aceptar un viaje evalúa punto de recojo, destino, distancia, tiempo estimado, tarifa, forma de pago, paradas adicionales, tráfico, comisión de la plataforma y posibilidad de conseguir otro pasajero cerca del destino. Este hallazgo refuerza la necesidad de que ShareWay muestre información completa antes de que el conductor acepte una propuesta.
+
+También identifica como problemas frecuentes las cancelaciones de último minuto, los pasajeros que no están listos al llegar, los recorridos hacia zonas de baja demanda y los viajes cortos que requieren desplazamientos largos hasta el punto de recojo. Por ello, considera necesarias reglas claras sobre tiempo máximo de espera, penalidades por cancelación tardía y límites para cambios de ruta, especialmente cuando se trata de un viaje compartido.
+
+Sobre los recorridos con varios pasajeros, el entrevistado los considera viables si las paradas siguen una lógica de ruta y si el ingreso final compensa el tiempo adicional. La propuesta de ShareWay le resultaría atractiva si ofrece pasajeros confirmados, rutas organizadas, ganancia visible y reglas que protejan su tiempo. La rechazaría si incluye demasiadas paradas, pago insuficiente o falta de confirmación de los pasajeros.
+
+En seguridad y verificación, valida positivamente mecanismos como PIN o código QR para confirmar al pasajero correcto, sobre todo en puntos donde esperan varias personas. Asimismo, considera útil contar con soporte rápido, registro de datos del viaje y opciones para reportar emergencias, conflictos u objetos perdidos. Respecto a la comisión, estaría dispuesto a aceptarla si la plataforma reduce tiempos muertos, consigue pasajeros confirmados y mantiene la comisión en un nivel transparente y razonable.
+</article>
+
+3. Angel José Pariona
+<article #id="analisis-conductor-03">
+El entrevistado Angel José Pariona, trabaja como conductor de transporte de pasajeros utilizando un vehículo alquilado. Esta modalidad de trabajo le exige organizar sus jornadas con la presión diaria de conseguir pasajeros para cubrir la cuota de alquiler del automóvil. Inició en el servicio hace poco tiempo y sus recorridos se concentran habitualmente de lunes a sábado en la zona norte.
+
+Antes de aceptar un viaje, su criterio de decisión más importante es la tarifa, seguida de cerca por el destino, el contexto general de la ruta y la calificación del pasajero. Para determinar la conveniencia real de un recorrido, calcula el costo del combustible por kilómetro, la cuota diaria del auto y el tiempo estimado del viaje, buscando siempre que le deje un margen de ganancia por hora que supere sus gastos operativos.
+
+Entre las dificultades frecuentes que le generan tiempos muertos se encuentran el tráfico en vías principales como la Panamericana Norte, los trayectos hacia zonas residenciales alejadas y las demoras de los usuarios en los puntos de recojo. Menciona haber tenido que cancelar servicios tras esperar más de siete minutos sin respuesta del cliente. Por ello, para un modelo de viaje programado o compartido, exige reglas claras: un tiempo máximo de espera de 5 minutos y penalidades económicas si el pasajero cancela de forma tardía.
+
+Respecto a la propuesta de ShareWay, le resultaría muy atractiva si la plataforma ofrece rutas con paradas intermedias secuenciales y optimizadas, le ayuda a evadir el tráfico y garantiza una tarifa rentable por kilómetro. Valora positivamente la tranquilidad de asegurar un ingreso fijo por adelantado, comparándolo con la ventaja de los viajes programados hacia el aeropuerto. Rechazaría el servicio si el orden de las paradas genera desorden o conflictos directos entre los pasajeros.
+
+En temas de seguridad, considera vital que la plataforma exija revisión de antecedentes, validación de DNI y reconocimiento facial, sumado a su propia práctica de preguntar el nombre del pasajero antes de abrir las puertas. Ante incidentes, espera que la aplicación brinde un soporte de cobertura rápida frente a daños materiales, además de asistencia legal y telefónica inmediata. Finalmente, estaría dispuesto a pagar una comisión siempre y cuando la plataforma le garantice un flujo constante de viajes, seguridad y responsabilidad por parte de los pasajeros.
+</article>
+
+**Análisis consolidado por segmento**
+
+Considerando que el avance actual cuenta con dos entrevistas registradas por segmento, los porcentajes se interpretan como hallazgos preliminares y no como resultados estadísticamente representativos de toda Lima Metropolitana.
+
+**Segmento pasajeros**
+
+- El 100% de los entrevistados manifiesta preocupación por la seguridad al trasladarse y espera información clara sobre conductor, vehículo, reputación o mecanismos de emergencia.
+- El 100% compara alternativas de transporte considerando precio, tiempo y confianza, aunque el peso de cada factor cambia según la urgencia del viaje.
+- El 100% muestra apertura a compartir un traslado si el beneficio económico o de organización compensa el tiempo adicional y si existen condiciones visibles antes de confirmar.
+- El 100% identifica las cancelaciones o retrasos como un riesgo importante para adoptar un viaje compartido programado.
+- El 50% propone explícitamente agrupar viajes por comunidades conocidas, como universidades, centros de trabajo o grupos con rutas compatibles.
+
+Estos hallazgos sustentan al User Persona de pasajeros como una usuaria que necesita ahorrar y planificar, pero que no aceptará la propuesta si percibe incertidumbre en seguridad, puntualidad o precio.
+
+**Segmento conductores**
+
+- El 100% de los entrevistados evalúa la conveniencia del servicio a partir de la rentabilidad, el tiempo invertido y el control sobre la ruta.
+- El 100% considera valioso conocer anticipadamente pasajeros, paradas, duración estimada e ingresos antes de aceptar un viaje.
+- El 100% identifica cancelaciones, tiempos de espera y cambios de ruta como riesgos que deben regularse desde la plataforma.
+- El 100% considera útil que la plataforma permita planificar recorridos o rutas con mayor anticipación para reducir tiempos muertos.
+- El 50% menciona de forma explícita la utilidad de mecanismos de validación como PIN o QR para confirmar al pasajero correcto.
+
+Estos hallazgos sustentan al User Persona de conductor como un usuario que busca ingresos previsibles, reglas claras y herramientas que reduzcan incertidumbre operativa.
 
 
 ## 2.3. NeedFinding
 
+El proceso de Needfinding permitió transformar los hallazgos de entrevistas y el análisis competitivo en artefactos que representan necesidades, tareas, emociones y escenarios actuales de los segmentos objetivo. Para este avance se consideran dos segmentos principales: pasajeros con desplazamientos frecuentes y conductores interesados en viajes programados.
+
+Los artefactos presentados no reemplazan las entrevistas, sino que sintetizan sus patrones más relevantes para orientar la especificación de requisitos. En conjunto, los User Personas, User Task Matrix, Empathy Maps y As-Is Scenario Mapping permiten identificar qué problemas deben resolverse antes de proponer funcionalidades.
+
 ### 2.3.1. User Personas
+
+Los User Personas se construyeron a partir de características recurrentes observadas en las entrevistas y en el análisis de alternativas existentes. Para pasajeros, se priorizaron preocupaciones sobre ahorro, tiempo, confianza y planificación. Para conductores, se priorizaron rentabilidad, control operativo, reducción de tiempos muertos y claridad en reglas de servicio.
 
 Segmento pasajeros
 
 <p align="center">
-    <img src="img/Userperson1.png" alt="Userperson1" width="50%">
+    <img src="img/UserpersonValeria.png" alt="Userperson1" width="50%">
 </p>
 
 
@@ -1054,6 +1168,8 @@ Segmento conductores
 
 
 ### 2.3.2. User Task Matrix
+
+El User Task Matrix identifica tareas que los segmentos realizan independientemente de que ShareWay exista. Estas tareas permiten diferenciar necesidades reales de funcionalidades propuestas. Para facilitar la lectura del informe, se presentan por segmento y luego se analizan las tareas de mayor frecuencia e importancia.
 
 #### 1. Segmento pasajeros
 
@@ -1083,6 +1199,8 @@ Segmento conductores
 
 ### 2.3.3. Empathy Maps
 
+Los Empathy Maps resumen lo que cada User Persona dice, piensa, siente, observa y necesita resolver. Su objetivo es conectar los hallazgos de entrevista con motivaciones, frustraciones y criterios de decisión que influyen en la adopción de ShareWay.
+
 #### 1. Segmento pasajeros
 
 <p align="center">
@@ -1096,6 +1214,8 @@ Segmento conductores
 </p>
 
 ### 2.3.4. As-Is Scenario Mapping
+
+El As-Is Scenario Mapping representa la experiencia actual antes de ShareWay. En pasajeros, se observan decisiones fragmentadas entre costo, seguridad y tiempo. En conductores, se observa dependencia de solicitudes individuales, incertidumbre sobre rentabilidad y exposición a cancelaciones o esperas.
 
 #### 1. Segmento pasajeros
 
@@ -1116,6 +1236,8 @@ Segmento conductores
 El To-Be Scenario Mapping representa el escenario objetivo que ShareWay propone para los segmentos de pasajeros y conductores. A diferencia del As-Is Scenario Mapping, que muestra la experiencia actual con incertidumbre, coordinación informal y decisiones poco estructuradas, el escenario To-Be describe cómo debería desarrollarse la interacción cuando la plataforma organiza las solicitudes, presenta información anticipada y facilita la confirmación del viaje compartido.
 
 Para elaborar los mapas se consideraron las necesidades identificadas en los segmentos objetivo, los supuestos de Lean UX y los hallazgos iniciales del análisis de entrevistas. El resultado permite visualizar las fases esperadas de uso, las acciones de cada usuario, sus pensamientos durante la experiencia y las emociones que deberían acompañar el proceso.
+
+El proceso seguido inició con la preparación de los User Personas y revisión de los As-Is Scenario Mapping. Luego se realizó una lluvia de ideas sobre acciones esperadas en una experiencia ideal, se agruparon las ideas en fases, se nombraron las columnas principales y se comparó cada fase con el escenario actual para identificar cambios que ShareWay debería ofrecer. Las filas consideradas fueron Phases, Doing, Thinking y Feeling, conforme al formato solicitado para Scenario Mapping.
 
 **To-Be Scenario Mapping para el segmento de pasajeros**
 
@@ -1199,6 +1321,18 @@ Cada Epic se redacta como una historia de usuario de grano grueso, en el mismo f
 
 ## 3.3. Impact Map
 
+El Impact Map conecta los objetivos de negocio de ShareWay con los actores que pueden influir en su logro, los cambios de comportamiento esperados, los entregables del producto y las User Stories relacionadas. Para este avance se consideraron los User Personas de pasajeros y conductores, porque ambos son necesarios para validar el modelo de viajes compartidos programados.
+
+Los Business Goals se formularon con criterio SMART para mantenerlos medibles y acotados. En esta etapa representan metas iniciales de validación del modelo digital:
+
+| Business Goal | Personas / Actors | Impactos esperados | Deliverables | User Stories relacionadas |
+|---|---|---|---|---|
+| Lograr que al menos 60 pasajeros registren solicitudes de viajes compartidos programados durante los primeros 3 meses de piloto en corredores seleccionados de Lima Metropolitana. | Valeria Mendoza Rojas, pasajera con desplazamientos frecuentes. | Que registre rutas, compare condiciones, confirme reservas y repita viajes si percibe ahorro y confianza. | Búsqueda de rutas, estimación de precio, reserva de asiento, información del viaje y notificaciones. | US-01, US-02, US-03, US-04, US-06, US-14, US-15 |
+| Conseguir que al menos 20 conductores verificados acepten propuestas de recorridos programados durante los primeros 3 meses de piloto. | Carlos Ramírez Salazar, conductor de viajes programados. | Que configure disponibilidad, evalúe propuestas por rentabilidad, acepte recorridos y ejecute paradas de forma ordenada. | Registro de conductor, carga de documentos, disponibilidad, propuestas de viaje y ruta optimizada. | US-16, US-17, US-18, US-19, US-20, US-21, US-22 |
+| Alcanzar que el 70% de viajes piloto finalizados cuenten con validación de abordaje y calificación registrada durante el periodo de prueba. | Pasajeros y conductores. | Que ambos validen correctamente el abordaje, finalicen el recorrido y registren la experiencia para fortalecer confianza. | PIN o QR de abordaje, finalización de viaje, calificaciones, historial y reputación. | US-09, US-11, US-23, US-25, US-26, US-27 |
+
+Las capturas siguientes muestran el Impact Map elaborado para cada segmento, manteniendo la relación entre objetivos de negocio, personas, impactos, entregables y User Stories.
+
 ### Pasajeros
 <p align="center">
     <img src="img/Impact map 1.png" alt="Userperson1" width="50%">
@@ -1214,6 +1348,8 @@ Cada Epic se redacta como una historia de usuario de grano grueso, en el mismo f
 <article>Medimos el esfuerzo, complejidad e incertidumbre usando story points.
 Utilizamos una secuencia de fibonacci redondeada (1, 2, 3, 5, 8, 13, 20, 50...), donde '2' simboliza el doble de esfuerzo que '1' y '1' simboliza esfuerzo minimo.</article>
 
+El Product Backlog prioriza primero las historias que habilitan la operación mínima del servicio: registro y verificación del conductor, búsqueda y reserva del pasajero, aceptación de propuestas, validación del abordaje y cierre del viaje. Luego se incorporan funcionalidades de reputación, notificaciones, seguridad y recurrencia. Esta priorización permite que el producto valide tempranamente si existe compatibilidad entre solicitudes de pasajeros y disponibilidad de conductores.
+
 | # Orden | User Story Id | Titulo | Descripción | Story Points |
 | :--- | :---: | :---: | :---: | :---: |
 | 01 | US-16 | Registrar cuenta como conductor | **Como** conductor, **quiero** registrarme en la plataforma con mis datos personales, **para** poder ofrecer viajes compartidos a través de ShareWay. | 3 |
@@ -1225,7 +1361,7 @@ Utilizamos una secuencia de fibonacci redondeada (1, 2, 3, 5, 8, 13, 20, 50...),
 | 07 | US-20 | Recibir propuestas de viaje | **Como** conductor, **quiero** recibir propuestas de viajes con ruta, pasajeros agrupados y ganancia estimada, **para** decidir si me conviene aceptarlas. | 8 | 
 | 08 | US-21 | Aceptar o rechazar una propuesta de viaje | **Como** conductor, **quiero** aceptar o rechazar una propuesta de viaje, **para** gestionar mi disponibilidad y decidir qué recorridos realizar. | 3 | 
 | 09 | US-19 | Configurar disponibilidad y horarios | **Como** conductor, **quiero** configurar mis horarios y zonas de disponibilidad, **para** recibir propuestas de viaje que se ajusten a mi rutina. | 5 | 
-| 10 | US-22 | Ver ruta optimizada con paradas | **Como** conductor, **quiero** visualizar la ruta optimizada con el orden de las paradas de recojo, **para** completar el recorrido de la forma más eficiente posible. | 13 | 
+| 10 | US-22 | Ver ruta optimizada con paradas | **Como** conductor, **quiero** visualizar la ruta optimizada con el orden de las paradas de recojo, **para** completar el recorrido de la forma más eficiente posible. | 8 | 
 | 11 | US-11 | Validar abordaje con PIN o QR | **Como** pasajero, **quiero** validar mi ingreso al vehículo mediante un PIN o código QR, **para** confirmar que estoy abordando el viaje correcto de forma segura. | 5 | 
 | 12 | US-23 | Validar pasajero al abordar | **Como** conductor, **quiero** validar el PIN o código QR de cada pasajero al momento de abordar, **para** confirmar que corresponde al viaje asignado. | 3 | 
 | 13 | US-24 | Iniciar el viaje | **Como** conductor, **quiero** iniciar el viaje una vez abordados los pasajeros confirmados, **para** dar comienzo formal al recorrido registrado en la plataforma. | 3 | 
@@ -1359,17 +1495,240 @@ Dentro de un mismo bounded context, las clases se relacionan mediante asociacion
 
 ---
 
+
 ## 4.2. Architectural Drivers
+
+Los architectural drivers de ShareWay representan los requisitos con mayor influencia sobre la estructura del sistema. Su identificación considera la propuesta de viajes compartidos programados, las historias de usuario del capítulo III y las restricciones del trabajo académico. Se distinguen drivers funcionales, escenarios de atributos de calidad y restricciones. Asimismo, se registran preocupaciones arquitectónicas que deberán resolverse durante las iteraciones de Attribute-Driven Design (ADD).
 
 ### 4.2.1. Design Purpose
 
+El propósito del diseño arquitectónico de ShareWay es establecer una estructura que permita coordinar viajes compartidos programados con conductores verificados, manteniendo consistencia entre las reservas individuales, la disponibilidad de asientos, la asignación de conductores y el estado del recorrido.
+
+El diseño debe delimitar responsabilidades y modelos de dominio mediante Domain-Driven Design (DDD), y orientar la construcción de una solución basada en microservicios. Las decisiones se desarrollarán mediante ADD, considerando las funcionalidades de mayor impacto, los atributos de calidad y las restricciones del proyecto.
+
+Se busca que la arquitectura permita:
+
+- Agrupar solicitudes compatibles y proponer recorridos acordes con la disponibilidad de los conductores.
+- Evitar reservas que excedan la capacidad del vehículo y mantener coherencia ante cancelaciones y operaciones de cobro.
+- Restringir las operaciones a usuarios autorizados y validar que cada abordaje corresponda al pasajero y al viaje asignados.
+- Comunicar cambios relevantes del recorrido y gestionar fallas de servicios externos sin perder información confirmada.
+- Facilitar cambios en las reglas de tarifas, agrupación y verificación, limitando su impacto sobre otras responsabilidades.
+
+**Objetivos de negocio que orientan el diseño**
+
+Los siguientes objetivos sintetizan la propuesta y las historias existentes de ShareWay. Sus identificadores permiten relacionar las necesidades del negocio con los escenarios y las decisiones posteriores. No añaden metas comerciales de crecimiento ni presupuestos que el equipo no haya definido.
+
+| ID | Objetivo de negocio | Drivers relacionados |
+|---|---|---|
+| DN-01 | Ofrecer viajes programados con cupos y asignaciones confiables. | DF-01, DF-02, DF-06. |
+| DN-02 | Generar confianza mediante conductores verificados, abordajes válidos y protección de la ubicación. | DF-04, DF-05, DF-07. |
+| DN-03 | Mantener la coordinación del viaje y comunicar cambios o emergencias. | DF-05, DF-06, DF-07. |
+| DN-04 | Mantener claridad y consistencia en las tarifas y los cobros. | DF-03. |
+| DN-05 | Permitir que el equipo ajuste las reglas de negocio con impacto limitado sobre otras funcionalidades. | DF-03 y evolución de la solución. |
+
+El resultado del diseño será una arquitectura documentada mediante elementos, responsabilidades, interfaces y vistas, con trazabilidad hacia los drivers que justifican cada decisión.
+
 ### 4.2.2. Primary Functionality (Primary User Stories)
+
+Se seleccionaron las siguientes historias por su relevancia para el negocio, complejidad técnica e influencia sobre la descomposición y coordinación del sistema. Esta selección arquitectónica complementa la priorización del Product Backlog.
+
+| Driver | Historias relacionadas | Funcionalidad principal | Justificación arquitectónica |
+|---|---|---|---|
+| DF-01 | US-02 Buscar rutas; US-19 Configurar disponibilidad y horarios; US-20 Recibir propuestas de viaje; US-21 Aceptar o rechazar una propuesta de viaje | Buscar viajes compatibles y coordinar propuestas y asignaciones. | Requiere relacionar ruta, horario, capacidad y disponibilidad, y resolver la aceptación, expiración o reasignación de una propuesta sin generar asignaciones incompatibles. |
+| DF-02 | US-04 Asegurar asiento; US-12 Cancelar viaje reservado; US-28 Gestionar cancelación de un pasajero | Reservar y liberar asientos. | Exige control de concurrencia y coordinación entre la reserva, los cupos y las modificaciones del recorrido. |
+| DF-03 | US-03 Estimar precio; US-25 Finalizar el viaje y confirmar cobro | Calcular tarifas y registrar el cierre económico del viaje. | Requiere conservar la relación entre la tarifa comunicada, sus cambios, cada reserva y el cobro, evitando duplicaciones o importes inconsistentes. |
+| DF-04 | US-16 Registrar cuenta como conductor; US-17 Subir documentos para verificación; US-18 Registrar datos del vehículo; US-30 Ver y editar perfil y vehículo | Registrar y verificar conductores y vehículos. | Requiere gestionar documentos y estados de habilitación, restringir operaciones y solicitar una nueva revisión cuando corresponda. |
+| DF-05 | US-11 Validar abordaje con PIN o QR; US-23 Validar pasajero al abordar; US-24 Iniciar el viaje | Validar pasajeros e iniciar el recorrido. | Requiere asociar códigos con reservas y viajes, registrar abordajes y controlar las condiciones de inicio. |
+| DF-06 | US-06 Información del viaje; US-22 Ver ruta optimizada con paradas; US-28 Gestionar cancelación de un pasajero | Planificar y actualizar rutas y paradas. | Implica integración con información geográfica y propagación coherente de cambios a pasajeros y conductores. |
+| DF-07 | US-13 Compartir ubicación en tiempo real; US-14 Recibir notificaciones del viaje; US-29 Activar botón de emergencia | Compartir ubicación y comunicar eventos y emergencias. | Exige controlar el acceso a la ubicación, gestionar actualizaciones y distinguir alertas críticas de notificaciones ordinarias. |
 
 ### 4.2.3. Quality Attribute Scenarios
 
+Cada escenario se especifica mediante fuente de estímulo, estímulo, entorno, artefacto, respuesta y medida de respuesta, siguiendo el material de clase. Los valores numéricos siguientes son **metas iniciales propuestas de diseño**; deberán validarse con el equipo, las necesidades de los stakeholders y la capacidad del entorno de pruebas. No representan resultados de pruebas ejecutadas ni acuerdos ya obtenidos mediante QAW.
+
+**Preparación de escenarios y priorización**
+
+Se adopta del ejercicio resuelto la secuencia de identificar necesidades, consolidar escenarios, priorizarlos y refinarlos en seis partes. Las necesidades de la tabla son paráfrasis derivadas de las US, no citas de entrevistas ni resultados de un taller realizado.
+
+| Necesidad inicial derivada de las US | Perspectiva a validar | Escenario refinado |
+|---|---|---|
+| Consultar opciones compatibles sin esperas prolongadas. | Pasajero; US-02. | QAS-01. |
+| Conservar un cupo exclusivo cuando otros pasajeros reservan al mismo tiempo. | Pasajero; US-04. | QAS-02. |
+| Impedir que un código incorrecto autorice el abordaje. | Pasajero y conductor; US-11 y US-23. | QAS-03. |
+| Consultar el estado confirmado del viaje aunque falle el envío de avisos. | Pasajero y operación; US-14. | QAS-04. |
+| Cambiar el cálculo de la tarifa sin modificar otras funciones. | Producto y desarrollo; US-03. | QAS-05. |
+| Desactivar el seguimiento compartido cuando finaliza el viaje. | Pasajero y contacto de emergencia; US-13. | QAS-06. |
+| Recuperar el servicio de reservas conservando las operaciones confirmadas. | Pasajero y operación; US-04 y US-12. | QAS-07. |
+| Registrar y comunicar una emergencia con rapidez. | Conductor y operación; US-29. | QAS-08. |
+
+**Consolidación:** US-11 y US-23 se reúnen en QAS-03 porque describen las dos perspectivas de la misma validación. US-04 y US-12 se relacionan con QAS-07 porque ambas dependen del estado persistido de las reservas. QAS-02 y QAS-07 se mantienen separados: prueban concurrencia y recuperación ante fallas, respectivamente. QAS-04 y QAS-08 también se separan porque las alertas de emergencia requieren un tratamiento distinto de los avisos ordinarios.
+
+**Orden de atención propuesto:** se ponderan el impacto sobre la seguridad de los usuarios, la integridad de las operaciones centrales y la continuidad del servicio. El orden siguiente es una propuesta de análisis; debe confirmarse con el equipo y representantes de los stakeholders. No se atribuyen votos ni consensos que todavía no existen.
+
+| Orden | Escenario | Objetivo relacionado | Justificación |
+|---|---|---|---|
+| 1 | QAS-02 Integridad de cupos. | DN-01. | Una sobreventa invalida el compromiso central de la reserva y afecta al viaje completo. |
+| 2 | QAS-03 Seguridad del abordaje. | DN-02. | Una validación indebida compromete la confianza y el acceso al viaje correcto. |
+| 3 | QAS-07 Recuperación de reservas. | DN-01, DN-03. | La pérdida del servicio o de reservas confirmadas impide coordinar el traslado. |
+| 4 | QAS-08 Atención técnica de alertas de emergencia. | DN-03. | Una alerta perdida o demorada afecta una función crítica de protección. |
+| 5 | QAS-06 Revocación de ubicación compartida. | DN-02. | El acceso posterior al viaje expone información que ya no debe compartirse. |
+| 6 | QAS-01 Rendimiento de búsqueda. | DN-01. | Los tiempos de consulta influyen en la elección del viaje y en la carga soportada. |
+| 7 | QAS-04 Fallas de notificaciones ordinarias. | DN-03. | Deben preservarse las operaciones confirmadas aunque un canal de comunicación falle. |
+| 8 | QAS-05 Modificabilidad de tarifas. | DN-04, DN-05. | Reduce el impacto y el esfuerzo de evolución de las reglas comerciales. |
+
+Se proponen los primeros cinco como foco inicial de discusión, conservando los ocho escenarios para el diseño completo. Si se realiza el QAW, se deberá adjuntar la participación real, la votación y la justificación de los desempates. Los roles pertinentes son pasajero, conductor, responsable de operaciones, responsable de seguridad y líder de desarrollo. Si los estudiantes representan estos roles, se registrará como una simulación académica.
+
+**Escenarios refinados**
+
+#### QAS-01 Rendimiento en la búsqueda de viajes
+
+| Elemento | Especificación |
+|---|---|
+| Fuente de estímulo | Pasajero. |
+| Estímulo | Solicita viajes por origen, destino, fecha y rango horario. |
+| Entorno | Prueba con 100 sesiones activas, 20 búsquedas por segundo durante 10 minutos y 10 000 viajes programados en el conjunto de datos. |
+| Artefacto | Servicio de búsqueda de viajes. |
+| Respuesta | Devuelve viajes compatibles o indica que no existen resultados. |
+| Medida de respuesta | Al menos el 95 % de las solicitudes responde en un máximo de 2 segundos, medidos desde la recepción en la API hasta la emisión de la respuesta; tasa de errores técnicos inferior al 1 %. |
+
+**Trazabilidad:** DF-01; US-02.
+
+#### QAS-02 Confiabilidad e integridad de los cupos ante reservas simultáneas
+
+| Elemento | Especificación |
+|---|---|
+| Fuente de estímulo | Varios pasajeros. |
+| Estímulo | Solicitan simultáneamente reservar el último asiento de un viaje. |
+| Entorno | Prueba de 20 solicitudes simultáneas sobre un viaje con un asiento libre, repetida 100 veces. |
+| Artefacto | Gestión de reservas y disponibilidad de asientos. |
+| Respuesta | Concede el bloqueo del asiento a una sola solicitud e informa a las restantes que el cupo ya no está disponible. |
+| Medida de respuesta | Exactamente un bloqueo exitoso por ejecución, cero sobreventas y cero valores negativos de disponibilidad. |
+
+**Trazabilidad:** DF-02; US-04. Este escenario evalúa la integridad y consistencia de la información bajo concurrencia.
+
+#### QAS-03 Seguridad en la validación del abordaje
+
+| Elemento | Especificación |
+|---|---|
+| Fuente de estímulo | Conductor autenticado que presenta un código para validación. |
+| Estímulo | Envía un PIN/QR inválido o perteneciente a otro viaje. |
+| Entorno | Viaje en etapa de abordaje, con conectividad disponible. |
+| Artefacto | Validación de abordaje y registro de intentos. |
+| Respuesta | Rechaza el código sin modificar el estado del pasajero, registra el intento y genera una notificación a soporte al tercer intento incorrecto consecutivo para la validación del mismo pasajero y viaje. |
+| Medida de respuesta | Se rechaza el 100 % de los códigos inválidos del conjunto de prueba; cero abordajes indebidos; la notificación queda registrada para envío en un máximo de 5 segundos desde el tercer intento. |
+
+**Trazabilidad:** DF-05; US-11 y US-23. El alcance del contador de intentos se propone para validación del equipo.
+
+#### QAS-04 Disponibilidad ante fallas de notificaciones
+
+| Elemento | Especificación |
+|---|---|
+| Fuente de estímulo | Proveedor externo de notificaciones. |
+| Estímulo | Deja de responder cuando debe notificarse un cambio de estado del viaje. |
+| Entorno | Interrupción simulada de 5 minutos; la aplicación y su persistencia permanecen operativas. |
+| Artefacto | Gestión del viaje y envío de notificaciones. |
+| Respuesta | Conserva el cambio confirmado, permite consultarlo en la aplicación y mantiene el aviso pendiente de entrega. |
+| Medida de respuesta | Cero cambios confirmados perdidos; las operaciones de consulta y actualización del viaje no fallan por la interrupción del proveedor; con un máximo de 100 avisos pendientes, se obtiene la aceptación de todos por el proveedor dentro de los 60 segundos posteriores a su recuperación. |
+
+**Trazabilidad:** DF-07; US-14. La aceptación por el proveedor no equivale a la lectura o recepción efectiva en el dispositivo del usuario.
+
+#### QAS-05 Modificabilidad de las reglas de tarifas
+
+| Elemento | Especificación |
+|---|---|
+| Fuente de estímulo | Responsable del producto. |
+| Estímulo | Solicita cambiar la fórmula de distribución del precio por pasajero, conservando las entradas y salidas de la operación. |
+| Entorno | Desarrollo y pruebas de una nueva versión. |
+| Artefacto | Lógica de cálculo de tarifas. |
+| Respuesta | El equipo modifica la regla y sus pruebas, preservando el comportamiento de reservas, verificación y abordaje. |
+| Medida de respuesta | Cambio implementado y probado en un máximo de 2 jornadas de 8 horas de un desarrollador, sin cambios en los contratos públicos ni en el código de reservas, verificación o abordaje; aprobación del 100 % de las pruebas de regresión definidas para esos procesos. |
+
+**Trazabilidad:** DF-03; US-03.
+
+#### QAS-06 Seguridad del acceso a la ubicación compartida
+
+| Elemento | Especificación |
+|---|---|
+| Fuente de estímulo | Contacto de emergencia que posee un enlace de seguimiento. |
+| Estímulo | Intenta consultar la ubicación después del cierre del viaje. |
+| Entorno | Viaje finalizado con el cierre registrado por el sistema. |
+| Artefacto | Servicio de seguimiento y autorización del enlace. |
+| Respuesta | Revoca el acceso y rechaza nuevas consultas de ubicación mediante el enlace. |
+| Medida de respuesta | Revocación efectiva en un máximo de 5 segundos desde el cierre; el 100 % de las solicitudes realizadas después de ese plazo se rechaza sin devolver datos de ubicación. |
+
+**Trazabilidad:** DF-07; US-13. La revocación afecta nuevas consultas y no elimina información que el contacto ya haya recibido.
+
+#### QAS-07 Disponibilidad y recuperación del servicio de reservas
+
+| Elemento | Especificación |
+|---|---|
+| Fuente de estímulo | Falla de la instancia de ejecución del servicio de reservas. |
+| Estímulo | La instancia se detiene durante el procesamiento de solicitudes. |
+| Entorno | Prueba con 20 solicitudes por segundo; la persistencia y los demás servicios permanecen disponibles. |
+| Artefacto | Servicio de reservas y estado persistido de bloqueos y reservas. |
+| Respuesta | Recupera la capacidad de atender solicitudes, conserva las reservas confirmadas y permite consultar el resultado de operaciones interrumpidas antes de reintentarlas. |
+| Medida de respuesta | Recuperación en un máximo de 60 segundos desde la falla, verificada mediante solicitudes válidas exitosas durante los siguientes 30 segundos; cero reservas confirmadas perdidas y cero duplicados al reintentar 100 operaciones interrumpidas con el mismo identificador de operación. |
+
+**Trazabilidad:** DN-01, DN-03; DF-02; US-04 y US-12. La recuperación frente a una pérdida de la base de datos requiere otro escenario y no se considera cubierta por esta prueba.
+
+#### QAS-08 Rendimiento en el registro y envío de alertas de emergencia
+
+| Elemento | Especificación |
+|---|---|
+| Fuente de estímulo | Conductor de un viaje activo. |
+| Estímulo | Activa el botón de emergencia. |
+| Entorno | Prueba con 100 viajes activos y 10 alertas simultáneas; conectividad disponible y proveedor de notificaciones operativo. |
+| Artefacto | Gestión de emergencias y comunicación con la plataforma y el contacto registrado. |
+| Respuesta | Persiste la alerta asociada al viaje y a la última ubicación conocida con su hora, confirma el registro al conductor y envía los avisos a los destinatarios configurados. |
+| Medida de respuesta | El 100 % de las alertas de la prueba se registra y confirma en un máximo de 2 segundos desde su recepción por la API; aceptación de los avisos por los canales de entrega en un máximo de 5 segundos desde esa recepción; cero alertas perdidas. |
+
+**Trazabilidad:** DN-03; DF-07; US-29. Estas medidas cubren el procesamiento técnico, no el tiempo de asistencia humana. Ante pérdida de conectividad o falla del proveedor, la interfaz deberá indicar que el envío no se completó; la política de recuperación se resolverá en AC-08.
+
 ### 4.2.4. Constraints
 
+Las restricciones son condiciones obligatorias que delimitan las decisiones de arquitectura. CON-01 a CON-04 condicionan directamente la solución; CON-05 y CON-06 son restricciones del proceso y de la documentación. Todas provienen del enunciado del trabajo. Las elecciones tecnológicas todavía abiertas se mantendrán como decisiones pendientes.
+
+| ID | Restricción | Origen | Implicación |
+|---|---|---|---|
+| CON-01 | Desarrollar una solución con arquitectura orientada a microservicios y enfoque DDD. | Logro y objetivo del trabajo. | Delimitar modelos de dominio y responsabilidades, y justificar la descomposición de la solución. |
+| CON-02 | Aplicar ADD v3 al diseño arquitectónico. | Capítulo IV del enunciado. | Documentar iteraciones, drivers, decisiones, responsabilidades, interfaces y revisión de objetivos. |
+| CON-03 | Exponer los servicios mediante RESTful APIs y documentarlos con OpenAPI a través de Swagger. | Secciones de componentes y tecnologías. | Definir operaciones, contratos, respuestas y documentación verificable de los servicios. |
+| CON-04 | Desplegar los microservicios en AWS, Microsoft Azure o Google Cloud. | Sección de tecnologías. | Diseñar una solución desplegable en uno de los proveedores permitidos; el proveedor concreto queda por seleccionar. |
+| CON-05 | Utilizar GitHub con GitFlow, Conventional Commits y Semantic Versioning. | Source Code Management y tecnologías. | Mantener trazabilidad de cambios y convenciones compartidas para ramas, commits y versiones. |
+| CON-06 | Elaborar C4 con Structurizr, UML con LucidChart y el diseño de datos con LucidChart o Vertabelo. | Sección de tecnologías. | Producir la documentación arquitectónica con las herramientas establecidas. |
+
+No se establece como restricción un lenguaje, framework, motor de base de datos o presupuesto específico, ya que no se ha identificado una imposición concreta de estos elementos en la información revisada. Las políticas sobre cupos, verificación y cancelaciones se tratarán como reglas funcionales del dominio.
+
 ### 4.2.5. Architectural Concerns
+
+Las architectural concerns reúnen asuntos de diseño que requieren análisis y coordinación entre las partes de la solución. Se registran como cuestiones por resolver mediante ADD, sin asumir que ya se ha elegido una solución técnica.
+
+| ID | Preocupación | Decisión o análisis requerido | Trazabilidad |
+|---|---|---|---|
+| AC-01 | Delimitación de bounded contexts y propiedad de los datos. | Definir quién controla solicitudes, propuestas, viajes, reservas, tarifas, cobros y verificación; acordar contratos de integración y evitar que varias partes modifiquen el mismo estado sin coordinación. | DF-01 a DF-07. |
+| AC-02 | Consistencia entre reservas, bloqueos de asientos y cobros. | Aclarar el pago durante la reserva de US-04 frente al cobro al finalizar de US-25, distinguiendo pago, autorización y liquidación según el flujo acordado. Definir duración del bloqueo, expiración, rechazo del pago, liberación del cupo y reintentos sin duplicados. | DF-02, DF-03; QAS-02. |
+| AC-03 | Ciclo de vida y asignación del viaje. | Precisar estados y transiciones para propuesta, aceptación, confirmación, abordaje, inicio y finalización. Resolver aceptaciones simultáneas y cambios de disponibilidad sin afectar viajes confirmados. En US-24, aclarar si el inicio exige todos los pasajeros confirmados o solo el mínimo, y cómo se atienden los recojos pendientes. | DF-01, DF-05. |
+| AC-04 | Habilitación efectiva del conductor. | Aclarar la relación entre US-16, US-17 y US-18: registrar el vehículo no debería habilitar por sí solo a un conductor con documentos pendientes. Definir las condiciones conjuntas de aprobación y reverificación de US-30. | DF-04. |
+| AC-05 | Cancelaciones y actualización del recorrido. | Resolver la diferencia entre US-12, que contempla cancelación antes de la salida, y US-22, que contempla cancelación durante el recorrido. Definir reglas, penalidades, efectos sobre paradas y tarifas y comunicación de los cambios. | DF-02, DF-03, DF-06. |
+| AC-06 | Dependencias externas y conectividad móvil. | Definir el comportamiento ante fallas de mapas, pagos o notificaciones y ante pérdida de conexión del usuario. Distinguir operaciones pendientes de operaciones confirmadas y controlar duplicados tras la reconexión. | DF-03, DF-06, DF-07; QAS-04. |
+| AC-07 | Protección de documentos, identidad y ubicación. | Definir permisos de acceso, vigencia de enlaces y códigos, conservación de documentos y exposición mínima de información personal en respuestas y registros. | DF-04, DF-05, DF-07; QAS-03, QAS-06. |
+| AC-08 | Tratamiento de alertas de emergencia. | Separar alertas críticas de avisos ordinarios, registrar su estado de entrega y atención y mostrar al usuario si el envío no pudo completarse. La recepción técnica del aviso no debe presentarse como garantía de asistencia presencial. | DF-07; US-29; QAS-08. |
+| AC-09 | Verificación del cumplimiento de los drivers. | Definir pruebas y registros que permitan medir los escenarios, seguir operaciones entre servicios y detectar fallas sin exponer información sensible. | QAS-01 a QAS-08. |
+
+**Compromisos entre atributos de calidad**
+
+| Escenarios en tensión | Riesgo o costo de diseño | Criterio para evaluar alternativas en ADD |
+|---|---|---|
+| QAS-02 y rendimiento de las reservas. | Serializar el acceso al último cupo puede aumentar el tiempo de espera. | Preservar la ausencia de sobreventas y medir la latencia bajo contención antes de elegir el control de concurrencia. |
+| QAS-03 / QAS-06 y QAS-01. | Las verificaciones de autorización y vigencia añaden procesamiento. | Comprobar la seguridad y la latencia en conjunto; cualquier caché de autorizaciones debe respetar el límite de revocación del enlace. |
+| QAS-07 y recursos de operación. | La recuperación rápida puede requerir redundancia, supervisión y mayor consumo de recursos. | Comparar recuperación por reinicio y por réplica frente a la meta de 60 segundos, midiendo costos sin asumir un presupuesto no definido. |
+| QAS-04 / QAS-08 y simplicidad operativa. | La entrega diferida y los reintentos requieren mantener estados, tratar duplicados y supervisar pendientes. | Asegurar persistencia y trazabilidad de avisos y separar la prioridad de emergencias de la de notificaciones ordinarias. |
+| QAS-05 y simplicidad de implementación. | Aislar reglas y versionar contratos exige más interfaces y pruebas iniciales. | Justificar el aislamiento por cambios concretos de tarifas y evitar abstracciones que no respondan a una necesidad. |
+
+
+
+
+
 
 ---
 
@@ -1583,18 +1942,82 @@ Dentro de un mismo bounded context, las clases se relacionan mediante asociacion
 
 # Conclusiones
 
+- El Avance 1 permitió delimitar ShareWay como una plataforma de viajes compartidos programados orientada a pasajeros con desplazamientos frecuentes y conductores que buscan recorridos rentables y previamente organizados.
+- Las entrevistas muestran que la propuesta debe equilibrar ahorro, seguridad y puntualidad para pasajeros, mientras que para conductores debe ofrecer rentabilidad clara, reglas de espera, control de ruta y reducción de tiempos muertos.
+- Los artefactos de Needfinding evidencian que el problema no se limita a pedir un traslado, sino a coordinar condiciones entre varios participantes: horarios, paradas, confirmaciones, identidad, tarifa y cancelaciones.
+- El To-Be Scenario Mapping y el Impact Map ayudan a conectar la experiencia deseada con funcionalidades concretas del Product Backlog, manteniendo trazabilidad entre necesidades, objetivos de negocio y User Stories.
+- El Product Backlog inicial prioriza las capacidades necesarias para validar el flujo base: registrar actores, buscar viajes, confirmar reservas, aceptar propuestas, validar abordaje, ejecutar el recorrido y cerrar el servicio.
+
 ---
 
 # Recomendaciones
+
+- Mantener la validación del modelo en corredores y horarios delimitados antes de ampliar cobertura, ya que la propuesta depende de coincidencias reales entre pasajeros y conductores.
+- Profundizar las reglas de cancelación, tiempos de espera y cambios de ruta, porque aparecen como riesgos importantes tanto para pasajeros como para conductores.
+- Validar mediante prototipos si los usuarios comprenden la tarifa compartida, la ganancia del conductor, la secuencia de paradas y el uso de PIN o QR para abordar.
+- Mantener la trazabilidad entre Impact Map, User Stories y Product Backlog para que cada funcionalidad implementada responda a un objetivo de negocio y a una necesidad identificada.
 
 ---
 
 # Bibliografía
 
+Autoridad de Transporte Urbano para Lima y Callao. (2025, 5 de febrero). *La ATU apuesta por la macromovilidad para atender a más usuarios de transporte y mejorar la fluidez del tráfico*. Plataforma del Estado Peruano. https://www.gob.pe/atu
+
+Cabify. (s. f.). *La ciudad es tuya. Viaja con nosotros*. Recuperado el 10 de septiembre de 2026, de https://cabify.com/es
+
+Google. (s. f.). *Google Maps Platform*. Recuperado el 10 de septiembre de 2026, de https://mapsplatform.google.com/
+
+Gothelf, J., & Seiden, J. (2021). *Lean UX: Designing great products with agile teams* (3.a ed.). O'Reilly Media.
+
+Miro. (s. f.). *Online collaborative whiteboard platform*. Recuperado el 10 de septiembre de 2026, de https://miro.com/
+
+SUOL INNOVATIONS LTD. (2026). *inDrive. Viajes alternativos* [Aplicación móvil]. Google Play. https://play.google.com/store/apps/details?hl=es_PE&id=sinet.startup.inDriver
+
+Uber Technologies, Inc. (2026). *Uber - Viajes en taxi y más* [Aplicación móvil]. Google Play. https://play.google.com/store/apps/details?hl=es&id=com.ubercab
+
+UXPressia. (s. f.). *Customer journey mapping, personas, and impact mapping platform*. Recuperado el 10 de septiembre de 2026, de https://uxpressia.com/
+
 ---
 
 # Anexos
 
----
+## Anexo A. Evidencias de entrevistas
 
-# Links
+### A.1. Entrevista – Mariana Alexa Rafael Sosa
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/IQD1YJsW5NGVQoP3omClSWEeAZyrSRCwT6_rSCZ_bGt6BYk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYi-IsIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiJ9&e=DCnPJK](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/IQD1YJsW5NGVQoP3omClSWEeAZyrSRCwT6_rSCZ_bGt6BYk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYi-IsIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiJ9&e=DCnPJK)
+
+### A.2. Entrevista – André Bremen Mendoza Latorraca
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/IQAdO5YnqN4aRpc8eUr_rrdhAQK6Il6vmXcJvhbIfG5FvRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=27KhVP](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/IQAdO5YnqN4aRpc8eUr_rrdhAQK6Il6vmXcJvhbIfG5FvRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=27KhVP)
+
+### A.3. Entrevista – Leo Giovany Yañez Santos
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQDwOqfrT_Q6TK5A2YJNbLxQAXtefQGILKSGRyxyxdYERhE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6Ik15RmlsZXNMaW5rQ29weSJ9&e=Ifu8rv](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQDwOqfrT_Q6TK5A2YJNbLxQAXtefQGILKSGRyxyxdYERhE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6Ik15RmlsZXNMaW5rQ29weSJ9&e=Ifu8rv)
+
+### A.4. Entrevista – Juan Fernando Bermúdez Alcantara
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221619_upc_edu_pe/IQBN2IlGe6pwRb86w78L3pBPAR5DqnupF969g0HVkKxNFd0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ML2FXq](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221619_upc_edu_pe/IQBN2IlGe6pwRb86w78L3pBPAR5DqnupF969g0HVkKxNFd0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ML2FXq)
+
+### A.5. Entrevista – Aarón Alexander Avila Palacios
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u201823654_upc_edu_pe/IQDaHFGp5jd1Q4PNxKCVoALKAYSTtIZl4dBpzGbSmlNXFOI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiJ9&e=nbWVOm](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201823654_upc_edu_pe/IQDaHFGp5jd1Q4PNxKCVoALKAYSTtIZl4dBpzGbSmlNXFOI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiJ9&e=nbWVOm)
+
+### A.6. Entrevista – Angel José Pariona
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b120_upc_edu_pe/IQCZzyO_8COlTp3EYNFYg8tiAdo9CarnO2vmH1tXKGUVsp8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=9KGulE](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b120_upc_edu_pe/IQCZzyO_8COlTp3EYNFYg8tiAdo9CarnO2vmH1tXKGUVsp8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=9KGulE)
+
+## Anexo B. Herramientas y artefactos
+
+### B.1. Lean UX Canvas – Miro
+[https://miro.com/app/board/uXjVHpnxhsg=/?share_link_id=592356692155](https://miro.com/app/board/uXjVHpnxhsg=/?share_link_id=592356692155)
+
+### B.2. UXPressia
+[https://uxpressia.com/](https://uxpressia.com/)
+
+### B.3. As-Is Scenario Mapping – Miro
+[https://miro.com/welcomeonboard/ck9vRlFLbFpZdzh5bTNwQmVHNmNMMjBjd1JwOGN3bnk3WlU1UlI1NkRxV29qd1R3Y1k0UUxVZlVVV0NWN2YyNUF1QkZvY3c1RHVYR0p6WFN1WFprdWtJcjNSN05VTStFMkV1TDZIUWxhZmtWNE5uWVBkMmFKVjJCdDhiaWdMTnVBd044SHFHaVlWYWk0d3NxeHNmeG9BPT0hdjE=?share_link_id=267230343208](https://miro.com/welcomeonboard/ck9vRlFLbFpZdzh5bTNwQmVHNmNMMjBjd1JwOGN3bnk3WlU1UlI1NkRxV29qd1R3Y1k0UUxVZlVVV0NWN2YyNUF1QkZvY3c1RHVYR0p6WFN1WFprdWtJcjNSN05VTStFMkV1TDZIUWxhZmtWNE5uWVBkMmFKVjJCdDhiaWdMTnVBd044SHFHaVlWYWk0d3NxeHNmeG9BPT0hdjE=?share_link_id=267230343208)
+
+### B.4. To-Be Scenario Mapping – Miro
+[https://miro.com/welcomeonboard/ZkJqMldXdWY3RWZKc3dQdktWUTYwRG5MeVZzR3p5bUtPMnN3b0VCZFlMbXBrajJ6dG95SlVML0dJcytXdkdWamRLVG1hLzgwK3FiMUVIRU13cE50VFlrQWpqVXY4c3hMVUZ0bm5GWU55V1dlWlN1ZFRpU0U0V0tWaE1qWEZvK210R2lncW1vRmFBVnlLcVJzTmdFdlNRPT0hdjE=?share_link_id=744612124612](https://miro.com/welcomeonboard/ZkJqMldXdWY3RWZKc3dQdktWUTYwRG5MeVZzR3p5bUtPMnN3b0VCZFlMbXBrajJ6dG95SlVML0dJcytXdkdWamRLVG1hLzgwK3FiMUVIRU13cE50VFlrQWpqVXY4c3hMVUZ0bm5GWU55V1dlWlN1ZFRpU0U0V0tWaE1qWEZvK210R2lncW1vRmFBVnlLcVJzTmdFdlNRPT0hdjE=?share_link_id=744612124612)
+
+## Anexo C. Repositorio del proyecto
+
+### C.1. GitHub
+[https://github.com/FundaTechPeru/Report](https://github.com/FundaTechPeru/Report)
+
+

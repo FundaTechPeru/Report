@@ -1940,19 +1940,46 @@ Las architectural concerns reúnen asuntos de diseño que requieren análisis y 
 
 #### 4.3.1.1. Architectural Design Backlog 1
 
+| Driver | Descripción | Prioridad en esta iteración | 
+|--|--|--|
+| DF-01, DF-02, DF-04, DF-05, DF-06, DF-07	| Descomposición funcional completa del dominio	| Alta |
+| QAS-02|	Integridad de cupos ante reservas simultáneas	| Alta|
+| QAS-07|	Recuperación del servicio de reservas	| Media|
+| CON-01, CON-03|	Microservicios + DDD; REST/OpenAPI	| Alta|
+| AC-01, AC-02, AC-03|	Propiedad de datos, consistencia reserva-cobro, ciclo de vida del viaje	| Alta|
+
 #### 4.3.1.2. Establish Iteration Goal by Selecting Drivers
+
+Se define la estructura global de contenedores de ShareWay (C4 nivel 2), descomponiendo el sistema en microservicios alineados a los seis bounded contexts garantizando la integridad de las reservas (QAS-02) sin introducir acoplamiento directo entre contextos.
 
 #### 4.3.1.3. Choose One or More Elements of the System to Refine
 
+Se refina el Context Diagram (4.1.3) en sus contenedores internos: API Gateway, seis microservicios (uno por bounded context) y un Event Bus para comunicación asíncrona.
+
 #### 4.3.1.4. Choose One or More Design Concepts That Satisfy the Selected Drivers
+
+Microservices + DDD, API Gateway, Database per Service, Event-Driven Communication (Domain Events), Saga/Process Manager para el flujo de reserva-pago-asignación. Repository, Service Layer, State y Strategy
 
 #### 4.3.1.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
 
+| Elemento arquitectónico | 	Responsabilidades y drivers |	Interfaces|
+| - | - | - |
+| API Gateway |	Punto único de entrada; enruta solicitudes externas hacia los microservicios. (CON-03)	| Expone todos los endpoints REST públicos; consume los servicios internos vía HTTP. |
+| Identity & Driver Verification Service |	Registro de usuarios, verificación de conductores y vehículos, gestión de documentos. (DF-04)	| Expone POST /usuarios, POST /conductores/documentos, POST /vehiculos. Publica ConductorVerificado, DocumentoRechazado. | 
+| Ride Booking & Matching Service |	Búsqueda, solicitudes, agrupación y reservas; orquesta la Saga de reserva; garantiza integridad de cupos. (DF-01, DF-02; QAS-02) |	Expone GET /viajes, POST /solicitudes, POST /reservas. Consume ConductorVerificado. Publica GrupoCompleto, ReservaConfirmada, ReservaCancelada. |
+| Driver Operations & Routing Service |	Disponibilidad del conductor, generación de propuestas, cálculo de rutas optimizadas. (DF-01, DF-06)	| Expone POST /disponibilidades, GET /propuestas. Consume GrupoCompleto y al Proveedor de Mapas (externo). Publica PropuestaAceptada, PropuestaRechazada. |
+| Trip Execution & Notifications Service	| Validación de abordaje, inicio/fin del viaje, notificaciones. (DF-05, DF-07; QAS-03) |	Expone POST /viajes/{id}/abordaje, POST /viajes/{id}/iniciar. Consume PropuestaAceptada y al Servicio Push (externo). Publica AbordajeValidado, ViajeIniciado, ViajeFinalizado.
+| Safety, Trust & Reputation Service | Ubicación compartida, emergencias, calificaciones, bloqueos. (DF-07) |	Expone POST /ubicacion-compartida, POST /emergencias, POST /calificaciones. Consume ViajeIniciado, ViajeFinalizado y al Servicio de SMS (externo).
+| Pricing & Payments Service |	Cálculo de tarifas, autorización/captura de pagos, liquidación al conductor. (DF-03)	| Expone GET /tarifas/estimar, POST /pagos. Consume ReservaConfirmada, ViajeFinalizado y a la Pasarela de Pagos (externo). |
+| Event Bus	| Distribuye Domain Events entre microservicios de forma asíncrona y desacoplada. (Principio 7 de 4.1.1)	| Expone canales de publicación/suscripción por tipo de evento; usado por los seis servicios anteriores. |
+ 
 #### 4.3.1.6. Sketch Views (C4 & UML) and Record Design Decisions
+
+![ADD Iteración 1 C4](./img/add-iteracion-01-c4.png)
 
 #### 4.3.1.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
----
+![ADD Iteración 1 C4](./img/add-iteracion-01-kanban.png)
 
 ### 4.3.2. Iteration 2: Sincronización Edge-to-Cloud y Pipeline de Telemetría
 

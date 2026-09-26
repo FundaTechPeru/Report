@@ -127,7 +127,7 @@
       - [4.3.1.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4315-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
       - [4.3.1.6. Sketch Views (C4 \& UML) and Record Design Decisions](#4316-sketch-views-c4--uml-and-record-design-decisions)
       - [4.3.1.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4317-analysis-of-current-design-and-review-iteration-goal-kanban-board)
-    - [4.3.2. Iteration 2: Sincronización Edge-to-Cloud y Pipeline de Telemetría](#432-iteration-2-sincronización-edge-to-cloud-y-pipeline-de-telemetría)
+    - [4.3.2. Iteration 2: Integración con la nube](#432-iteration-2-Integración con la nube)
       - [4.3.2.1. Architectural Design Backlog 2](#4321-architectural-design-backlog-2)
       - [4.3.2.2. Establish Iteration Goal by Selecting Drivers](#4322-establish-iteration-goal-by-selecting-drivers)
       - [4.3.2.3. Choose One or More Elements of the System to Refine](#4323-choose-one-or-more-elements-of-the-system-to-refine)
@@ -1943,7 +1943,7 @@ Las architectural concerns reúnen asuntos de diseño que requieren análisis y 
 | Driver | Descripción | Prioridad en esta iteración | 
 |--|--|--|
 | DF-01, DF-02, DF-04, DF-05, DF-06, DF-07	| Descomposición funcional completa del dominio	| Alta |
-| QAS-02|	Integridad de cupos ante reservas simultáneas	| Alta|
+| QAS-02|	Integridad de cupos ante reservas simultáneas	| Alta |
 | QAS-07|	Recuperación del servicio de reservas	| Media|
 | CON-01, CON-03|	Microservicios + DDD; REST/OpenAPI	| Alta|
 | AC-01, AC-02, AC-03|	Propiedad de datos, consistencia reserva-cobro, ciclo de vida del viaje	| Alta|
@@ -1981,23 +1981,50 @@ Microservices + DDD, API Gateway, Database per Service, Event-Driven Communicati
 
 ![ADD Iteración 1 C4](./img/add-iteracion-01-kanban.png)
 
-### 4.3.2. Iteration 2: Sincronización Edge-to-Cloud y Pipeline de Telemetría
+### 4.3.2. Iteration 2: Integración con la nube
 
 #### 4.3.2.1. Architectural Design Backlog 2
 
+| Driver |	Descripción	| Prioridad en esta iteración |
+| - | - | - |
+| QAS-01 | 	Rendimiento en la búsqueda de viajes	| Alta|
+| QAS-07 | 	Recuperación del servicio de reservas (ahora a nivel de infraestructura: réplicas, health checks, auto-scaling)	| Alta|
+| QAS-04 |	Disponibilidad ante fallas de notificaciones	| Media|
+| QAS-08 |	Rendimiento en el registro y envío de alertas de emergencia	| Media |
+| CON-04 |	Despliegue en AWS, Microsoft Azure o Google Cloud	| Alta |
+| AC-06	| Dependencias externas y conectividad móvil	| Media |
+
 #### 4.3.2.2. Establish Iteration Goal by Selecting Drivers
+
+Definir la infraestructura de despliegue en la nube —contenedores orquestados, balanceo, escalado, caché y cola gestionada— y las tácticas de resiliencia frente a proveedores externos (mapas, pagos, push, SMS), sin atar el diseño a un proveedor concreto (CON-04).
 
 #### 4.3.2.3. Choose One or More Elements of the System to Refine
 
+Cada microservicio de la Iteración 1 se refina en su unidad desplegable: contenedor con réplicas, balanceador, base de datos gestionada, y punto de integración con proveedores externos.
+
 #### 4.3.2.4. Choose One or More Design Concepts That Satisfy the Selected Drivers
+
+Cloud Native, contenedores orquestados con auto-scaling horizontal, Circuit Breaker, patrón Cache-Aside, cola persistente con reintentos y dead-letter queue, health checks con reinicio automático.
 
 #### 4.3.2.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
 
+| Elemento arquitectónico |	Responsabilidades y drivers |	Interfaces| 
+| - | - | - |
+| Load Balancer | 	Distribuye tráfico entre réplicas del API Gateway y servicios críticos. (QAS-07) |	Recibe tráfico HTTPS externo; reenvía a instancias del API Gateway. |
+| Réplicas de Ride Booking & Trip Execution (≥2, multi-zona)	| Alta disponibilidad de la ruta crítica del negocio. (QAS-07)	| Mismas interfaces REST/eventos definidas en la Iteración 1. |
+| Caché gestionada (Redis) |	Acelera búsquedas y rutas populares con TTL corto; nunca cachea cupos ni reservas confirmadas. (QAS-01)	| Consumida por Ride Booking & Matching (lectura/escritura de caché). |
+| Cola gestionada con Dead-Letter Queue	| Persiste y reintenta notificaciones fallidas con backoff; canal de prioridad alta separado para emergencias. (QAS-04, QAS-08)	| Recibe eventos del Event Bus; entrega a Trip Execution y Safety, Trust & Reputation. | 
+| Circuit Breaker (uno por integración externa)	| Aísla fallas de Mapas, Pagos, Push y SMS sin afectar operaciones internas confirmadas. (QAS-04, QAS-07, QAS-08; AC-06)	| Intercepta llamadas salientes de Routing, Pricing, Trip Execution y Safety hacia sus proveedores externos. | 
+| Bases de datos gestionadas (primaria + réplica de lectura) | 	Persistencia por servicio; la réplica de lectura reduce contención en búsquedas. (QAS-01, QAS-07)	| Consumida internamente por cada microservicio dueño. |
+| Health checks / Auto-scaling	| Detecta instancias caídas y reinicia/escala automáticamente. (QAS-07)	| Interactúa con el orquestador de contenedores; no expone interfaz de negocio.| 
+
 #### 4.3.2.6. Sketch Views (C4 & UML) and Record Design Decisions
+
+![ADD iteracion 2 C4](./img/add-iteracion-02-c4.png)
 
 #### 4.3.2.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
----
+![ADD iteracion 2 Kanban](./img/add-iteracion-02-kanban.png)
 
 ### 4.3.3. Iteration 3: Orquestación del Ciclo de Riego Autónomo e Integración con el Edge
 

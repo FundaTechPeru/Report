@@ -143,22 +143,6 @@
       - [4.3.3.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4335-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
       - [4.3.3.6. Sketch Views (C4 \& UML) and Record Design Decisions](#4336-sketch-views-c4--uml-and-record-design-decisions)
       - [4.3.3.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4337-analysis-of-current-design-and-review-iteration-goal-kanban-board)
-    - [4.3.4. Iteration 4: Seguridad e Identidad](#434-iteration-4-seguridad-e-identidad)
-      - [4.3.4.1. Architectural Design Backlog 4](#4341-architectural-design-backlog-4)
-      - [4.3.4.2. Establish Iteration Goal by Selecting Drivers](#4342-establish-iteration-goal-by-selecting-drivers)
-      - [4.3.4.3. Choose One or More Elements of the System to Refine](#4343-choose-one-or-more-elements-of-the-system-to-refine)
-      - [4.3.4.4. Choose One or More Design Concepts That Satisfy the Selected Drivers](#4344-choose-one-or-more-design-concepts-that-satisfy-the-selected-drivers)
-      - [4.3.4.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4345-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
-      - [4.3.4.6. Sketch Views (C4 \& UML) and Record Design Decisions](#4346-sketch-views-c4--uml-and-record-design-decisions)
-      - [4.3.4.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4347-analysis-of-current-design-and-review-iteration-goal-kanban-board)
-    - [4.3.5. Iteration 5: Refinamiento del Crop Analysis Service y Diagnóstico de Cultivos](#435-iteration-5-refinamiento-del-crop-analysis-service-y-diagnóstico-de-cultivos)
-      - [4.3.5.1. Architectural Design Backlog 5](#4351-architectural-design-backlog-5)
-      - [4.3.5.2. Establish Iteration Goal by Selecting Drivers](#4352-establish-iteration-goal-by-selecting-drivers)
-      - [4.3.5.3. Choose One or More Elements of the System to Refine](#4353-choose-one-or-more-elements-of-the-system-to-refine)
-      - [4.3.5.4. Choose One or More Design Concepts That Satisfy the Selected Drivers](#4354-choose-one-or-more-design-concepts-that-satisfy-the-selected-drivers)
-      - [4.3.5.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4355-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
-      - [4.3.5.6. Sketch Views (C4 \& UML) and Record Design Decisions](#4356-sketch-views-c4--uml-and-record-design-decisions)
-      - [4.3.5.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4357-analysis-of-current-design-and-review-iteration-goal-kanban-board)
 - [CAPÍTULO V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Testing Suites \& General Patterns](#51-testing-suites--general-patterns)
     - [5.1.1. Backend Application Core Testing Suite](#511-backend-application-core-testing-suite)
@@ -2070,42 +2054,6 @@ Autenticación centralizada tipo OAuth2/JWT en el Gateway; autorización por rol
 #### 4.3.3.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
 ![ADD iteracion 3 Kanban](./img/add-iteracion-03-kanban.png)
-
----
-
-### 4.3.4. Iteration 4: Seguridad e Identidad
-
-#### 4.3.4.1. Architectural Design Backlog 4
-
-#### 4.3.4.2. Establish Iteration Goal by Selecting Drivers
-
-#### 4.3.4.3. Choose One or More Elements of the System to Refine
-
-#### 4.3.4.4. Choose One or More Design Concepts That Satisfy the Selected Drivers
-
-#### 4.3.4.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
-
-#### 4.3.4.6. Sketch Views (C4 & UML) and Record Design Decisions
-
-#### 4.3.4.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)
-
----
-
-### 4.3.5. Iteration 5: Refinamiento del Crop Analysis Service y Diagnóstico de Cultivos
-
-#### 4.3.5.1. Architectural Design Backlog 5
-
-#### 4.3.5.2. Establish Iteration Goal by Selecting Drivers
-
-#### 4.3.5.3. Choose One or More Elements of the System to Refine
-
-#### 4.3.5.4. Choose One or More Design Concepts That Satisfy the Selected Drivers
-
-#### 4.3.5.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
-
-#### 4.3.5.6. Sketch Views (C4 & UML) and Record Design Decisions
-
-#### 4.3.5.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
 ---
 

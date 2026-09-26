@@ -127,7 +127,7 @@
       - [4.3.1.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4315-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
       - [4.3.1.6. Sketch Views (C4 \& UML) and Record Design Decisions](#4316-sketch-views-c4--uml-and-record-design-decisions)
       - [4.3.1.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4317-analysis-of-current-design-and-review-iteration-goal-kanban-board)
-    - [4.3.2. Iteration 2: Integración con la nube](#432-iteration-2-Integración con la nube)
+    - [4.3.2. Iteration 2: Integración con la nube](#432-iteration-2-Integración-con-la-nube)
       - [4.3.2.1. Architectural Design Backlog 2](#4321-architectural-design-backlog-2)
       - [4.3.2.2. Establish Iteration Goal by Selecting Drivers](#4322-establish-iteration-goal-by-selecting-drivers)
       - [4.3.2.3. Choose One or More Elements of the System to Refine](#4323-choose-one-or-more-elements-of-the-system-to-refine)
@@ -135,7 +135,7 @@
       - [4.3.2.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4325-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
       - [4.3.2.6. Sketch Views (C4 \& UML) and Record Design Decisions](#4326-sketch-views-c4--uml-and-record-design-decisions)
       - [4.3.2.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4327-analysis-of-current-design-and-review-iteration-goal-kanban-board)
-    - [4.3.3. Iteration 3: Orquestación del Ciclo de Riego Autónomo e Integración con el Edge](#433-iteration-3-orquestación-del-ciclo-de-riego-autónomo-e-integración-con-el-edge)
+    - [4.3.3. Iteration 3: Seguridad e Identidad](#433-iteration-3-seguridad-e-identidad)
       - [4.3.3.1. Architectural Design Backlog 3](#4331-architectural-design-backlog-3)
       - [4.3.3.2. Establish Iteration Goal by Selecting Drivers](#4332-establish-iteration-goal-by-selecting-drivers)
       - [4.3.3.3. Choose One or More Elements of the System to Refine](#4333-choose-one-or-more-elements-of-the-system-to-refine)
@@ -2026,21 +2026,50 @@ Cloud Native, contenedores orquestados con auto-scaling horizontal, Circuit Brea
 
 ![ADD iteracion 2 Kanban](./img/add-iteracion-02-kanban.png)
 
-### 4.3.3. Iteration 3: Orquestación del Ciclo de Riego Autónomo e Integración con el Edge
+### 4.3.3. Iteration 3: Seguridad e Identidad
 
 #### 4.3.3.1. Architectural Design Backlog 3
 
+| Driver |	Descripción |	Prioridad en esta iteración | 
+| - | -| - |
+| QAS-03 |	Seguridad en la validación del abordaje	| Alta |
+| QAS-06 |	Seguridad del acceso a la ubicación compartida	| Alta |
+| AC-04 |	Habilitación efectiva del conductor	| Alta |
+| AC-07	| Protección de documentos, identidad y ubicación	| Alta |
+| AC-09	| Verificación del cumplimiento de los drivers (auditoría, transversal a las tres iteraciones)	| Media |
+
+
 #### 4.3.3.2. Establish Iteration Goal by Selecting Drivers
+
+Diseñar los mecanismos de autenticación, autorización y protección de datos sensibles, transversales a los seis bounded contexts, sin centralizar en un único servicio reglas de negocio que pertenecen a otros contextos.
 
 #### 4.3.3.3. Choose One or More Elements of the System to Refine
 
+API Gateway (capa de autenticación/autorización), Identity & Driver Verification (emisor de identidad y estado de habilitación) y los puntos de cada servicio que manejan datos sensibles (documentos, PIN/QR, ubicación).
+
 #### 4.3.3.4. Choose One or More Design Concepts That Satisfy the Selected Drivers
+
+Autenticación centralizada tipo OAuth2/JWT en el Gateway; autorización por rol + propiedad del recurso en cada servicio; cifrado en tránsito y en reposo; hashing con expiración para PIN/QR; tokens de un solo uso con expiración para enlaces de ubicación compartida; auditoría transversal alimentada por los Domain Events ya definidos.
 
 #### 4.3.3.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
 
+| Elemento arquitectónico |	Responsabilidades y drivers | 	Interfaces |
+| - | - | - |
+| Módulo de autenticación en API Gateway	| Valida el JWT emitido por Identity & Driver Verification y propaga usuario_id/rol a los servicios internos. (QAS-03, QAS-06; AC-07)	| Consume el endpoint de emisión/validación de tokens de Identity; expone el contexto de usuario hacia los servicios internos. | 
+| Verificación de rol + propiedad (por servicio) |	Autorización fina local: cada servicio valida que el recurso solicitado pertenece al usuario autenticado. (AC-07)	| Interna a cada microservicio; no se expone como servicio aparte para no romper el bajo acoplamiento. |
+| Identity & Driver Verification (habilitación de conductor) |	Determina el estado "habilitado" solo cuando vehículo y documentos están aprobados; revierte a revisión ante cambios posteriores. (AC-04)	| Expone el estado de habilitación, consultado internamente por Ride Booking al filtrar candidatos. |
+| Validación de PIN/QR con hash y contador de intentos | Rechaza códigos inválidos, limita a 3 intentos, notifica a soporte al superar el límite. (QAS-03)	| Interna a Trip Execution & Notifications; publica IntentosFallidosExcedidos. |
+| Emisor de tokens de un solo uso para ubicación compartida |	Genera y revoca enlaces de seguimiento; revoca de inmediato al recibir ViajeFinalizado. (QAS-06)	| Interna a Safety, Trust & Reputation; consume el evento ViajeFinalizado. |
+| Repositorio de objetos con URLs firmadas |	Almacena documentos del conductor sin exponerlos directamente; solo URLs firmadas de corta duración. (AC-07) |	Consumido por Identity & Driver Verification. |
+| Consumidor de auditoría	| Persiste de forma asíncrona un registro de solo lectura de eventos críticos sin bloquear el flujo transaccional. (AC-09)	| Consume todos los Domain Events publicados por el Event Bus. |
+
 #### 4.3.3.6. Sketch Views (C4 & UML) and Record Design Decisions
 
+![ADD iteracion 3 c4](./img/add-iteracion-03-c4.png)
+
 #### 4.3.3.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)
+
+![ADD iteracion 3 Kanban](./img/add-iteracion-03-kanban.png)
 
 ---
 

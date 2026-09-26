@@ -127,7 +127,7 @@
       - [4.3.1.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4315-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
       - [4.3.1.6. Sketch Views (C4 \& UML) and Record Design Decisions](#4316-sketch-views-c4--uml-and-record-design-decisions)
       - [4.3.1.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4317-analysis-of-current-design-and-review-iteration-goal-kanban-board)
-    - [4.3.2. Iteration 2: Sincronización Edge-to-Cloud y Pipeline de Telemetría](#432-iteration-2-sincronización-edge-to-cloud-y-pipeline-de-telemetría)
+    - [4.3.2. Iteration 2: Integración con la nube](#432-iteration-2-Integración-con-la-nube)
       - [4.3.2.1. Architectural Design Backlog 2](#4321-architectural-design-backlog-2)
       - [4.3.2.2. Establish Iteration Goal by Selecting Drivers](#4322-establish-iteration-goal-by-selecting-drivers)
       - [4.3.2.3. Choose One or More Elements of the System to Refine](#4323-choose-one-or-more-elements-of-the-system-to-refine)
@@ -135,7 +135,7 @@
       - [4.3.2.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4325-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
       - [4.3.2.6. Sketch Views (C4 \& UML) and Record Design Decisions](#4326-sketch-views-c4--uml-and-record-design-decisions)
       - [4.3.2.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4327-analysis-of-current-design-and-review-iteration-goal-kanban-board)
-    - [4.3.3. Iteration 3: Orquestación del Ciclo de Riego Autónomo e Integración con el Edge](#433-iteration-3-orquestación-del-ciclo-de-riego-autónomo-e-integración-con-el-edge)
+    - [4.3.3. Iteration 3: Seguridad e Identidad](#433-iteration-3-seguridad-e-identidad)
       - [4.3.3.1. Architectural Design Backlog 3](#4331-architectural-design-backlog-3)
       - [4.3.3.2. Establish Iteration Goal by Selecting Drivers](#4332-establish-iteration-goal-by-selecting-drivers)
       - [4.3.3.3. Choose One or More Elements of the System to Refine](#4333-choose-one-or-more-elements-of-the-system-to-refine)
@@ -143,22 +143,6 @@
       - [4.3.3.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4335-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
       - [4.3.3.6. Sketch Views (C4 \& UML) and Record Design Decisions](#4336-sketch-views-c4--uml-and-record-design-decisions)
       - [4.3.3.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4337-analysis-of-current-design-and-review-iteration-goal-kanban-board)
-    - [4.3.4. Iteration 4: Seguridad e Identidad](#434-iteration-4-seguridad-e-identidad)
-      - [4.3.4.1. Architectural Design Backlog 4](#4341-architectural-design-backlog-4)
-      - [4.3.4.2. Establish Iteration Goal by Selecting Drivers](#4342-establish-iteration-goal-by-selecting-drivers)
-      - [4.3.4.3. Choose One or More Elements of the System to Refine](#4343-choose-one-or-more-elements-of-the-system-to-refine)
-      - [4.3.4.4. Choose One or More Design Concepts That Satisfy the Selected Drivers](#4344-choose-one-or-more-design-concepts-that-satisfy-the-selected-drivers)
-      - [4.3.4.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4345-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
-      - [4.3.4.6. Sketch Views (C4 \& UML) and Record Design Decisions](#4346-sketch-views-c4--uml-and-record-design-decisions)
-      - [4.3.4.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4347-analysis-of-current-design-and-review-iteration-goal-kanban-board)
-    - [4.3.5. Iteration 5: Refinamiento del Crop Analysis Service y Diagnóstico de Cultivos](#435-iteration-5-refinamiento-del-crop-analysis-service-y-diagnóstico-de-cultivos)
-      - [4.3.5.1. Architectural Design Backlog 5](#4351-architectural-design-backlog-5)
-      - [4.3.5.2. Establish Iteration Goal by Selecting Drivers](#4352-establish-iteration-goal-by-selecting-drivers)
-      - [4.3.5.3. Choose One or More Elements of the System to Refine](#4353-choose-one-or-more-elements-of-the-system-to-refine)
-      - [4.3.5.4. Choose One or More Design Concepts That Satisfy the Selected Drivers](#4354-choose-one-or-more-design-concepts-that-satisfy-the-selected-drivers)
-      - [4.3.5.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4355-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
-      - [4.3.5.6. Sketch Views (C4 \& UML) and Record Design Decisions](#4356-sketch-views-c4--uml-and-record-design-decisions)
-      - [4.3.5.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4357-analysis-of-current-design-and-review-iteration-goal-kanban-board)
 - [CAPÍTULO V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Testing Suites \& General Patterns](#51-testing-suites--general-patterns)
     - [5.1.1. Backend Application Core Testing Suite](#511-backend-application-core-testing-suite)
@@ -1940,89 +1924,136 @@ Las architectural concerns reúnen asuntos de diseño que requieren análisis y 
 
 #### 4.3.1.1. Architectural Design Backlog 1
 
+| Driver | Descripción | Prioridad en esta iteración | 
+|--|--|--|
+| DF-01, DF-02, DF-04, DF-05, DF-06, DF-07	| Descomposición funcional completa del dominio	| Alta |
+| QAS-02|	Integridad de cupos ante reservas simultáneas	| Alta |
+| QAS-07|	Recuperación del servicio de reservas	| Media|
+| CON-01, CON-03|	Microservicios + DDD; REST/OpenAPI	| Alta|
+| AC-01, AC-02, AC-03|	Propiedad de datos, consistencia reserva-cobro, ciclo de vida del viaje	| Alta|
+
 #### 4.3.1.2. Establish Iteration Goal by Selecting Drivers
+
+Se define la estructura global de contenedores de ShareWay (C4 nivel 2), descomponiendo el sistema en microservicios alineados a los seis bounded contexts garantizando la integridad de las reservas (QAS-02) sin introducir acoplamiento directo entre contextos.
 
 #### 4.3.1.3. Choose One or More Elements of the System to Refine
 
+Se refina el Context Diagram (4.1.3) en sus contenedores internos: API Gateway, seis microservicios (uno por bounded context) y un Event Bus para comunicación asíncrona.
+
 #### 4.3.1.4. Choose One or More Design Concepts That Satisfy the Selected Drivers
+
+Microservices + DDD, API Gateway, Database per Service, Event-Driven Communication (Domain Events), Saga/Process Manager para el flujo de reserva-pago-asignación. Repository, Service Layer, State y Strategy
 
 #### 4.3.1.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
 
+| Elemento arquitectónico | 	Responsabilidades y drivers |	Interfaces|
+| - | - | - |
+| API Gateway |	Punto único de entrada; enruta solicitudes externas hacia los microservicios. (CON-03)	| Expone todos los endpoints REST públicos; consume los servicios internos vía HTTP. |
+| Identity & Driver Verification Service |	Registro de usuarios, verificación de conductores y vehículos, gestión de documentos. (DF-04)	| Expone POST /usuarios, POST /conductores/documentos, POST /vehiculos. Publica ConductorVerificado, DocumentoRechazado. | 
+| Ride Booking & Matching Service |	Búsqueda, solicitudes, agrupación y reservas; orquesta la Saga de reserva; garantiza integridad de cupos. (DF-01, DF-02; QAS-02) |	Expone GET /viajes, POST /solicitudes, POST /reservas. Consume ConductorVerificado. Publica GrupoCompleto, ReservaConfirmada, ReservaCancelada. |
+| Driver Operations & Routing Service |	Disponibilidad del conductor, generación de propuestas, cálculo de rutas optimizadas. (DF-01, DF-06)	| Expone POST /disponibilidades, GET /propuestas. Consume GrupoCompleto y al Proveedor de Mapas (externo). Publica PropuestaAceptada, PropuestaRechazada. |
+| Trip Execution & Notifications Service	| Validación de abordaje, inicio/fin del viaje, notificaciones. (DF-05, DF-07; QAS-03) |	Expone POST /viajes/{id}/abordaje, POST /viajes/{id}/iniciar. Consume PropuestaAceptada y al Servicio Push (externo). Publica AbordajeValidado, ViajeIniciado, ViajeFinalizado.
+| Safety, Trust & Reputation Service | Ubicación compartida, emergencias, calificaciones, bloqueos. (DF-07) |	Expone POST /ubicacion-compartida, POST /emergencias, POST /calificaciones. Consume ViajeIniciado, ViajeFinalizado y al Servicio de SMS (externo).
+| Pricing & Payments Service |	Cálculo de tarifas, autorización/captura de pagos, liquidación al conductor. (DF-03)	| Expone GET /tarifas/estimar, POST /pagos. Consume ReservaConfirmada, ViajeFinalizado y a la Pasarela de Pagos (externo). |
+| Event Bus	| Distribuye Domain Events entre microservicios de forma asíncrona y desacoplada. (Principio 7 de 4.1.1)	| Expone canales de publicación/suscripción por tipo de evento; usado por los seis servicios anteriores. |
+ 
 #### 4.3.1.6. Sketch Views (C4 & UML) and Record Design Decisions
+
+![ADD Iteración 1 C4](./img/add-iteracion-01-c4.png)
 
 #### 4.3.1.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
----
+![ADD Iteración 1 C4](./img/add-iteracion-01-kanban.png)
 
-### 4.3.2. Iteration 2: Sincronización Edge-to-Cloud y Pipeline de Telemetría
+### 4.3.2. Iteration 2: Integración con la nube
 
 #### 4.3.2.1. Architectural Design Backlog 2
 
+| Driver |	Descripción	| Prioridad en esta iteración |
+| - | - | - |
+| QAS-01 | 	Rendimiento en la búsqueda de viajes	| Alta|
+| QAS-07 | 	Recuperación del servicio de reservas (ahora a nivel de infraestructura: réplicas, health checks, auto-scaling)	| Alta|
+| QAS-04 |	Disponibilidad ante fallas de notificaciones	| Media|
+| QAS-08 |	Rendimiento en el registro y envío de alertas de emergencia	| Media |
+| CON-04 |	Despliegue en AWS, Microsoft Azure o Google Cloud	| Alta |
+| AC-06	| Dependencias externas y conectividad móvil	| Media |
+
 #### 4.3.2.2. Establish Iteration Goal by Selecting Drivers
+
+Definir la infraestructura de despliegue en la nube —contenedores orquestados, balanceo, escalado, caché y cola gestionada— y las tácticas de resiliencia frente a proveedores externos (mapas, pagos, push, SMS), sin atar el diseño a un proveedor concreto (CON-04).
 
 #### 4.3.2.3. Choose One or More Elements of the System to Refine
 
+Cada microservicio de la Iteración 1 se refina en su unidad desplegable: contenedor con réplicas, balanceador, base de datos gestionada, y punto de integración con proveedores externos.
+
 #### 4.3.2.4. Choose One or More Design Concepts That Satisfy the Selected Drivers
+
+Cloud Native, contenedores orquestados con auto-scaling horizontal, Circuit Breaker, patrón Cache-Aside, cola persistente con reintentos y dead-letter queue, health checks con reinicio automático.
 
 #### 4.3.2.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
 
+| Elemento arquitectónico |	Responsabilidades y drivers |	Interfaces| 
+| - | - | - |
+| Load Balancer | 	Distribuye tráfico entre réplicas del API Gateway y servicios críticos. (QAS-07) |	Recibe tráfico HTTPS externo; reenvía a instancias del API Gateway. |
+| Réplicas de Ride Booking & Trip Execution (≥2, multi-zona)	| Alta disponibilidad de la ruta crítica del negocio. (QAS-07)	| Mismas interfaces REST/eventos definidas en la Iteración 1. |
+| Caché gestionada (Redis) |	Acelera búsquedas y rutas populares con TTL corto; nunca cachea cupos ni reservas confirmadas. (QAS-01)	| Consumida por Ride Booking & Matching (lectura/escritura de caché). |
+| Cola gestionada con Dead-Letter Queue	| Persiste y reintenta notificaciones fallidas con backoff; canal de prioridad alta separado para emergencias. (QAS-04, QAS-08)	| Recibe eventos del Event Bus; entrega a Trip Execution y Safety, Trust & Reputation. | 
+| Circuit Breaker (uno por integración externa)	| Aísla fallas de Mapas, Pagos, Push y SMS sin afectar operaciones internas confirmadas. (QAS-04, QAS-07, QAS-08; AC-06)	| Intercepta llamadas salientes de Routing, Pricing, Trip Execution y Safety hacia sus proveedores externos. | 
+| Bases de datos gestionadas (primaria + réplica de lectura) | 	Persistencia por servicio; la réplica de lectura reduce contención en búsquedas. (QAS-01, QAS-07)	| Consumida internamente por cada microservicio dueño. |
+| Health checks / Auto-scaling	| Detecta instancias caídas y reinicia/escala automáticamente. (QAS-07)	| Interactúa con el orquestador de contenedores; no expone interfaz de negocio.| 
+
 #### 4.3.2.6. Sketch Views (C4 & UML) and Record Design Decisions
+
+![ADD iteracion 2 C4](./img/add-iteracion-02-c4.png)
 
 #### 4.3.2.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
----
+![ADD iteracion 2 Kanban](./img/add-iteracion-02-kanban.png)
 
-### 4.3.3. Iteration 3: Orquestación del Ciclo de Riego Autónomo e Integración con el Edge
+### 4.3.3. Iteration 3: Seguridad e Identidad
 
 #### 4.3.3.1. Architectural Design Backlog 3
 
+| Driver |	Descripción |	Prioridad en esta iteración | 
+| - | -| - |
+| QAS-03 |	Seguridad en la validación del abordaje	| Alta |
+| QAS-06 |	Seguridad del acceso a la ubicación compartida	| Alta |
+| AC-04 |	Habilitación efectiva del conductor	| Alta |
+| AC-07	| Protección de documentos, identidad y ubicación	| Alta |
+| AC-09	| Verificación del cumplimiento de los drivers (auditoría, transversal a las tres iteraciones)	| Media |
+
+
 #### 4.3.3.2. Establish Iteration Goal by Selecting Drivers
+
+Diseñar los mecanismos de autenticación, autorización y protección de datos sensibles, transversales a los seis bounded contexts, sin centralizar en un único servicio reglas de negocio que pertenecen a otros contextos.
 
 #### 4.3.3.3. Choose One or More Elements of the System to Refine
 
+API Gateway (capa de autenticación/autorización), Identity & Driver Verification (emisor de identidad y estado de habilitación) y los puntos de cada servicio que manejan datos sensibles (documentos, PIN/QR, ubicación).
+
 #### 4.3.3.4. Choose One or More Design Concepts That Satisfy the Selected Drivers
+
+Autenticación centralizada tipo OAuth2/JWT en el Gateway; autorización por rol + propiedad del recurso en cada servicio; cifrado en tránsito y en reposo; hashing con expiración para PIN/QR; tokens de un solo uso con expiración para enlaces de ubicación compartida; auditoría transversal alimentada por los Domain Events ya definidos.
 
 #### 4.3.3.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
 
+| Elemento arquitectónico |	Responsabilidades y drivers | 	Interfaces |
+| - | - | - |
+| Módulo de autenticación en API Gateway	| Valida el JWT emitido por Identity & Driver Verification y propaga usuario_id/rol a los servicios internos. (QAS-03, QAS-06; AC-07)	| Consume el endpoint de emisión/validación de tokens de Identity; expone el contexto de usuario hacia los servicios internos. | 
+| Verificación de rol + propiedad (por servicio) |	Autorización fina local: cada servicio valida que el recurso solicitado pertenece al usuario autenticado. (AC-07)	| Interna a cada microservicio; no se expone como servicio aparte para no romper el bajo acoplamiento. |
+| Identity & Driver Verification (habilitación de conductor) |	Determina el estado "habilitado" solo cuando vehículo y documentos están aprobados; revierte a revisión ante cambios posteriores. (AC-04)	| Expone el estado de habilitación, consultado internamente por Ride Booking al filtrar candidatos. |
+| Validación de PIN/QR con hash y contador de intentos | Rechaza códigos inválidos, limita a 3 intentos, notifica a soporte al superar el límite. (QAS-03)	| Interna a Trip Execution & Notifications; publica IntentosFallidosExcedidos. |
+| Emisor de tokens de un solo uso para ubicación compartida |	Genera y revoca enlaces de seguimiento; revoca de inmediato al recibir ViajeFinalizado. (QAS-06)	| Interna a Safety, Trust & Reputation; consume el evento ViajeFinalizado. |
+| Repositorio de objetos con URLs firmadas |	Almacena documentos del conductor sin exponerlos directamente; solo URLs firmadas de corta duración. (AC-07) |	Consumido por Identity & Driver Verification. |
+| Consumidor de auditoría	| Persiste de forma asíncrona un registro de solo lectura de eventos críticos sin bloquear el flujo transaccional. (AC-09)	| Consume todos los Domain Events publicados por el Event Bus. |
+
 #### 4.3.3.6. Sketch Views (C4 & UML) and Record Design Decisions
+
+![ADD iteracion 3 c4](./img/add-iteracion-03-c4.png)
 
 #### 4.3.3.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
----
-
-### 4.3.4. Iteration 4: Seguridad e Identidad
-
-#### 4.3.4.1. Architectural Design Backlog 4
-
-#### 4.3.4.2. Establish Iteration Goal by Selecting Drivers
-
-#### 4.3.4.3. Choose One or More Elements of the System to Refine
-
-#### 4.3.4.4. Choose One or More Design Concepts That Satisfy the Selected Drivers
-
-#### 4.3.4.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
-
-#### 4.3.4.6. Sketch Views (C4 & UML) and Record Design Decisions
-
-#### 4.3.4.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)
-
----
-
-### 4.3.5. Iteration 5: Refinamiento del Crop Analysis Service y Diagnóstico de Cultivos
-
-#### 4.3.5.1. Architectural Design Backlog 5
-
-#### 4.3.5.2. Establish Iteration Goal by Selecting Drivers
-
-#### 4.3.5.3. Choose One or More Elements of the System to Refine
-
-#### 4.3.5.4. Choose One or More Design Concepts That Satisfy the Selected Drivers
-
-#### 4.3.5.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
-
-#### 4.3.5.6. Sketch Views (C4 & UML) and Record Design Decisions
-
-#### 4.3.5.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)
+![ADD iteracion 3 Kanban](./img/add-iteracion-03-kanban.png)
 
 ---
 

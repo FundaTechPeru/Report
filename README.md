@@ -1007,7 +1007,7 @@ Comprender las experiencias, necesidades y dificultades de pasajeros y conductor
 
 | Campo | ![Entrevista2](./img/entrevista-aaron-avila.png) <br/>Entrevista 2 |
 |---|----|
-| **Nombre** | Aarón Alexander Avila Palacios |
+| **Nombre** | Edery Abanto |
 | **Edad** | 34 años |
 | **Distrito** | Chorrillos |
 | **Duración** | 11.05 min |

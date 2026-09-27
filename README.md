@@ -35,7 +35,7 @@
 |Arturo Axel Saravia Huaricancha  | U202312447  |
 |Leonardo Raul Cumba Rengifo      | U202311912 |
 |Aarón Alexander Avila Palacios   | U201823654|
-|Sofia Alessandra Cotrina Siclla  | U20231b120 |
+|Sofia Alessandra Cotrina Siclla  | U20231B120 |
 |Joaquin Andre Lechuga Aguilar    | U202221619 |
 
 ---
@@ -56,6 +56,7 @@
 |TB1|10/09/26| Cotrina Siclla, Sofia Alessandra | Redacción de User Task Matrix, Empathy Maps y As-Is Scenario Mapping |
 |TB2 |21/09/26 | Cumba Rengifo, Leonardo Raul | Redacción de 4.2. Architectural Drivers |
 |TB2|22/09/26|Aarón Avila|Desarrollo de 4.1.5 Database Diagram con soporte de importación en Lucidchart, 4.1.6 Design Patterns y 4.1.7 Tactics|
+|TB2|27/09/26| Saravia Huaricancha, Arturo Axel | Corrección según retroalimentación del TB1: 5W2H cuantificado con fuentes, Problem Statement con patrón Lean UX, business outcomes y Definition of Done en Assumptions, hipótesis con plantilla formal y métricas, Lean UX Canvas transcrito en tabla, carrera y habilidades en perfiles de integrantes, y análisis consolidado de entrevistas actualizado a tres por segmento. |
 
 ---
 
@@ -258,12 +259,11 @@ La tarifa presentada al pasajero y la ganancia estimada del conductor deberán m
 
 |  |  |
 |--|--|
-| <img src="img/joakinalabega.jpg" width="1000"> | <br> **Nombre:** Joaquin Andre Lechuga Aguilar <br><br> **Código:** U202221619<br><br> **Sobre mi:** Soy programador aficionado. Me gusta aprender tecnologías y aplicarlas a proyectos personales. Mis hobbies son la música y los videojuegos. Como miembro del grupo, espero aportar en la organización, conceptos técnicos e ideas.|
-| <img src="img/arturo.jpg" width="1000"> | <br> **Nombre:** Arturo Axel Saravia Huaricancha <br><br> **Código:** U202312447<br><br> **Sobre mi:** Soy desarrollador desde hace tres años que le gusta hacer proyectos personales o para ciertas comunidades que buscan una mejora u optimización en su administración. |
-| <img src="img/aaron-avila.png" width="1000"> | <br> **Nombre:** Aarón Alexander Avila Palacios <br><br> **Código:** U201823654<br><br> **Sobre mi:** Soy estudiante de Ingeniería de Software con interés en el desarrollo de soluciones web, la documentación de productos digitales y la organización de requerimientos. Como miembro del equipo, aporto en el registro de entrevistas, la estructuración de evidencias y la revisión del informe para mantener coherencia con la propuesta de ShareWay. |
-| <img src="img/leonardo-cumba.jpeg" width="1000">  |  <br> **Nombre:** Cumba Rengifo, Leonardo Raul <br><br> **Código:** U202311912 <br><br> **Sobre mi:** Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), actualmente cursando el sexto ciclo, con interés en el desarrollo de soluciones web y la arquitectura de software. Como miembro del equipo, participo en la documentación y estructuración de los requerimientos del proyecto ShareWay, apoyando en la organización de entrevistas, elaboración de evidencias y revisión del informe para mantener coherencia entre la problemática identificada y la solución propuesta. |
-| <img src="img/sofia-photo.png" width="1000"> |  <br> **Nombre:** Cotrina Siclla, Sofia Alessandra <br><br> **Código:** U20231B120 <br><br> **Sobre mi:**  Estudiante de Ingeniería de Software con conocimientos en C++, C#, Python y Java, con un enfoque principal orientado al desarrollo Frontend y diseño en Figma. Me considero una persona creativa, colaborativa y comprometida con el trabajo en equipo, dispuesta a aportar soluciones visuales e interfaces atractivas para los proyectos. |
-|  |  |
+| <img src="img/joakinalabega.jpg" width="1000"> | <br> **Nombre:** Lechuga Aguilar, Joaquin Andre <br><br> **Código:** U202221619<br><br> **Carrera:** Ingeniería de Software <br><br> **Sobre mí:** Estudiante de Ingeniería de Software con experiencia programando proyectos personales, lo que le permite aprender y aplicar nuevas tecnologías con rapidez. Aporta al equipo capacidad de organización del trabajo, dominio de conceptos técnicos para aterrizar ideas en requisitos y la elaboración del Product Backlog. En ShareWay condujo la investigación con el segmento de conductores. |
+| <img src="img/arturo.jpg" width="1000"> | <br> **Nombre:** Saravia Huaricancha, Arturo Axel <br><br> **Código:** U202312447<br><br> **Carrera:** Ingeniería de Software <br><br> **Sobre mí:** Estudiante de Ingeniería de Software con tres años de experiencia desarrollando proyectos propios y soluciones para comunidades que necesitaban optimizar su administración. Aporta al equipo experiencia práctica en desarrollo de software, análisis de procesos y especificación de requisitos, aplicada en ShareWay a la redacción de User Stories, criterios de aceptación y el Impact Map. |
+| <img src="img/aaron-avila.png" width="1000"> | <br> **Nombre:** Avila Palacios, Aarón Alexander <br><br> **Código:** U201823654<br><br> **Carrera:** Ingeniería de Software <br><br> **Sobre mí:** Estudiante de Ingeniería de Software orientado al desarrollo de soluciones web, la documentación de productos digitales y la organización de requerimientos. Aporta al equipo habilidades de modelado de datos, redacción técnica y control de calidad del informe, aplicadas en ShareWay al registro de evidencias, la bibliografía en APA y el diseño de base de datos, patrones y tácticas. |
+| <img src="img/leonardo-cumba.jpeg" width="1000">  |  <br> **Nombre:** Cumba Rengifo, Leonardo Raul <br><br> **Código:** U202311912 <br><br> **Carrera:** Ingeniería de Software <br><br> **Sobre mí:** Estudiante de sexto ciclo de Ingeniería de Software en la UPC, con interés en el desarrollo de soluciones web y la arquitectura de software. Aporta al equipo habilidades de análisis de problemas, redacción y estructuración de documentación técnica, aplicadas en ShareWay a la definición del Solution Profile, el Lean UX Process, el análisis competitivo y los Architectural Drivers. |
+| <img src="img/sofia-photo.png" width="1000"> |  <br> **Nombre:** Cotrina Siclla, Sofia Alessandra <br><br> **Código:** U20231B120 <br><br> **Carrera:** Ingeniería de Software <br><br> **Sobre mí:** Estudiante de Ingeniería de Software con conocimientos en C++, C#, Python y Java, orientada al desarrollo Frontend y al diseño de interfaces en Figma. Aporta al equipo creatividad y habilidades de diseño centrado en el usuario, aplicadas en ShareWay a la elaboración del User Task Matrix, los Empathy Maps y el As-Is Scenario Mapping. |
 
 ## 1.2. Solution Profile
 
@@ -299,19 +299,28 @@ La propuesta parte de una oportunidad por investigar: aprovechar la compatibilid
 
 La coordinación de un viaje compartido involucra decisiones sobre horarios, puntos de encuentro, disponibilidad de asientos, orden de las paradas y distribución del costo. Cuando estas condiciones no están claramente definidas, pueden surgir dificultades para organizar el servicio y mantener informados a sus participantes.
 
-Estos antecedentes constituyen una aproximación inicial al dominio del problema. Su frecuencia, magnitud e impacto deberán contrastarse mediante entrevistas a pasajeros y conductores, análisis de alternativas existentes y fuentes estadísticas pertinentes.
+Para dimensionar el problema, el análisis 5W2H combina fuentes estadísticas (ATU, IPE, Lima Cómo Vamos y TomTom Traffic Index) con los hallazgos de las seis entrevistas realizadas a pasajeros y conductores.
 
 **Análisis mediante las 5W y 2H**
 
 | Elemento | Análisis |
 |---|---|
-| **Who — ¿Quiénes presentan el problema?** | Pasajeros que realizan desplazamientos frecuentes, especialmente estudiantes y trabajadores, y conductores interesados en atender viajes compartidos programados. |
+| **Who — ¿Quiénes presentan el problema?** | Pasajeros que realizan desplazamientos frecuentes, especialmente estudiantes y trabajadores, y conductores interesados en atender viajes compartidos programados. A nivel nacional, las plataformas de movilidad por aplicativo reúnen alrededor de 5 millones de usuarios y 300 mil conductores, y Lima Metropolitana concentra el 72 % de los servicios (IPE, citado en El Comercio, 2025). |
 | **What — ¿Cuál es el problema?** | La dificultad para coordinar un traslado compartido con personas que tienen recorridos compatibles, acordando anticipadamente horarios, costos y condiciones de participación. |
-| **Where — ¿Dónde ocurre?** | En Lima Metropolitana, dentro de los corredores y distritos que se seleccionen para el alcance inicial del proyecto. |
-| **When — ¿Cuándo ocurre?** | Al organizar desplazamientos hacia centros de estudio, trabajo u otras actividades con horarios previstos, así como cuando se producen cambios o cancelaciones antes del viaje. |
-| **Why — ¿Por qué ocurre?** | Como explicación preliminar, los usuarios podrían carecer de información sobre otras personas con trayectos compatibles y de un mecanismo integrado para agrupar solicitudes, coordinar un conductor y confirmar las condiciones del recorrido. |
-| **How — ¿Cómo se manifiesta?** | En la organización independiente de traslados, dificultades para acordar puntos y horarios, incertidumbre sobre el precio y desconfianza respecto a las personas que participarían en el viaje. |
-| **How Much — ¿Cuánto afecta?** | Su magnitud aún debe determinarse. Se investigarán el gasto por traslado, la frecuencia semanal de viajes, el tiempo dedicado a coordinarlos, el tiempo adicional aceptable y la disposición a pagar por una alternativa compartida. |
+| **Where — ¿Dónde ocurre?** | En Lima Metropolitana, donde se realizan aproximadamente 24 millones de viajes diarios (ATU, 2025). El alcance inicial se concentra en corredores entre Pueblo Libre, Jesús María, Magdalena del Mar, San Isidro y Miraflores. |
+| **When — ¿Cuándo ocurre?** | Al organizar desplazamientos hacia centros de estudio o trabajo en horas punta (entre 6:30 y 10:00 a. m. y entre 5:00 y 9:00 p. m., según los conductores entrevistados), así como cuando se producen cambios o cancelaciones antes del viaje. |
+| **Why — ¿Por qué ocurre?** | Las soluciones existentes están enfocadas en el viaje individual bajo demanda: Uber, Cabify e inDrive asignan un vehículo por solicitud y, aunque permiten reservar, no agrupan de forma anticipada a pasajeros desconocidos con rutas compatibles. La alternativa compartida que hoy existe es el colectivo informal, que no ofrece identificación del conductor, precio fijo ni mecanismos de seguridad. En consecuencia, el pasajero debe elegir entre pagar un taxi individual o aceptar la incertidumbre del transporte informal, y el conductor depende de solicitudes aisladas que generan tiempos muertos. |
+| **How — ¿Cómo se manifiesta?** | En la organización independiente de traslados, dificultades para acordar puntos y horarios, incertidumbre sobre el precio y desconfianza respecto a las personas que participarían en el viaje. El 100 % de los pasajeros entrevistados alterna entre transporte público, colectivo y taxi por aplicativo según la urgencia, y el 100 % de los conductores menciona tiempos muertos y cancelaciones como pérdidas de ingreso. |
+| **How Much — ¿Cuánto afecta?** | **Tiempo:** Lima figura entre las ciudades más congestionadas del mundo; en hora punta, un conductor pierde en promedio 150 horas al año en un trayecto típico de 10 km (TomTom, 2025). **Costo:** los pasajeros entrevistados pagan entre S/ 5 (transporte público) y S/ 10 (colectivo) por trayecto, y entre S/ 15 y S/ 25 cuando recurren a un taxi por aplicativo. **Uso:** el 8,6 % de los limeños declara usar taxi por aplicativo y el 6,7 % colectivo, y el taxi por aplicativo es de los modos con mayor satisfacción (71,3 %) (Lima Cómo Vamos, 2024); en el país se solicitan en promedio 1,3 millones de viajes por aplicativo al día y la demanda se quintuplicó entre 2020 y 2025 (IPE, citado en El Comercio, 2025). **Tolerancia:** los pasajeros entrevistados aceptarían entre 10 y 20 minutos adicionales a cambio de ahorro, y los conductores fijan en 5 minutos el tiempo máximo de espera aceptable. |
+
+**Enfoque de las soluciones existentes**
+
+| Solución | Enfoque actual | Limitación frente al problema |
+|---|---|---|
+| Uber / Cabify | Viaje individual bajo demanda, con reserva anticipada y herramientas de seguridad (PIN, contacto de confianza). | El costo no se distribuye entre pasajeros desconocidos con rutas compatibles. |
+| inDrive | Negociación del precio entre pasajero y conductor. | La tarifa puede variar tras la negociación y no existe agrupación programada. |
+| Colectivo informal | Traslado compartido por ruta fija con cobro por asiento. | No hay verificación del conductor, precio garantizado ni mecanismos de seguridad o seguimiento. |
+| Transporte público (Metropolitano, corredores, buses) | Rutas y tarifas fijas de bajo costo. | Tiempos de viaje prolongados, congestión e incertidumbre sobre la hora de llegada. |
 
 **Enunciado de la problemática**
 
@@ -388,17 +397,21 @@ La estrategia inicial consiste en concentrar la validación en corredores y fran
 
 Como segmento inicial para la validación, se propone trabajar con estudiantes universitarios y trabajadores con horarios previsibles en corredores seleccionados de Lima Metropolitana, junto con conductores disponibles para atender esas rutas.
 
-**Problem Statement: pasajeros**
+**Problem Statement (patrón Lean UX)**
 
-Hemos observado, como planteamiento inicial pendiente de validación, que las personas con desplazamientos frecuentes necesitan equilibrar costo, tiempo y confianza al elegir cómo trasladarse. Sin embargo, coordinar un viaje compartido puede resultar difícil cuando no conocen a otros pasajeros con recorridos compatibles ni disponen de condiciones claras de reserva.
+> El estado actual de la **movilidad urbana por aplicativo en Lima Metropolitana** se ha enfocado principalmente en **viajes individuales bajo demanda** para **pasajeros que necesitan trasladarse con rapidez** (Uber, Cabify, inDrive), mientras que la única alternativa compartida disponible es el **colectivo informal**. Los pasajeros con desplazamientos frecuentes enfrentan **tarifas individuales de S/ 15 a S/ 25 por trayecto, incertidumbre sobre la identidad de conductor y acompañantes, y tiempos de viaje afectados por una de las congestiones más altas del mundo**; los conductores enfrentan **tiempos muertos, cancelaciones de último minuto e ingresos poco previsibles**.
+>
+> Lo que los productos existentes no abordan es **la agrupación anticipada de pasajeros desconocidos con rutas y horarios compatibles en un viaje con conductor verificado, precio por asiento conocido antes de confirmar y reglas claras de espera y cancelación**.
+>
+> Nuestro producto, **ShareWay**, abordará esta brecha mediante **una plataforma que registra solicitudes programadas, forma grupos compatibles, propone una ruta con paradas y una tarifa por pasajero, obtiene la aceptación de un conductor verificado y valida cada abordaje con PIN o código QR**.
+>
+> Nuestro foco inicial será **estudiantes universitarios y trabajadores con horarios previsibles que se desplazan entre Pueblo Libre, Jesús María, Magdalena del Mar, San Isidro y Miraflores, junto con los conductores independientes que operan en esos corredores**.
 
-¿Cómo podríamos facilitar que estas personas organicen anticipadamente un viaje compartido, conozcan sus condiciones y decidan participar con suficiente información?
+**Problem Statement por segmento**
 
-**Problem Statement: conductores**
+*Pasajeros.* ShareWay busca que las personas con desplazamientos frecuentes organicen con anticipación un traslado compartido más económico que un taxi individual y más confiable que un colectivo informal. Hemos observado que el 100 % de los pasajeros entrevistados alterna entre transporte público, colectivo y taxi por aplicativo según su urgencia, y que el 100 % condiciona compartir un vehículo a conocer previamente al conductor, el precio y la duración del viaje; hoy ninguna alternativa les ofrece esas condiciones en un viaje compartido, lo que los empuja a pagar tarifas individuales o a asumir el riesgo del transporte informal. ¿Cómo podríamos ayudar a los pasajeros a reservar un viaje compartido con información suficiente para decidir, de modo que **al menos el 60 % de las propuestas de viaje presentadas sean confirmadas** y **el 40 % de quienes completen un primer viaje vuelvan a reservar en un periodo de 4 semanas**?
 
-Planteamos que los conductores interesados en viajes compartidos necesitan evaluar la viabilidad del recorrido antes de aceptarlo. La incertidumbre sobre pasajeros, paradas, confirmaciones e ingresos puede dificultar esa decisión.
-
-¿Cómo podríamos ofrecerles propuestas de viajes organizadas y comprensibles que les permitan decidir si aceptan el servicio y gestionar su ejecución?
+*Conductores.* ShareWay busca que los conductores obtengan ingresos previsibles a partir de recorridos organizados con anticipación. Hemos observado que el 100 % de los conductores entrevistados evalúa cada viaje por su rentabilidad y considera que los tiempos muertos, las esperas y las cancelaciones reducen sus ingresos; las plataformas actuales les presentan solicitudes aisladas sin información de pasajeros confirmados ni reglas de espera. ¿Cómo podríamos ofrecer a los conductores propuestas de viaje con pasajeros, paradas y ganancia estimada visibles, de modo que **al menos el 70 % de las propuestas sean aceptadas** y **el 90 % de los viajes aceptados se completen** sin cancelación del conductor?
 
 #### 1.2.3.2. Lean UX Assumptions
 
@@ -436,60 +449,122 @@ Para el desarrollo de ShareWay, se plantean supuestos sobre las necesidades de l
 - Consideramos que las notificaciones sobre confirmaciones, asignaciones y cambios ayudarían a mantener informados a los participantes.
 - Suponemos que los pasajeros y conductores podrán comprender y utilizar la validación de abordaje mediante PIN o código QR.
 
+**Supuestos sobre business outcomes (métricas de éxito)**
+
+Los siguientes supuestos definen cómo sabremos que ShareWay resuelve el problema de negocio. Las metas se medirán durante un piloto de 4 semanas en el corredor inicial.
+
+| ID | Business outcome supuesto | Métrica | Meta |
+|---|---|---|---|
+| BO-01 | Los pasajeros confirman las propuestas de viaje compartido que reciben. | Propuestas confirmadas / propuestas presentadas | ≥ 60 % |
+| BO-02 | Los conductores aceptan las propuestas de recorrido programado. | Propuestas aceptadas / propuestas enviadas a conductores | ≥ 70 % |
+| BO-03 | Los viajes aceptados se realizan hasta su finalización. | Viajes finalizados / viajes aceptados | ≥ 90 % |
+| BO-04 | Los pasajeros vuelven a utilizar la plataforma. | Pasajeros con una segunda reserva en 4 semanas / pasajeros con un primer viaje completado | ≥ 40 % |
+| BO-05 | La tarifa compartida resulta más económica que un taxi individual. | Diferencia entre la tarifa ShareWay y la de un taxi por aplicativo en el mismo trayecto | ≥ 30 % de ahorro |
+| BO-06 | Los viajes compartidos respetan la tolerancia de tiempo declarada. | Tiempo adicional frente al trayecto directo | ≤ 15 minutos |
+| BO-07 | El conductor obtiene un ingreso que compensa el recorrido. | Ganancia neta por hora del conductor (después de comisión) frente a su ingreso habitual por aplicativo | ≥ 100 % |
+
+**Definition of Done de la validación**
+
+Un supuesto se considera validado cuando:
+
+- Se diseñó el experimento correspondiente (entrevista, prototipo o piloto) y se definió su métrica antes de ejecutarlo.
+- Se recolectaron datos de al menos 3 participantes por segmento en entrevistas o prototipos, o de al menos 20 viajes en el piloto.
+- El resultado alcanzó la meta definida en la tabla de business outcomes.
+- La decisión (conservar, ajustar o descartar la funcionalidad) quedó registrada en el informe y en el Product Backlog.
+
 #### 1.2.3.3. Lean UX Hypothesis
 
-A partir de los supuestos planteados, se formulan hipótesis que orientarán la validación de ShareWay. Cada una relaciona una capacidad de la plataforma con un resultado esperado y una forma de comprobarlo.
+A partir de los supuestos y business outcomes planteados, se formulan las hipótesis de ShareWay con la plantilla del Lean UX Canvas: **"Creemos que lograremos [business outcome] si [usuario] logra [user outcome] con [feature]"**. Cada hipótesis se centra en una sola funcionalidad y se acompaña de la métrica con la que se validará, conforme a la plantilla *"Sabremos que es cierto cuando veamos [retroalimentación cuantitativa / indicador clave]"*.
 
-Los criterios concretos de aceptación se definirán antes de ejecutar cada prueba. Las entrevistas permitirán explorar necesidades e intenciones, mientras que los prototipos y los pilotos permitirán evaluar la interacción y el comportamiento de los participantes.
-
-**Planificación anticipada de viajes**
-
-Creemos que permitir a los pasajeros registrar su origen, destino, fecha y horario mediante un proceso guiado facilitará la planificación de sus desplazamientos. Sabremos que esta hipótesis cuenta con respaldo cuando, durante las pruebas del prototipo, los participantes puedan completar una solicitud sin asistencia y comprendan que su confirmación depende de la disponibilidad de un grupo compatible y un conductor.
-
-**Agrupación de pasajeros compatibles**
-
-Creemos que agrupar solicitudes según ubicación, horario y disponibilidad de asientos permitirá organizar viajes compartidos entre personas que no se conocen previamente. Sabremos que esta hipótesis cuenta con respaldo cuando, al evaluar solicitudes recopiladas para un piloto, sea posible formar grupos que respeten los límites definidos de capacidad, diferencia horaria y desvío.
-
-**Aceptación del costo y del tiempo de viaje**
-
-Creemos que los pasajeros elegirán un viaje compartido si consideran que el ahorro ofrecido compensa el tiempo adicional del recorrido. Sabremos que esta hipótesis cuenta con respaldo cuando, al comparar alternativas con precios y duraciones explícitos, los participantes elijan la opción compartida dentro de los límites de gasto y tiempo que hayan declarado como aceptables.
-
-**Claridad de las condiciones de reserva**
-
-Creemos que mostrar la tarifa, la hora estimada de recojo, la duración y los datos del conductor y del vehículo facilitará una decisión informada. Sabremos que esta hipótesis cuenta con respaldo cuando los participantes identifiquen correctamente estas condiciones y puedan confirmar o rechazar una propuesta sin necesitar explicaciones adicionales.
-
-**Confianza en los participantes del viaje**
-
-Creemos que mostrar el estado de verificación y las calificaciones del conductor contribuirá a la confianza percibida por los pasajeros. Sabremos que esta hipótesis cuenta con respaldo cuando, al comparar propuestas equivalentes con y sin esta información, los participantes expresen mayor confianza en la propuesta que la incluye y expliquen qué datos influyeron en su decisión.
-
-**Aceptación de recorridos por los conductores**
-
-Creemos que presentar propuestas con una ruta organizada, paradas definidas y una ganancia estimada facilitará que los conductores evalúen su conveniencia. Sabremos que esta hipótesis cuenta con respaldo cuando los conductores comprendan las condiciones presentadas y, durante un piloto, acepten recorridos que satisfagan sus expectativas declaradas de tiempo e ingresos.
-
-**Validación del abordaje**
-
-Creemos que utilizar un PIN o código QR asociado a cada reserva facilitará la validación del pasajero antes de abordar. Sabremos que esta hipótesis cuenta con respaldo cuando pasajeros y conductores completen el procedimiento sin asistencia durante las pruebas y el sistema rechace códigos inválidos, utilizados o correspondientes a otra reserva.
-
-**Acceso a las funciones de emergencia**
-
-Creemos que una opción visible para consultar los datos del viaje y compartir la ubicación con un contacto de emergencia facilitará el acceso a esta información durante una situación de preocupación. Sabremos que esta hipótesis cuenta con respaldo cuando, en una prueba simulada, los participantes encuentren la función, completen la acción y comprendan su alcance sin ayuda del moderador.
-
-**Viabilidad del modelo de ingresos**
-
-Creemos que distribuir el costo del recorrido entre varios pasajeros permitirá incorporar una comisión para la plataforma manteniendo condiciones aceptables para pasajeros y conductores. Sabremos que esta hipótesis cuenta con respaldo inicial cuando los escenarios económicos evaluados permitan cubrir los costos estimados y la comisión, respetando simultáneamente el precio máximo aceptable de los pasajeros y el ingreso mínimo esperado por el conductor.
-
-**Uso recurrente de la plataforma**
-
-Creemos que una experiencia satisfactoria motivará a los pasajeros con desplazamientos frecuentes a utilizar nuevamente ShareWay. Sabremos que esta hipótesis cuenta con respaldo cuando los usuarios que completen un primer viaje realicen nuevas reservas durante el periodo de seguimiento del piloto, siempre que exista oferta compatible con sus necesidades.
+| ID | Hipótesis | Sabremos que es cierto cuando veamos… | Business outcome |
+|---|---|---|---|
+| H-01 | **Creemos que lograremos** que los pasajeros registren sus viajes programados en la plataforma **si** el pasajero con horarios previsibles **logra** planificar su traslado con anticipación **con** un formulario guiado de origen, destino, fecha y horario. | Que al menos el 80 % de los participantes de la prueba de prototipo complete una solicitud sin asistencia en menos de 2 minutos. | BO-01 |
+| H-02 | **Creemos que lograremos** formar viajes compartidos viables **si** los pasajeros con rutas compatibles **logran** viajar juntos sin conocerse previamente **con** el algoritmo de agrupación por ubicación, horario y asientos disponibles. | Que al menos el 60 % de las solicitudes recopiladas en el piloto pueda agruparse respetando el límite de 15 minutos de desvío y la capacidad del vehículo. | BO-01, BO-06 |
+| H-03 | **Creemos que lograremos** que el 60 % de las propuestas sea confirmado **si** el pasajero **logra** ahorrar frente a un taxi individual sin exceder su tolerancia de tiempo **con** la tarifa por asiento y la duración estimada mostradas antes de confirmar. | Que al menos el 60 % de los participantes elija la opción compartida cuando el ahorro sea igual o mayor al 30 % y el tiempo adicional no supere 15 minutos. | BO-01, BO-05 |
+| H-04 | **Creemos que lograremos** reducir el abandono en la confirmación de reservas **si** el pasajero **logra** decidir con información completa **con** la vista de detalle de la propuesta (tarifa, hora de recojo, paradas, conductor y vehículo). | Que al menos el 85 % de los participantes identifique correctamente la tarifa, la hora de recojo y el vehículo, y que la tasa de abandono en la pantalla de confirmación sea menor al 20 %. | BO-01 |
+| H-05 | **Creemos que lograremos** aumentar la confianza para compartir un vehículo **si** el pasajero **logra** conocer quién lo transportará **con** el perfil verificado del conductor (verificación de documentos, calificación y cantidad de viajes). | Que al menos el 70 % de los participantes prefiera la propuesta con perfil verificado frente a una equivalente sin esa información y califique su confianza con 4 o 5 en una escala de 5. | BO-01 |
+| H-06 | **Creemos que lograremos** que el 70 % de las propuestas de recorrido sea aceptado **si** el conductor **logra** evaluar la rentabilidad del viaje antes de comprometerse **con** la propuesta que muestra ruta, paradas, pasajeros confirmados y ganancia estimada. | Que al menos el 70 % de las propuestas enviadas a conductores en el piloto sea aceptada en menos de 10 minutos. | BO-02, BO-07 |
+| H-07 | **Creemos que lograremos** que el 90 % de los viajes aceptados se complete **si** pasajeros y conductores **logran** confirmar el abordaje correcto sin conflictos **con** la validación mediante PIN o código QR. | Que al menos el 95 % de los abordajes se valide en menos de 30 segundos y que el 100 % de los códigos inválidos o de otra reserva sea rechazado. | BO-03 |
+| H-08 | **Creemos que lograremos** reducir las cancelaciones y los viajes interrumpidos **si** los participantes **logran** sentirse respaldados ante un incidente **con** el botón de emergencia y la opción de compartir la ubicación con un contacto de confianza. | Que al menos el 90 % de los participantes encuentre y active la función en una prueba simulada en menos de 10 segundos y sin ayuda del moderador. | BO-03 |
+| H-09 | **Creemos que lograremos** un modelo de ingresos sostenible **si** el conductor **logra** una ganancia neta por hora igual o superior a la de su trabajo actual por aplicativo **con** la distribución del costo del recorrido entre varios pasajeros y una comisión transparente por viaje completado. | Que en al menos el 80 % de los escenarios económicos evaluados la tarifa por pasajero sea al menos 30 % menor a la de un taxi individual y el conductor supere su ingreso por hora habitual, después de aplicar la comisión. | BO-05, BO-07 |
+| H-10 | **Creemos que lograremos** que el 40 % de los pasajeros vuelva a reservar **si** el pasajero con desplazamientos recurrentes **logra** asegurar sus traslados habituales sin volver a coordinarlos **con** la programación de viajes recurrentes y el historial de viajes. | Que al menos el 40 % de los pasajeros que completen un primer viaje realice una segunda reserva dentro de las 4 semanas del piloto. | BO-04 |
 
 #### 1.2.3.4. Lean UX Canvas
 
-<p align="center">
-    <img src="img/LeanUXCanvas.png" alt="LeanUXCanvas" width="50%">
-</p>
+A continuación se presenta el Lean UX Canvas de ShareWay con sus ocho bloques oficiales.
 
-link:
-https://miro.com/app/board/uXjVHpnxhsg=/?share_link_id=592356692155
+**Título de la iniciativa:** ShareWay — viajes compartidos programados con conductores verificados · **Iteración:** 1
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <strong>1. Business Problem</strong><br><br>
+      • Los pasajeros con recorridos similares tienen dificultades para coordinar un viaje compartido con anticipación.<br>
+      • Los conductores necesitan conocer pasajeros, paradas e ingresos antes de comprometerse con un recorrido.<br>
+      • Existe incertidumbre sobre el costo, los horarios y la identidad de quienes participarían en el viaje.
+    </td>
+    <td width="34%" rowspan="2" valign="top">
+      <strong>5. Solution Ideas</strong><br><br>
+      • Registro de solicitudes y reservas anticipadas.<br>
+      • Agrupación de pasajeros por rutas, horarios y asientos disponibles.<br>
+      • Tarifa por pasajero y ganancia estimada para el conductor.<br>
+      • Planificación de paradas con límites de espera y desvío.<br>
+      • Historial, calificaciones y opción para compartir la ubicación con un contacto de emergencia.<br>
+      • Verificación de participantes y validación del abordaje mediante PIN o QR.
+    </td>
+    <td width="33%" valign="top">
+      <strong>2. Business Outcomes</strong><br><br>
+      • Más pasajeros confirman las propuestas de viajes compartidos que reciben. <em>Medición:</em> porcentaje de propuestas confirmadas (meta ≥ 60 %).<br>
+      • Más conductores aceptan y completan recorridos programados. <em>Medición:</em> tasas de aceptación (meta ≥ 70 %) y finalización (meta ≥ 90 %).<br>
+      • Los pasajeros vuelven a reservar. <em>Medición:</em> porcentaje que realiza una segunda reserva durante el periodo de seguimiento (meta ≥ 40 % en 4 semanas).
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <strong>3. Users &amp; Customers</strong><br><br>
+      <em>Pasajeros:</em><br>
+      • Estudiantes universitarios mayores de edad con desplazamientos recurrentes.<br>
+      • Trabajadores con horarios y destinos previsibles.<br>
+      • Personas dispuestas a evaluar un ahorro a cambio de un tiempo adicional limitado.<br><br>
+      <em>Conductores:</em><br>
+      • Conductores independientes disponibles para viajes programados.<br>
+      • Personas con un vehículo autorizado para su uso y asientos disponibles.<br>
+      • Interesados en evaluar previamente la ruta y la ganancia del recorrido.
+    </td>
+    <td valign="top">
+      <strong>4. User Outcomes &amp; Benefits</strong><br><br>
+      • <em>Pasajeros:</em> reducir el costo individual al compartir el recorrido.<br>
+      • <em>Pasajeros:</em> organizar su llegada y decidir con información sobre precio, horario y conductor.<br>
+      • <em>Conductores:</em> planificar sus servicios y evaluar los ingresos antes de aceptar.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <strong>6. Hypotheses</strong><br><br>
+      • Creemos que aumentará la confirmación de reservas si los pasajeros pueden decidir con información clara mediante una vista previa del precio, horario y duración.<br>
+      • Creemos que aumentarán las reservas compartidas si los pasajeros encuentran recorridos convenientes mediante la agrupación de solicitudes compatibles.<br>
+      • Creemos que aumentará la aceptación de viajes si los conductores pueden evaluar su conveniencia mediante una propuesta con paradas, duración y ganancia estimada.<br>
+      • Creemos que aumentará la finalización de reservas si los pasajeros pueden reconocer el vehículo correspondiente mediante la validación del abordaje con PIN o QR.<br><br>
+      <em>(Detalle y métricas en 1.2.3.3, H-01 a H-10.)</em>
+    </td>
+    <td valign="top">
+      <strong>7. What's the most important thing we need to learn first?</strong><br><br>
+      • ¿Existen suficientes solicitudes compatibles y pasajeros dispuestos a compartir con desconocidos, aceptando el tiempo adicional?<br>
+      • ¿Podemos ofrecer un precio aceptable para los pasajeros y un ingreso conveniente para el conductor, considerando costos y comisión?
+    </td>
+    <td valign="top">
+      <strong>8. What's the least amount of work we need to do to learn the next most important thing?</strong><br><br>
+      • <em>Entrevistas y agrupación manual:</em> entrevistar de tres a cinco personas por segmento, recopilar rutas y horarios aproximados y comprobar si pueden formarse grupos dentro de sus límites de tiempo.<br>
+      • <em>Prototipo de propuesta de viaje:</em> mostrar a pasajeros y conductores un recorrido con paradas, duración, tarifa y ganancia; registrar qué aceptarían, qué rechazarían y por qué.
+    </td>
+  </tr>
+</table>
+
+Versión original elaborada en Miro: https://miro.com/app/board/uXjVHpnxhsg=/?share_link_id=592356692155
+
+<p align="center">
+    <img src="img/LeanUXCanvas.png" alt="Lean UX Canvas ShareWay en Miro" width="90%">
+</p>
 
 
 ---
@@ -969,9 +1044,9 @@ Comprender las experiencias, necesidades y dificultades de pasajeros y conductor
 | Campo | ![Entrevista1](./img/mariana.png) <br/>Entrevista 1 |
 |---|----|
 | **Nombre** | Mariana Alexa Rafael Sosa|
-| **Edad** | 21 años|||
-| **Distrito** | san isidro |||
-| **Duración** | 18.03 min ||
+| **Edad** | 21 años|
+| **Distrito** | san isidro |
+| **Duración** | 18.03 min |
 | **Enlace** | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/IQD1YJsW5NGVQoP3omClSWEeAZyrSRCwT6_rSCZ_bGt6BYk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=DCnPJK) ||
 
 | Campo | ![Entrevista1](./img/andre.png) <br/>Entrevista 2 | 
@@ -1082,7 +1157,7 @@ ShareWay podría ser atractivo para él si le permite planificar rutas previamen
 
 2. Edery Abanto
 <article #id="analisis-conductor-02">
-El entrevistado (Aarón Alexander Avila Palacios, 34 años, distrito de Chorrillos, conductor independiente de transporte particular) representa un perfil con experiencia sostenida en servicios de movilidad urbana. Lleva aproximadamente seis años realizando traslados de pasajeros y trabaja principalmente en Chorrillos, Barranco, Miraflores, San Isidro, Surco y zonas cercanas. Su jornada se concentra en franjas de alta demanda, especialmente entre 6:30 y 10:00 de la mañana y entre 5:00 y 9:00 de la noche.
+El entrevistado (Edery Abanto, 34 años, distrito de Chorrillos, conductor independiente de transporte particular) representa un perfil con experiencia sostenida en servicios de movilidad urbana. Lleva aproximadamente seis años realizando traslados de pasajeros y trabaja principalmente en Chorrillos, Barranco, Miraflores, San Isidro, Surco y zonas cercanas. Su jornada se concentra en franjas de alta demanda, especialmente entre 6:30 y 10:00 de la mañana y entre 5:00 y 9:00 de la noche.
 
 Su principal criterio de decisión es la rentabilidad real del recorrido. Antes de aceptar un viaje evalúa punto de recojo, destino, distancia, tiempo estimado, tarifa, forma de pago, paradas adicionales, tráfico, comisión de la plataforma y posibilidad de conseguir otro pasajero cerca del destino. Este hallazgo refuerza la necesidad de que ShareWay muestre información completa antes de que el conductor acepte una propuesta.
 
@@ -1108,25 +1183,27 @@ En temas de seguridad, considera vital que la plataforma exija revisión de ante
 
 **Análisis consolidado por segmento**
 
-Considerando que el avance actual cuenta con dos entrevistas registradas por segmento, los porcentajes se interpretan como hallazgos preliminares y no como resultados estadísticamente representativos de toda Lima Metropolitana.
+Considerando que el avance actual cuenta con tres entrevistas registradas por segmento (seis en total), los porcentajes se interpretan como hallazgos preliminares y no como resultados estadísticamente representativos de toda Lima Metropolitana.
 
-**Segmento pasajeros**
+**Segmento pasajeros (3 entrevistas)**
 
-- El 100% de los entrevistados manifiesta preocupación por la seguridad al trasladarse y espera información clara sobre conductor, vehículo, reputación o mecanismos de emergencia.
-- El 100% compara alternativas de transporte considerando precio, tiempo y confianza, aunque el peso de cada factor cambia según la urgencia del viaje.
-- El 100% muestra apertura a compartir un traslado si el beneficio económico o de organización compensa el tiempo adicional y si existen condiciones visibles antes de confirmar.
-- El 100% identifica las cancelaciones o retrasos como un riesgo importante para adoptar un viaje compartido programado.
-- El 50% propone explícitamente agrupar viajes por comunidades conocidas, como universidades, centros de trabajo o grupos con rutas compatibles.
+- El 100% (3 de 3) manifiesta preocupación por la seguridad al trasladarse y espera información clara sobre conductor, vehículo, reputación o verificación de los participantes.
+- El 100% (3 de 3) compara alternativas de transporte considerando precio, tiempo y confianza, y alterna entre transporte público, colectivo o taxi por aplicativo según la urgencia del viaje.
+- El 100% (3 de 3) muestra apertura a compartir un traslado si el beneficio económico compensa el tiempo adicional y si existen condiciones visibles antes de confirmar.
+- El 67% (2 de 3) declara una tolerancia explícita de tiempo adicional, entre 10 y 20 minutos.
+- El 67% (2 de 3) identifica las cancelaciones como un riesgo importante y propone reglas o penalidades para evitarlas.
+- El 33% (1 de 3) propone explícitamente agrupar viajes por comunidades conocidas, como universidades o centros de trabajo.
 
 Estos hallazgos sustentan al User Persona de pasajeros como una usuaria que necesita ahorrar y planificar, pero que no aceptará la propuesta si percibe incertidumbre en seguridad, puntualidad o precio.
 
-**Segmento conductores**
+**Segmento conductores (3 entrevistas)**
 
-- El 100% de los entrevistados evalúa la conveniencia del servicio a partir de la rentabilidad, el tiempo invertido y el control sobre la ruta.
-- El 100% considera valioso conocer anticipadamente pasajeros, paradas, duración estimada e ingresos antes de aceptar un viaje.
-- El 100% identifica cancelaciones, tiempos de espera y cambios de ruta como riesgos que deben regularse desde la plataforma.
-- El 100% considera útil que la plataforma permita planificar recorridos o rutas con mayor anticipación para reducir tiempos muertos.
-- El 50% menciona de forma explícita la utilidad de mecanismos de validación como PIN o QR para confirmar al pasajero correcto.
+- El 100% (3 de 3) evalúa la conveniencia del servicio a partir de la rentabilidad, el tiempo invertido y el control sobre la ruta.
+- El 100% (3 de 3) considera valioso conocer anticipadamente pasajeros, destino, paradas e ingresos antes de aceptar un viaje.
+- El 100% (3 de 3) considera útil que la plataforma permita planificar recorridos con anticipación para reducir tiempos muertos.
+- El 67% (2 de 3) identifica cancelaciones tardías y tiempos de espera como riesgos que deben regularse con penalidades y un tiempo máximo de espera (uno de ellos lo fija en 5 minutos).
+- El 67% (2 de 3) exige mecanismos para confirmar la identidad del pasajero, como PIN, código QR o validación de DNI.
+- El 67% (2 de 3) aceptaría pagar una comisión si la plataforma garantiza pasajeros confirmados y un flujo constante de viajes.
 
 Estos hallazgos sustentan al User Persona de conductor como un usuario que busca ingresos previsibles, reglas claras y herramientas que reduzcan incertidumbre operativa.
 
@@ -2198,13 +2275,19 @@ Autoridad de Transporte Urbano para Lima y Callao. (2025, 5 de febrero). *La ATU
 
 Cabify. (s. f.). *La ciudad es tuya. Viaja con nosotros*. Recuperado el 10 de septiembre de 2026, de https://cabify.com/es
 
+El Comercio. (2025). *Viajes en taxi por aplicativo se quintuplicaron en 5 años en el Perú: cuántos las usan y cuánto dinero generan* [Estudio del Instituto Peruano de Economía]. https://elcomercio.pe/lima/transporte/viajes-en-taxi-por-aplicativo-se-quintuplicaron-en-5-anos-en-el-peru-cuantos-las-usan-y-cuanto-dinero-generan-apuesplan-noticia/
+
 Google. (s. f.). *Google Maps Platform*. Recuperado el 10 de septiembre de 2026, de https://mapsplatform.google.com/
 
 Gothelf, J., & Seiden, J. (2021). *Lean UX: Designing great products with agile teams* (3.a ed.). O'Reilly Media.
 
+Lima Cómo Vamos. (2024, 16 de enero). *¿Cómo se movilizan los habitantes de Lima y Callao?* [Encuesta Lima Cómo Vamos 2023, difundida por RPP]. https://rpp.pe/lima/actualidad/como-se-movilizan-los-habitantes-de-lima-y-callao-esto-dice-el-ultimo-estudio-de-lima-como-vamos-noticia-1527628
+
 Miro. (s. f.). *Online collaborative whiteboard platform*. Recuperado el 10 de septiembre de 2026, de https://miro.com/
 
 SUOL INNOVATIONS LTD. (2026). *inDrive. Viajes alternativos* [Aplicación móvil]. Google Play. https://play.google.com/store/apps/details?hl=es_PE&id=sinet.startup.inDriver
+
+TomTom. (2025, 7 de enero). *Annual TomTom Traffic Index: Unveiling data-driven insights from over 450 billion miles driven in 2024*. https://www.tomtom.com/newsroom/press-releases/general/605041959/tomtom-traffic-index-2025/
 
 Uber Technologies, Inc. (2026). *Uber - Viajes en taxi y más* [Aplicación móvil]. Google Play. https://play.google.com/store/apps/details?hl=es&id=com.ubercab
 
@@ -2217,7 +2300,7 @@ UXPressia. (s. f.). *Customer journey mapping, personas, and impact mapping plat
 ## Anexo A. Evidencias de entrevistas
 
 ### A.1. Entrevista – Mariana Alexa Rafael Sosa
-[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/IQD1YJsW5NGVQoP3omClSWEeAZyrSRCwT6_rSCZ_bGt6BYk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYi-IsIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiJ9&e=DCnPJK](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/IQD1YJsW5NGVQoP3omClSWEeAZyrSRCwT6_rSCZ_bGt6BYk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYi-IsIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiJ9&e=DCnPJK)
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/IQD1YJsW5NGVQoP3omClSWEeAZyrSRCwT6_rSCZ_bGt6BYk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=DCnPJK](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/IQD1YJsW5NGVQoP3omClSWEeAZyrSRCwT6_rSCZ_bGt6BYk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=DCnPJK)
 
 ### A.2. Entrevista – André Bremen Mendoza Latorraca
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/IQAdO5YnqN4aRpc8eUr_rrdhAQK6Il6vmXcJvhbIfG5FvRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=27KhVP](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/IQAdO5YnqN4aRpc8eUr_rrdhAQK6Il6vmXcJvhbIfG5FvRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=27KhVP)
@@ -2228,7 +2311,7 @@ UXPressia. (s. f.). *Customer journey mapping, personas, and impact mapping plat
 ### A.4. Entrevista – Juan Fernando Bermúdez Alcantara
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221619_upc_edu_pe/IQBN2IlGe6pwRb86w78L3pBPAR5DqnupF969g0HVkKxNFd0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ML2FXq](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221619_upc_edu_pe/IQBN2IlGe6pwRb86w78L3pBPAR5DqnupF969g0HVkKxNFd0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ML2FXq)
 
-### A.5. Entrevista – Aarón Alexander Avila Palacios
+### A.5. Entrevista – Edery Abanto
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201823654_upc_edu_pe/IQDaHFGp5jd1Q4PNxKCVoALKAYSTtIZl4dBpzGbSmlNXFOI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiJ9&e=nbWVOm](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201823654_upc_edu_pe/IQDaHFGp5jd1Q4PNxKCVoALKAYSTtIZl4dBpzGbSmlNXFOI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6IldlYiJ9&e=nbWVOm)
 
 ### A.6. Entrevista – Angel José Pariona
